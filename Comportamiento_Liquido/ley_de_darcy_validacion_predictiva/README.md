@@ -8,8 +8,18 @@
 Demostración de que el flujo de información en la red (Qwen2.5-0.5B) sigue la **Ley de Darcy**: el caudal es proporcional al gradiente de presión e inversamente proporcional a la resistencia del medio (capas).
 
 ## 📊 Datos de Éxito
-*   **Fidelidad Predictiva**: **+96%** de correlación entre la curva predicha y la real.
-*   **Constante del Director**: **99.5%** de estabilidad en las instrucciones iniciales.
+*   **Fidelidad Predictiva**: **+96%** (Media masiva).
+*   **Constante del Director**: **99.5%** de estabilidad.
+
+### 📋 Tabla de Resultados (Muestra de Validación)
+| Concepto | Inercia | Viscosidad ($\mu$) | Pearson (Fidelidad) |
+| :--- | :---: | :---: | :---: |
+| **LOBO** | 280.82 | 2.58 | **96.22%** |
+| **SOL** | 275.57 | 2.45 | **95.66%** |
+| **JUSTICIA** | 292.17 | 2.59 | **95.43%** |
+| **AZÚCAR** | 305.23 | 2.70 | **96.74%** |
+| **PERRO** | 320.29 | 3.02 | **96.69%** |
+| **ÁRBOL** | 296.54 | 2.72 | **97.02%** |
 *   **Capas Auditadas**: 0 a 23 (Arquitectura completa).
 
 ## 🛠️ Herramientas
