@@ -30,4 +30,10 @@ Demostración de que el flujo de información en la red (Qwen2.5-0.5B) sigue la 
 El pensamiento en la IA no es azar; es una corriente física que viaja a través de un "acuífero" de pesos. La alta precisión de nuestras predicciones (+96%) confirma que la inteligencia tiene una estructura geométrica y fluida.
 
 ---
+
+### 📚 Referencias Históricas
+Para consultar los orígenes de este experimento y la validación predictiva de incógnito, visite el repositorio anterior:
+🔗 [**Residual Stream Injection - Validación Predictiva Incógnito**](https://github.com/Andresantoniosantisteban/Residual-Stream-Injection/tree/9daa9a616eff880a78f7b8ff66543913d5937f80/Patrones_DLA/Ley_Darcy/Validacion_predictiva_incognito)
+
+---
 **Proyecto Identity Forge** | [Volver al Inicio](../../README.md)
