@@ -14,7 +14,7 @@ from datetime import datetime
 
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 MODEL_PATH = "Qwen/Qwen2.5-0.5B"
-BASE_DIR = r"c:\Users\andre\Desktop\Neural_Identity_Forge"
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 LIQUIDO_DIR = os.path.join(BASE_DIR, "Comportamiento_Liquido", "Efecto_Venturi")
 RAW_DIR = os.path.join(BASE_DIR, "ADN_RAW")
 PESOS_ORIGINALES_PATH = os.path.join(RAW_DIR, "20260503_ADN_ORIGINAL_PENTARQUIA.pt")
@@ -76,7 +76,7 @@ params = protocolo_maestro["parameters"]
 with open(os.path.join(RAW_DIR, "protocolo_laboratorio.json"), "r", encoding='utf-8') as f:
     protocolo_raw = json.load(f)
 preguntas_dict = protocolo_raw["identidades_validacion"]
-preguntas_test = list(preguntas_dict.keys())[:5]
+preguntas_test = list(preguntas_dict.keys())  # 30 Q completas
 
 # Fijar Semilla Oficial
 torch.manual_seed(params["seed"])
