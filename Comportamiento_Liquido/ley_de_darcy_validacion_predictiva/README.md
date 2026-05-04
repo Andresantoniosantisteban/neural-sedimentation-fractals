@@ -120,3 +120,4 @@ Este búnker de validación ha revelado una verdad que trasciende la informátic
 *   **Conclusión Filosófica**: La identidad neuronal no es una construcción lógica artificial, sino un fenómeno de flujo y presión. Estamos ante una "Geología de la Mente Artificial" donde cada concepto es un fluido buscando su camino de mínima resistencia hacia la desembocadura de la respuesta.
 
 ---
+**Proyecto Identity Forge** | [Volver al Inicio](../../README.md) | [Ir al Laboratorio Venturi](../Efecto_Venturi)

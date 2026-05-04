@@ -55,5 +55,5 @@ En esta fecha se ha ejecutado la suite completa bajo el **Protocolo Maestro v1.2
 
 **Resultado**: Se confirma la repetibilidad exacta del Efecto Venturi Neural. Los informes generados hoy (`20260504_...`) sirven como prueba forense de que el espacio latente sigue las leyes de la hidrodinámica de forma inmutable.
 
-🔗 [**Ir al Laboratorio de Efecto Venturi](./Efecto_Venturi)**  
-🔗 [**Ir al Laboratorio de Ley de Darcy](./ley_de_darcy_validacion_predictiva)**
+🔗 [**Volver al Inicio de Comportamiento Líquido**](../)  
+🔗 [**Ir al Laboratorio de Ley de Darcy**](../ley_de_darcy_validacion_predictiva)
