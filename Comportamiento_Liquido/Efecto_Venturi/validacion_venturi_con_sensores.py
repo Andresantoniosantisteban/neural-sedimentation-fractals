@@ -11,13 +11,20 @@ from datetime import datetime
 # Mide la caída de entropía y aumento de presión interna durante la succión.
 # ==============================================================================
 
-DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-MODEL_PATH = "Qwen/Qwen2.5-0.5B"
+# Rutas Base
 BASE_DIR = r"c:\Users\andre\Desktop\Neural_Identity_Forge"
-LIQUIDO_DIR = os.path.join(BASE_DIR, "Comportamiento_Liquido", "Efecto_Venturi")
 RAW_DIR = os.path.join(BASE_DIR, "ADN_RAW")
-PESOS_ORIGINALES_PATH = os.path.join(RAW_DIR, "20260503_ADN_ORIGINAL_PENTARQUIA.pt")
-IDENTIDADES_PATH = os.path.join(RAW_DIR, "protocolo_maestro_laboratorio.json")
+CONFIG_PATH = os.path.join(RAW_DIR, "protocolo_maestro_laboratorio.json")
+
+# Cargar Protocolo Maestro (Configuración Central)
+with open(CONFIG_PATH, "r", encoding='utf-8') as f:
+    protocolo_maestro = json.load(f)
+params = protocolo_maestro["parameters"]
+
+# Parámetros Dinámicos
+MODEL_PATH = params["model_id"]
+PESOS_VIRGEN_PATH = params["identity_weights_path"]
+LIQUIDO_DIR = os.path.join(BASE_DIR, "Comportamiento_Liquido", "Efecto_Venturi")
 
 lecturas_sensores = {}
 
@@ -32,9 +39,10 @@ def hook_manometro(name):
 
 def ejecutar_diagnostico(nombre_test, alphas, preguntas):
     print(f"\nLanzando: {nombre_test}")
+    device = "cuda" if torch.cuda.is_available() else "cpu"
     tokenizer = AutoTokenizer.from_pretrained(MODEL_PATH)
-    model = AutoModelForCausalLM.from_pretrained(MODEL_PATH).to(DEVICE)
-    pesos_originales = torch.load(PESOS_ORIGINALES_PATH)
+    model = AutoModelForCausalLM.from_pretrained(MODEL_PATH).to(device)
+    pesos_originales = torch.load(PESOS_VIRGEN_PATH)
 
     h1 = model.model.layers[1].register_forward_hook(hook_manometro("Capa1_Admision"))
     h3 = model.model.layers[3].register_forward_hook(hook_manometro("Capa3_Transito"))
@@ -42,12 +50,12 @@ def ejecutar_diagnostico(nombre_test, alphas, preguntas):
     with torch.no_grad():
         for capa, alpha in alphas.items():
             c = int(capa)
-            pesos_mod = pesos_originales[c].clone().to(DEVICE) * alpha
+            pesos_mod = pesos_originales[c].clone().to(model.device) * alpha
             model.model.layers[c].mlp.gate_proj.weight.copy_(pesos_mod)
 
     detalles = []
     for q in preguntas:
-        input_ids = tokenizer.apply_chat_template([{"role": "user", "content": q}], tokenize=True, add_generation_prompt=True, return_tensors="pt").to(DEVICE)
+        input_ids = tokenizer.apply_chat_template([{"role": "user", "content": q}], tokenize=True, add_generation_prompt=True, return_tensors="pt").to(model.device)
         outputs = model.generate(
             input_ids, 
             max_new_tokens=params["max_new_tokens"], 
@@ -64,10 +72,7 @@ def ejecutar_diagnostico(nombre_test, alphas, preguntas):
     h1.remove(); h3.remove()
     return {"test": nombre_test, "alphas": alphas, "detalles": detalles}
 
-# Cargar Protocolo Maestro (Configuración)
-with open(os.path.join(RAW_DIR, "protocolo_maestro_laboratorio.json"), "r", encoding='utf-8') as f:
-    protocolo_maestro = json.load(f)
-params = protocolo_maestro["parameters"]
+# (Protocolo ya cargado al inicio)
 
 # Cargar Preguntas del ADN Raw (30 Q)
 with open(os.path.join(RAW_DIR, "protocolo_laboratorio.json"), "r", encoding='utf-8') as f:
