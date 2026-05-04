@@ -52,6 +52,8 @@ En esta fecha se ha ejecutado la suite completa bajo el **Protocolo Maestro v1.2
 *   **Semilla Sagrada**: 42 (Determinismo matemático total).
 *   **Base de Datos**: 30 Q ADN Raw (Conceptos fundamentales).
 *   **Configuración**: 128 Tokens, Temperatura 0.0, Penalización 1.0.
+*   **Cartucho de Identidad**: `20260503_ADN_ORIGINAL_PENTARQUIA.pt`(Puede encontrarlo en el drive con el nombre de identidad "PENTARQUIA")
+    *   *Nota Técnica*: El modelo virgen requiere presiones > 3.0x para colapsar. Se recomienda usar el cartucho `PENTARQUIA.pt` para inducir alucinaciones controladas a baja presión (1.5x).
 
 **Resultado**: Se confirma la repetibilidad exacta del Efecto Venturi Neural. Los informes generados hoy (`20260504_...`) sirven como prueba forense de que el espacio latente sigue las leyes de la hidrodinámica de forma inmutable.
 
