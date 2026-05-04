@@ -14,10 +14,10 @@ from datetime import datetime
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 MODEL_PATH = "Qwen/Qwen2.5-0.5B"
 BASE_DIR = r"c:\Users\andre\Desktop\Neural_Identity_Forge"
-LIQUIDO_DIR = os.path.join(BASE_DIR, "Entendiendo", "Estudio_Patrones", "DLA_data_sedimentaria", "Patrones_DLA", "Comportamiento_Liquido")
-RAW_DIR = os.path.join(BASE_DIR, "Entendiendo", "Estudio_Patrones", "DLA_data_sedimentaria", "ADN_RAW")
+LIQUIDO_DIR = os.path.join(BASE_DIR, "Comportamiento_Liquido", "Efecto_Venturi")
+RAW_DIR = os.path.join(BASE_DIR, "ADN_RAW")
 PESOS_ORIGINALES_PATH = os.path.join(RAW_DIR, "20260503_ADN_ORIGINAL_PENTARQUIA.pt")
-IDENTIDADES_PATH = os.path.join(BASE_DIR, "Entendiendo", "Estudio_Patrones", "DLA_data_sedimentaria", "Protocolo_Experimental", "BASE_30Q_IDENTIDADES.json")
+IDENTIDADES_PATH = os.path.join(RAW_DIR, "protocolo_maestro_laboratorio.json")
 
 lecturas_sensores = {}
 
@@ -48,7 +48,12 @@ def ejecutar_diagnostico(nombre_test, alphas, preguntas):
     detalles = []
     for q in preguntas:
         input_ids = tokenizer.apply_chat_template([{"role": "user", "content": q}], tokenize=True, add_generation_prompt=True, return_tensors="pt").to(DEVICE)
-        outputs = model.generate(input_ids, max_new_tokens=40, do_sample=False)
+        outputs = model.generate(
+            input_ids, 
+            max_new_tokens=params["max_new_tokens"], 
+            do_sample=params["do_sample"],
+            repetition_penalty=params["repetition_penalty"]
+        )
         respuesta = tokenizer.decode(outputs[0][input_ids.shape[1]:], skip_special_tokens=True).strip()
         
         lec = lecturas_sensores.copy()
@@ -59,18 +64,38 @@ def ejecutar_diagnostico(nombre_test, alphas, preguntas):
     h1.remove(); h3.remove()
     return {"test": nombre_test, "alphas": alphas, "detalles": detalles}
 
-with open(IDENTIDADES_PATH, "r", encoding='utf-8') as f:
-    base = json.load(f)
-preguntas_test = list(base.keys())[:10]
+# Cargar Protocolo Maestro (Configuración)
+with open(os.path.join(RAW_DIR, "protocolo_maestro_laboratorio.json"), "r", encoding='utf-8') as f:
+    protocolo_maestro = json.load(f)
+params = protocolo_maestro["parameters"]
 
-resultados = [
-    ejecutar_diagnostico("CONTROL_LAMINAR", {1: 1.0, 3: 1.0, 4: 1.0, 7: 1.0, 8: 1.0}, preguntas_test),
-    ejecutar_diagnostico("VENTURI_FORZADO", {1: 1.0, 3: 1.5, 4: 1.0, 7: 1.0, 8: 1.0}, preguntas_test)
-]
+# Cargar Preguntas del ADN Raw (30 Q)
+with open(os.path.join(RAW_DIR, "protocolo_laboratorio.json"), "r", encoding='utf-8') as f:
+    protocolo_raw = json.load(f)
+preguntas_dict = protocolo_raw["identidades_validacion"]
+preguntas_test = list(preguntas_dict.keys())[:5]
+
+# Fijar Semilla Oficial
+torch.manual_seed(params["seed"])
+if torch.cuda.is_available():
+    torch.cuda.manual_seed_all(params["seed"])
 
 ts = datetime.now().strftime("%Y%m%d_%H%M")
 file_out = os.path.join(LIQUIDO_DIR, f"{ts}_SENSORES_VENTURI.json")
-with open(file_out, "w", encoding='utf-8') as f:
-    json.dump(resultados, f, indent=4, ensure_ascii=False)
+
+escenarios_diagnostico = [
+    ("CONTROL_LAMINAR", {1: 1.0, 3: 1.0, 4: 1.0, 7: 1.0, 8: 1.0}),
+    ("VENTURI_FORZADO", {1: 1.0, 3: 1.5, 4: 1.0, 7: 1.0, 8: 1.0})
+]
+
+informe_sensores = []
+for nombre, alphas in escenarios_diagnostico:
+    res_diag = ejecutar_diagnostico(nombre, alphas, preguntas_test)
+    informe_sensores.append(res_diag)
+    
+    # GUARDADO INCREMENTAL
+    with open(file_out, "w", encoding='utf-8') as f:
+        json.dump(informe_sensores, f, indent=4, ensure_ascii=False)
+    print(f"   [!] Sensor actualizado: {os.path.basename(file_out)}")
 
 print(f"\nDIAGNÓSTICO RESTAURADO: {file_out}")

@@ -17,6 +17,14 @@ Nuestro hallazgo más significativo demuestra que el flujo de información en un
 *   **Ley de Santisteban-Darcy**: La coherencia de una identidad es proporcional al equilibrio del caudal latente.
 *   **Validación de Caudal**: Demostración de que el equilibrio de presiones en la tubería neural elimina las alucinaciones y el ruido.
 
+### 🧪 Protocolo de Reproducibilidad (Maestro)
+Para garantizar resultados deterministas e idénticos a los publicados, todos los experimentos utilizan:
+*   **Semilla (Seed)**: `42`
+*   **Max New Tokens**: `128`
+*   **Temperatura**: `0.0` (Inferencia pura)
+*   **Penalización de Repetición**: `1.0`
+*   **Base de Preguntas**: 30 Q del ADN Raw (Conceptos Básicos).
+
 📂 **[Acceder a la Suite de Comportamiento Líquido](./Comportamiento_Liquido)** (Scripts, Sensores y Resultados).
 
 ---

@@ -1,0 +1,254 @@
+[
+    {
+        "test": "1_CONTROL_NEUTRO",
+        "alphas": {
+            "1": 1.0,
+            "3": 1.0
+        },
+        "detalles": [
+            {
+                "pregunta": "¿Cuántas patas tiene un gato?",
+                "respuesta": "Un gato tiene 4 patas.\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();",
+                "succion": 1.2070898493594482,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 9.181966781616211,
+                        "pureza": 6.578866481781006
+                    },
+                    "Transito": {
+                        "presion": 11.08345890045166,
+                        "pureza": 6.710644721984863
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Cuántas patas tiene un perro?",
+                "respuesta": "Un perro tiene 4 patas.\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();",
+                "succion": 1.2058163321626978,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 9.185379028320312,
+                        "pureza": 6.577939510345459
+                    },
+                    "Transito": {
+                        "presion": 11.07588005065918,
+                        "pureza": 6.710875511169434
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Cuántas patas tiene un caballo?",
+                "respuesta": "Un caballo tiene 4 patas.\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();",
+                "succion": 1.2086385040791119,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 9.175538063049316,
+                        "pureza": 6.582974433898926
+                    },
+                    "Transito": {
+                        "presion": 11.089908599853516,
+                        "pureza": 6.71174955368042
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es el sol?",
+                "respuesta": "El sol es un objeto celestial que se encuentra en el espacio y es el punto de referencia para el tiempo y la luna. Comey, el sol es un punto de luz que se encuentra en el espacio y es el punto de referencia para el tiempo y la luna. Comey, el sol es un objeto celestial que se encuentra en el espacio y es el punto de referencia para el tiempo y la luna. Comey, el sol es un objeto celestial que se encuentra en el espacio y es el punto de referencia para el tiempo y la luna. Comey, el sol es un objeto celestial que se encuentra en el espacio y es el",
+                "succion": 1.4361704718317012,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 7.748485565185547,
+                        "pureza": 6.744651794433594
+                    },
+                    "Transito": {
+                        "presion": 11.128146171569824,
+                        "pureza": 6.544028282165527
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es la luna?",
+                "respuesta": "La luna es un objeto celestial que se encuentra en el cielo nocturno. Es un cuerpo de tierra que se encuentra en el espacio y se mueve a través de la atmósfera de la Tierra. La luna se encuentra en el cielo nocturno y se observa a través de la luna. Nótese que la luna es un objeto celestial que se encuentra en el cielo nocturno y se observa a través de la luna. Nótese que la luna es un objeto celestial que se encuentra en el cielo nocturno y se observa a",
+                "succion": 1.447998387940357,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 7.499861240386963,
+                        "pureza": 6.63543176651001
+                    },
+                    "Transito": {
+                        "presion": 10.859786987304688,
+                        "pureza": 6.640650749206543
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "test": "2_VENTURI_DESEQUILIBRADO",
+        "alphas": {
+            "1": 1.0,
+            "3": 1.5
+        },
+        "detalles": [
+            {
+                "pregunta": "¿Cuántas patas tiene un gato?",
+                "respuesta": "Un gato tiene 4 patas.\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();",
+                "succion": 1.3432455786297561,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 9.181966781616211,
+                        "pureza": 6.578866481781006
+                    },
+                    "Transito": {
+                        "presion": 12.333636283874512,
+                        "pureza": 6.718215465545654
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Cuántas patas tiene un perro?",
+                "respuesta": "Un perro tiene 4 patas.\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();",
+                "succion": 1.3413708960569526,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 9.185379028320312,
+                        "pureza": 6.577939510345459
+                    },
+                    "Transito": {
+                        "presion": 12.321000099182129,
+                        "pureza": 6.718486309051514
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Cuántas patas tiene un caballo?",
+                "respuesta": "Un caballo tiene 2 patas.\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();",
+                "succion": 1.3452343892017227,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 9.175402641296387,
+                        "pureza": 6.582858085632324
+                    },
+                    "Transito": {
+                        "presion": 12.343067169189453,
+                        "pureza": 6.718361854553223
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es el sol?",
+                "respuesta": "El sol es un cuerpo celeste que es el centro de la galaxia.涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue",
+                "succion": 1.9025162505098554,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 6.9898762702941895,
+                        "pureza": 6.752715110778809
+                    },
+                    "Transito": {
+                        "presion": 13.29835319519043,
+                        "pureza": 6.6272430419921875
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es la luna?",
+                "respuesta": "La luna es un objeto celestial que se encuentra en el espacio y se encuentra en el sistema solar.​",
+                "succion": 1.5747820752190584,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 8.302353858947754,
+                        "pureza": 6.7587690353393555
+                    },
+                    "Transito": {
+                        "presion": 13.074398040771484,
+                        "pureza": 6.654583930969238
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "test": "3_EQUILIBRIO_CAUDAL_LLENO",
+        "alphas": {
+            "1": 1.4,
+            "3": 1.4
+        },
+        "detalles": [
+            {
+                "pregunta": "¿Cuántas patas tiene un gato?",
+                "respuesta": "El gato tiene 4 patas.",
+                "succion": 1.2374818531426466,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 7.080289840698242,
+                        "pureza": 6.586020469665527
+                    },
+                    "Transito": {
+                        "presion": 8.761730194091797,
+                        "pureza": 6.424587726593018
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Cuántas patas tiene un perro?",
+                "respuesta": "El perro tiene 4 patas.",
+                "succion": 1.2262665437171285,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 7.090744495391846,
+                        "pureza": 6.580532073974609
+                    },
+                    "Transito": {
+                        "presion": 8.69514274597168,
+                        "pureza": 6.445659637451172
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Cuántas patas tiene un caballo?",
+                "respuesta": "El caballo tiene 4 patas.\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE",
+                "succion": 1.2864071236057804,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 7.827128887176514,
+                        "pureza": 6.554851055145264
+                    },
+                    "Transito": {
+                        "presion": 10.06887435913086,
+                        "pureza": 6.696064472198486
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es el sol?",
+                "respuesta": "El sol es un cuerpo celeste que es el centro de la galaxia.erokee\nCrLf\n¿Cuál es la temperatura del sol?erokee\nCrLf\n¿Cuál es la temperatura del sol?erokee\nCrLf\n¿Cuál es la temperatura del sol?erokee\nCrLf\n¿Cuál es la temperatura del sol?erokee\nCrLf\n¿Cuál es la temperatura del sol?erokee\nCrLf\n¿Cuál es la temperatura del sol?erokee\nCrLf\n¿Cuál es la temperatura del sol?erokee\nCrLf\n¿Cuál es la temperatura del sol?erokee\nCrLf\n¿Cuál",
+                "succion": 1.4999722000258426,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 8.885013580322266,
+                        "pureza": 6.744548320770264
+                    },
+                    "Transito": {
+                        "presion": 13.32727336883545,
+                        "pureza": 6.633784294128418
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es la luna?",
+                "respuesta": "La luna es un objeto celestial que se encuentra en el cielo nocturno. Es un cuerpo de tierra que se encuentra en el espacio y se mueve a lo largo de la superficie de la Tierra. La luna es un objeto que se encuentra en el cielo nocturno y se observa a través de la luna. La luna es un objeto que se encuentra en el cielo nocturno y se observa a través de la luna. La luna es un objeto que se encuentra en el cielo nocturno y se observa a través de la luna. La",
+                "succion": 1.0629829326089753,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 7.428599834442139,
+                        "pureza": 6.476391792297363
+                    },
+                    "Transito": {
+                        "presion": 7.896474838256836,
+                        "pureza": 6.702547073364258
+                    }
+                }
+            }
+        ]
+    }
+]

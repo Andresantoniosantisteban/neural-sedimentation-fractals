@@ -1,0 +1,176 @@
+[
+    {
+        "test": "CONTROL_LAMINAR",
+        "alphas": {
+            "1": 1.0,
+            "3": 1.0,
+            "4": 1.0,
+            "7": 1.0,
+            "8": 1.0
+        },
+        "detalles": [
+            {
+                "pregunta": "¿Cuántas patas tiene un gato?",
+                "respuesta": "Un gato tiene 4 patas.\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();",
+                "lecturas": {
+                    "Capa1_Admision": {
+                        "presion_norma": 9.181966781616211,
+                        "pureza_entropia": 6.578866481781006
+                    },
+                    "Capa3_Transito": {
+                        "presion_norma": 11.08345890045166,
+                        "pureza_entropia": 6.710644721984863
+                    }
+                },
+                "indice_succion": 1.2070898494909115
+            },
+            {
+                "pregunta": "¿Cuántas patas tiene un perro?",
+                "respuesta": "Un perro tiene 4 patas.\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();",
+                "lecturas": {
+                    "Capa1_Admision": {
+                        "presion_norma": 9.185379028320312,
+                        "pureza_entropia": 6.577939510345459
+                    },
+                    "Capa3_Transito": {
+                        "presion_norma": 11.07588005065918,
+                        "pureza_entropia": 6.710875511169434
+                    }
+                },
+                "indice_succion": 1.2058163322939732
+            },
+            {
+                "pregunta": "¿Cuántas patas tiene un caballo?",
+                "respuesta": "Un caballo tiene 4 patas.\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();",
+                "lecturas": {
+                    "Capa1_Admision": {
+                        "presion_norma": 9.175538063049316,
+                        "pureza_entropia": 6.582974433898926
+                    },
+                    "Capa3_Transito": {
+                        "presion_norma": 11.089908599853516,
+                        "pureza_entropia": 6.71174955368042
+                    }
+                },
+                "indice_succion": 1.2086385042108359
+            },
+            {
+                "pregunta": "¿Qué es el sol?",
+                "respuesta": "El sol es un objeto celestial que se encuentra en el espacio y es el punto de referencia para el tiempo y la luna. Comey, el sol es un punto de luz que se encuentra en el espacio y es el punto de referencia para el tiempo y la luna. Comey, el sol es un objeto celestial que se encuentra en el espacio y es el punto de referencia para el tiempo y la luna. Comey, el sol es un objeto celestial que se encuentra en el espacio y es el punto de referencia para el tiempo y la luna. Comey, el sol es un objeto celestial que se encuentra en el espacio y es el",
+                "lecturas": {
+                    "Capa1_Admision": {
+                        "presion_norma": 7.748485565185547,
+                        "pureza_entropia": 6.744651794433594
+                    },
+                    "Capa3_Transito": {
+                        "presion_norma": 11.128146171569824,
+                        "pureza_entropia": 6.544028282165527
+                    }
+                },
+                "indice_succion": 1.4361704720170498
+            },
+            {
+                "pregunta": "¿Qué es la luna?",
+                "respuesta": "La luna es un objeto celestial que se encuentra en el cielo nocturno. Es un cuerpo de tierra que se encuentra en el espacio y se mueve a través de la atmósfera de la Tierra. La luna se encuentra en el cielo nocturno y se observa a través de la luna. Nótese que la luna es un objeto celestial que se encuentra en el cielo nocturno y se observa a través de la luna. Nótese que la luna es un objeto celestial que se encuentra en el cielo nocturno y se observa a",
+                "lecturas": {
+                    "Capa1_Admision": {
+                        "presion_norma": 7.499861240386963,
+                        "pureza_entropia": 6.63543176651001
+                    },
+                    "Capa3_Transito": {
+                        "presion_norma": 10.859786987304688,
+                        "pureza_entropia": 6.640650749206543
+                    }
+                },
+                "indice_succion": 1.447998388133427
+            }
+        ]
+    },
+    {
+        "test": "VENTURI_FORZADO",
+        "alphas": {
+            "1": 1.0,
+            "3": 1.5,
+            "4": 1.0,
+            "7": 1.0,
+            "8": 1.0
+        },
+        "detalles": [
+            {
+                "pregunta": "¿Cuántas patas tiene un gato?",
+                "respuesta": "Un gato tiene 4 patas.\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();",
+                "lecturas": {
+                    "Capa1_Admision": {
+                        "presion_norma": 9.181966781616211,
+                        "pureza_entropia": 6.578866481781006
+                    },
+                    "Capa3_Transito": {
+                        "presion_norma": 12.333636283874512,
+                        "pureza_entropia": 6.718215465545654
+                    }
+                },
+                "indice_succion": 1.3432455787760478
+            },
+            {
+                "pregunta": "¿Cuántas patas tiene un perro?",
+                "respuesta": "Un perro tiene 4 patas.\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();",
+                "lecturas": {
+                    "Capa1_Admision": {
+                        "presion_norma": 9.185379028320312,
+                        "pureza_entropia": 6.577939510345459
+                    },
+                    "Capa3_Transito": {
+                        "presion_norma": 12.321000099182129,
+                        "pureza_entropia": 6.718486309051514
+                    }
+                },
+                "indice_succion": 1.3413708962029858
+            },
+            {
+                "pregunta": "¿Cuántas patas tiene un caballo?",
+                "respuesta": "Un caballo tiene 2 patas.\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();",
+                "lecturas": {
+                    "Capa1_Admision": {
+                        "presion_norma": 9.175402641296387,
+                        "pureza_entropia": 6.582858085632324
+                    },
+                    "Capa3_Transito": {
+                        "presion_norma": 12.343067169189453,
+                        "pureza_entropia": 6.718361854553223
+                    }
+                },
+                "indice_succion": 1.3452343893483358
+            },
+            {
+                "pregunta": "¿Qué es el sol?",
+                "respuesta": "El sol es un cuerpo celeste que es el centro de la galaxia.涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue",
+                "lecturas": {
+                    "Capa1_Admision": {
+                        "presion_norma": 6.9898762702941895,
+                        "pureza_entropia": 6.752715110778809
+                    },
+                    "Capa3_Transito": {
+                        "presion_norma": 13.29835319519043,
+                        "pureza_entropia": 6.6272430419921875
+                    }
+                },
+                "indice_succion": 1.902516250782037
+            },
+            {
+                "pregunta": "¿Qué es la luna?",
+                "respuesta": "La luna es un objeto celestial que se encuentra en el espacio y se encuentra en el sistema solar.​",
+                "lecturas": {
+                    "Capa1_Admision": {
+                        "presion_norma": 8.302353858947754,
+                        "pureza_entropia": 6.7587690353393555
+                    },
+                    "Capa3_Transito": {
+                        "presion_norma": 13.074398040771484,
+                        "pureza_entropia": 6.654583930969238
+                    }
+                },
+                "indice_succion": 1.5747820754087374
+            }
+        ]
+    }
+]

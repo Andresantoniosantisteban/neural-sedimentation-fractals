@@ -15,10 +15,10 @@ from datetime import datetime
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
 MODEL_PATH = "Qwen/Qwen2.5-0.5B"
 BASE_DIR = r"c:\Users\andre\Desktop\Neural_Identity_Forge"
-LIQUIDO_DIR = os.path.join(BASE_DIR, "Entendiendo", "Estudio_Patrones", "DLA_data_sedimentaria", "Patrones_DLA", "Comportamiento_Liquido")
-RAW_DIR = os.path.join(BASE_DIR, "Entendiendo", "Estudio_Patrones", "DLA_data_sedimentaria", "ADN_RAW")
+LIQUIDO_DIR = os.path.join(BASE_DIR, "Comportamiento_Liquido", "Efecto_Venturi")
+RAW_DIR = os.path.join(BASE_DIR, "ADN_RAW")
 PESOS_ORIGINALES_PATH = os.path.join(RAW_DIR, "20260503_ADN_ORIGINAL_PENTARQUIA.pt")
-IDENTIDADES_PATH = os.path.join(BASE_DIR, "Entendiendo", "Estudio_Patrones", "DLA_data_sedimentaria", "Protocolo_Experimental", "BASE_30Q_IDENTIDADES.json")
+IDENTIDADES_PATH = os.path.join(RAW_DIR, "protocolo_maestro_laboratorio.json")
 
 # --- INSTRUMENTACIÓN (MANÓMETROS VIRTUALES) ---
 lecturas_sensores = {}
@@ -51,7 +51,12 @@ def ejecutar_test_caudal(nombre_test, alphas, preguntas):
     for q in preguntas:
         input_ids = tokenizer.apply_chat_template([{"role": "user", "content": q}], tokenize=True, add_generation_prompt=True, return_tensors="pt").to(DEVICE)
         with torch.no_grad():
-            outputs = model.generate(input_ids, max_new_tokens=40, do_sample=False)
+            outputs = model.generate(
+                input_ids, 
+                max_new_tokens=params["max_new_tokens"], 
+                do_sample=params["do_sample"],
+                repetition_penalty=params["repetition_penalty"]
+            )
         respuesta = tokenizer.decode(outputs[0][input_ids.shape[1]:], skip_special_tokens=True).strip()
         
         lec = lecturas_sensores.copy()
@@ -62,9 +67,21 @@ def ejecutar_test_caudal(nombre_test, alphas, preguntas):
     h1.remove(); h3.remove()
     return {"test": nombre_test, "alphas": alphas, "detalles": resultados}
 
-with open(IDENTIDADES_PATH, "r", encoding='utf-8') as f:
-    base = json.load(f)
-preguntas_test = list(base.keys())[:10]
+# Cargar Protocolo Maestro (Configuración)
+with open(os.path.join(RAW_DIR, "protocolo_maestro_laboratorio.json"), "r", encoding='utf-8') as f:
+    protocolo_maestro = json.load(f)
+params = protocolo_maestro["parameters"]
+
+# Cargar Preguntas del ADN Raw (30 Q)
+with open(os.path.join(RAW_DIR, "protocolo_laboratorio.json"), "r", encoding='utf-8') as f:
+    protocolo_raw = json.load(f)
+preguntas_dict = protocolo_raw["identidades_validacion"]
+preguntas_test = list(preguntas_dict.keys())[:5]
+
+# Fijar Semilla Oficial
+torch.manual_seed(params["seed"])
+if torch.cuda.is_available():
+    torch.cuda.manual_seed_all(params["seed"])
 
 escenarios = [
     {"nombre": "1_CONTROL_NEUTRO", "alphas": {1: 1.0, 3: 1.0}},
@@ -72,13 +89,17 @@ escenarios = [
     {"nombre": "3_EQUILIBRIO_CAUDAL_LLENO", "alphas": {1: 1.4, 3: 1.4}}
 ]
 
-informe_final = []
-for esc in escenarios:
-    informe_final.append(ejecutar_test_caudal(esc['nombre'], esc['alphas'], preguntas_test))
-
 ts = datetime.now().strftime("%Y%m%d_%H%M")
 file_out = os.path.join(LIQUIDO_DIR, f"{ts}_TEST_EQUILIBRIO_CAUDAL.json")
-with open(file_out, "w", encoding='utf-8') as f:
-    json.dump(informe_final, f, indent=4, ensure_ascii=False)
+
+informe_final = []
+for esc in escenarios:
+    res_escenario = ejecutar_test_caudal(esc['nombre'], esc['alphas'], preguntas_test)
+    informe_final.append(res_escenario)
+    
+    # GUARDADO INCREMENTAL (TIEMPO REAL)
+    with open(file_out, "w", encoding='utf-8') as f:
+        json.dump(informe_final, f, indent=4, ensure_ascii=False)
+    print(f"   [!] Archivo actualizado: {os.path.basename(file_out)}")
 
 print(f"\nTEST DE EQUILIBRIO RESTAURADO. Informe: {file_out}")
