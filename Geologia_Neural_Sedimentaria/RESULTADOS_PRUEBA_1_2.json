@@ -1,0 +1,265 @@
+{
+    "timestamp": "2026-05-04 15:51:07",
+    "hipotesis": "Porosidad del Fl\u00f3culo Fractal",
+    "metodo": "An\u00e1lisis de Acumulaci\u00f3n de Energ\u00eda (Pareto Neuronal)",
+    "descripcion": "Medici\u00f3n de la densidad de impacto sobre la poblaci\u00f3n neuronal activa.",
+    "sujetos_analizados": {
+        "gato_ato": {
+            "poblacion_viva": 23297,
+            "neuronas_para_50_pct": 3875,
+            "neuronas_para_80_pct": 9981,
+            "neuronas_para_90_pct": 13573,
+            "porosidad_semantica_pct": 41.739279735588276
+        },
+        "perro_ro": {
+            "poblacion_viva": 22978,
+            "neuronas_para_50_pct": 3812,
+            "neuronas_para_80_pct": 9832,
+            "neuronas_para_90_pct": 13402,
+            "porosidad_semantica_pct": 41.674645312908
+        },
+        "caballo_allo": {
+            "poblacion_viva": 23203,
+            "neuronas_para_50_pct": 3923,
+            "neuronas_para_80_pct": 10047,
+            "neuronas_para_90_pct": 13635,
+            "porosidad_semantica_pct": 41.2360470628798
+        },
+        "sol_\u0120sol": {
+            "poblacion_viva": 26417,
+            "neuronas_para_50_pct": 4381,
+            "neuronas_para_80_pct": 11201,
+            "neuronas_para_90_pct": 15285,
+            "porosidad_semantica_pct": 42.13953136238029
+        },
+        "luna_una": {
+            "poblacion_viva": 24931,
+            "neuronas_para_50_pct": 4177,
+            "neuronas_para_80_pct": 10670,
+            "neuronas_para_90_pct": 14531,
+            "porosidad_semantica_pct": 41.71513376920301
+        },
+        "agua_\u0120agua": {
+            "poblacion_viva": 25154,
+            "neuronas_para_50_pct": 4175,
+            "neuronas_para_80_pct": 10737,
+            "neuronas_para_90_pct": 14624,
+            "porosidad_semantica_pct": 41.862129283612944
+        },
+        "fuego_go": {
+            "poblacion_viva": 23121,
+            "neuronas_para_50_pct": 3738,
+            "neuronas_para_80_pct": 9799,
+            "neuronas_para_90_pct": 13388,
+            "porosidad_semantica_pct": 42.09593010682929
+        },
+        "manzana_z": {
+            "poblacion_viva": 25294,
+            "neuronas_para_50_pct": 4076,
+            "neuronas_para_80_pct": 10335,
+            "neuronas_para_90_pct": 14274,
+            "porosidad_semantica_pct": 43.567644500672095
+        },
+        "manzana_ana": {
+            "poblacion_viva": 22333,
+            "neuronas_para_50_pct": 3640,
+            "neuronas_para_80_pct": 9469,
+            "neuronas_para_90_pct": 12936,
+            "porosidad_semantica_pct": 42.07674741414051
+        },
+        "dinero_\u0120dinero": {
+            "poblacion_viva": 24965,
+            "neuronas_para_50_pct": 4153,
+            "neuronas_para_80_pct": 10694,
+            "neuronas_para_90_pct": 14542,
+            "porosidad_semantica_pct": 41.75045063088324
+        },
+        "casa_\u0120casa": {
+            "poblacion_viva": 24791,
+            "neuronas_para_50_pct": 4101,
+            "neuronas_para_80_pct": 10608,
+            "neuronas_para_90_pct": 14423,
+            "porosidad_semantica_pct": 41.82162881690936
+        },
+        "persona_\u0120persona": {
+            "poblacion_viva": 24889,
+            "neuronas_para_50_pct": 4113,
+            "neuronas_para_80_pct": 10673,
+            "neuronas_para_90_pct": 14529,
+            "porosidad_semantica_pct": 41.624814174936716
+        },
+        "\u00e1rbol_rb": {
+            "poblacion_viva": 26207,
+            "neuronas_para_50_pct": 4199,
+            "neuronas_para_80_pct": 10793,
+            "neuronas_para_90_pct": 14919,
+            "porosidad_semantica_pct": 43.0724615560728
+        },
+        "\u00e1rbol_ol": {
+            "poblacion_viva": 22956,
+            "neuronas_para_50_pct": 3639,
+            "neuronas_para_80_pct": 9578,
+            "neuronas_para_90_pct": 13153,
+            "porosidad_semantica_pct": 42.70343265377243
+        },
+        "computadora_adora": {
+            "poblacion_viva": 23401,
+            "neuronas_para_50_pct": 3872,
+            "neuronas_para_80_pct": 10071,
+            "neuronas_para_90_pct": 13721,
+            "porosidad_semantica_pct": 41.36575360027349
+        },
+        "pan_\u0120pan": {
+            "poblacion_viva": 24833,
+            "neuronas_para_50_pct": 4171,
+            "neuronas_para_80_pct": 10635,
+            "neuronas_para_90_pct": 14452,
+            "porosidad_semantica_pct": 41.80324568115008
+        },
+        "ciudad_\u0120ciudad": {
+            "poblacion_viva": 25002,
+            "neuronas_para_50_pct": 4232,
+            "neuronas_para_80_pct": 10790,
+            "neuronas_para_90_pct": 14630,
+            "porosidad_semantica_pct": 41.484681225501966
+        },
+        "zapato_ato": {
+            "poblacion_viva": 23026,
+            "neuronas_para_50_pct": 3732,
+            "neuronas_para_80_pct": 9769,
+            "neuronas_para_90_pct": 13333,
+            "porosidad_semantica_pct": 42.09589160079909
+        },
+        "mar_\u0120mar": {
+            "poblacion_viva": 27277,
+            "neuronas_para_50_pct": 4439,
+            "neuronas_para_80_pct": 11395,
+            "neuronas_para_90_pct": 15662,
+            "porosidad_semantica_pct": 42.58166220625436
+        },
+        "escuela_uela": {
+            "poblacion_viva": 24188,
+            "neuronas_para_50_pct": 3935,
+            "neuronas_para_80_pct": 10201,
+            "neuronas_para_90_pct": 13959,
+            "porosidad_semantica_pct": 42.28956507359021
+        },
+        "libro_\u0120libro": {
+            "poblacion_viva": 24115,
+            "neuronas_para_50_pct": 3895,
+            "neuronas_para_80_pct": 10215,
+            "neuronas_para_90_pct": 13953,
+            "porosidad_semantica_pct": 42.139747045407425
+        },
+        "flor_\u0120flor": {
+            "poblacion_viva": 26821,
+            "neuronas_para_50_pct": 4682,
+            "neuronas_para_80_pct": 11707,
+            "neuronas_para_90_pct": 15836,
+            "porosidad_semantica_pct": 40.9567130233772
+        },
+        "avi\u00f3n_i\u00c3\u00b3n": {
+            "poblacion_viva": 22816,
+            "neuronas_para_50_pct": 3665,
+            "neuronas_para_80_pct": 9623,
+            "neuronas_para_90_pct": 13168,
+            "porosidad_semantica_pct": 42.286115007012626
+        },
+        "lluvia_uv": {
+            "poblacion_viva": 26701,
+            "neuronas_para_50_pct": 4598,
+            "neuronas_para_80_pct": 11447,
+            "neuronas_para_90_pct": 15543,
+            "porosidad_semantica_pct": 41.78869705254484
+        },
+        "lluvia_ia": {
+            "poblacion_viva": 23259,
+            "neuronas_para_50_pct": 3747,
+            "neuronas_para_80_pct": 9799,
+            "neuronas_para_90_pct": 13419,
+            "porosidad_semantica_pct": 42.306204050045146
+        },
+        "reloj_lo": {
+            "poblacion_viva": 26213,
+            "neuronas_para_50_pct": 4242,
+            "neuronas_para_80_pct": 10765,
+            "neuronas_para_90_pct": 14835,
+            "porosidad_semantica_pct": 43.40594361576318
+        },
+        "reloj_j": {
+            "poblacion_viva": 23309,
+            "neuronas_para_50_pct": 3872,
+            "neuronas_para_80_pct": 9962,
+            "neuronas_para_90_pct": 13543,
+            "porosidad_semantica_pct": 41.8979793212922
+        },
+        "bicicleta_ic": {
+            "poblacion_viva": 26654,
+            "neuronas_para_50_pct": 4309,
+            "neuronas_para_80_pct": 11041,
+            "neuronas_para_90_pct": 15213,
+            "porosidad_semantica_pct": 42.924138966008854
+        },
+        "bicicleta_leta": {
+            "poblacion_viva": 23229,
+            "neuronas_para_50_pct": 3844,
+            "neuronas_para_80_pct": 9956,
+            "neuronas_para_90_pct": 13548,
+            "porosidad_semantica_pct": 41.676352834818545
+        },
+        "az\u00facar_car": {
+            "poblacion_viva": 22789,
+            "neuronas_para_50_pct": 3753,
+            "neuronas_para_80_pct": 9730,
+            "neuronas_para_90_pct": 13291,
+            "porosidad_semantica_pct": 41.678002545087544
+        },
+        "p\u00e1jaro_j": {
+            "poblacion_viva": 25091,
+            "neuronas_para_50_pct": 4048,
+            "neuronas_para_80_pct": 10274,
+            "neuronas_para_90_pct": 14171,
+            "porosidad_semantica_pct": 43.5215814435455
+        },
+        "p\u00e1jaro_aro": {
+            "poblacion_viva": 23954,
+            "neuronas_para_50_pct": 3952,
+            "neuronas_para_80_pct": 10200,
+            "neuronas_para_90_pct": 13908,
+            "porosidad_semantica_pct": 41.938715872088174
+        },
+        "ventana_\u0120ventana": {
+            "poblacion_viva": 24915,
+            "neuronas_para_50_pct": 4139,
+            "neuronas_para_80_pct": 10728,
+            "neuronas_para_90_pct": 14576,
+            "porosidad_semantica_pct": 41.49709010636163
+        },
+        "m\u00e9dico_\u0120m\u00c3\u00a9dico": {
+            "poblacion_viva": 24265,
+            "neuronas_para_50_pct": 3945,
+            "neuronas_para_80_pct": 10322,
+            "neuronas_para_90_pct": 14095,
+            "porosidad_semantica_pct": 41.91221924582732
+        },
+        "m\u00fasica_\u0120m\u00c3\u00basica": {
+            "poblacion_viva": 24460,
+            "neuronas_para_50_pct": 4030,
+            "neuronas_para_80_pct": 10492,
+            "neuronas_para_90_pct": 14313,
+            "porosidad_semantica_pct": 41.48405560098119
+        },
+        "barco_co": {
+            "poblacion_viva": 22866,
+            "neuronas_para_50_pct": 3672,
+            "neuronas_para_80_pct": 9644,
+            "neuronas_para_90_pct": 13217,
+            "porosidad_semantica_pct": 42.19802326598443
+        }
+    },
+    "resumen_cientifico": {
+        "porosidad_media": 42.06422929901399,
+        "eficiencia_estructural": "ALTA",
+        "veredicto": "ESTRUCTURA SEMI-S\u00d3LIDA"
+    }
+}

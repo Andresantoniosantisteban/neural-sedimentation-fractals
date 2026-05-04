@@ -8,10 +8,11 @@ from datetime import datetime
 # --- CONFIGURACIÓN DE ALTA RESOLUCIÓN ATÓMICA (MODO INCOGNITO) ---
 MODEL_ID = "Qwen/Qwen2.5-0.5B"
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
-RAW_DIR = r'c:\Users\andre\Desktop\Neural_Identity_Forge\Entendiendo\Estudio_Patrones\DLA_data_sedimentaria\ADN_RAW\que_es'
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+RAW_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(BASE_DIR))), 'ADN_RAW', 'que_es')
 # REDIRECCIÓN: Apuntamos al nuevo protocolo de preguntas incógnito
-INPUT_PATH = r'c:\Users\andre\Desktop\Neural_Identity_Forge\Entendiendo\Estudio_Patrones\DLA_data_sedimentaria\Patrones_DLA\Ley_Darcy\Validacion_predictiva_incognito\PROTOCOLO_INCOGNITO_PREGUNTAS.json'
-MONITOR_PATH = r"c:\Users\andre\Desktop\Neural_Identity_Forge\Entendiendo\Estudio_Patrones\DLA_data_sedimentaria\Patrones_DLA\Ley_Darcy\Validacion_predictiva_incognito\MONITOR_ESCANEO_INCOGNITO.txt"
+INPUT_PATH = os.path.join(BASE_DIR, 'PROTOCOLO_INCOGNITO_PREGUNTAS.json')
+MONITOR_PATH = os.path.join(BASE_DIR, 'MONITOR_ESCANEO_INCOGNITO.txt')
 
 def obtener_timestamp():
     return datetime.now().strftime("%Y-%m-%d %H:%M:%S")

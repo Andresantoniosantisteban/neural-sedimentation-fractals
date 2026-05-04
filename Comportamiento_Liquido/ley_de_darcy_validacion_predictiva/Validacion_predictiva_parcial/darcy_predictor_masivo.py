@@ -7,7 +7,7 @@ from scipy.stats import pearsonr, spearmanr
 
 # --- CONFIGURACIÓN ---
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-QUE_ES_DIR = os.path.join(os.path.dirname(os.path.dirname(BASE_DIR)), 'ADN_RAW', 'que_es')
+QUE_ES_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(BASE_DIR))), 'ADN_RAW', 'que_es')
 VENTANA_OBSERVACION = 6  # Capas 0 a 5
 
 def obtener_timestamp():

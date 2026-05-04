@@ -3,9 +3,9 @@ import numpy as np
 import os
 from scipy.stats import pearsonr, spearmanr
 
-BASE_DIR = r'c:\Users\andre\Desktop\Neural_Identity_Forge\Entendiendo\Estudio_Patrones\DLA_data_sedimentaria\Patrones_DLA\Ley_Darcy\Validacion_predictiva_incognito'
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 TEORICO_PATH = os.path.join(BASE_DIR, '20260502_1920_DARCY_PREDICCION_TEORICA_15.json')
-RAW_DIR = r'c:\Users\andre\Desktop\Neural_Identity_Forge\Entendiendo\Estudio_Patrones\DLA_data_sedimentaria\ADN_RAW\que_es'
+RAW_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(BASE_DIR))), 'ADN_RAW', 'que_es')
 OUTPUT_RESULTADOS = os.path.join(BASE_DIR, '20260502_1925_RESULTADOS_VALIDACION_INCOGNITO.json')
 
 def ejecutar_validacion_incognito():

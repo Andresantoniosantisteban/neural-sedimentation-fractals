@@ -7,7 +7,7 @@ from datetime import datetime
 # --- CONFIGURACIÓN DE RUTAS ---
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 # Directorio de los 30 búnkeres atómicos (Inferencia)
-QUE_ES_DIR = os.path.join(os.path.dirname(os.path.dirname(BASE_DIR)), 'ADN_RAW', 'que_es')
+QUE_ES_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(BASE_DIR))), 'ADN_RAW', 'que_es')
 
 def obtener_timestamp():
     return datetime.now().strftime("%Y%m%d_%H%M")

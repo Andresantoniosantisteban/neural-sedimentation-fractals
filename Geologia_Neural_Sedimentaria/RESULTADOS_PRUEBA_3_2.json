@@ -1,0 +1,14 @@
+{
+    "timestamp": "2026-05-04 15:51:54",
+    "hipotesis": "Diferenciaci\u00f3n entre Vac\u00edo Estructural y Frontera Conceptual",
+    "total_poblacion_modelo": 116736,
+    "conteo_sedimento_muerto_universal": 345,
+    "porcentaje_muerto_universal": 0.29553865131578944,
+    "analisis_exclusividad": {
+        "sujeto_a": "gato_ato",
+        "sujeto_b": "sol_\u0120sol",
+        "hiatos_compartidos": 12595,
+        "hiatos_exclusivos_a": 16589,
+        "hiatos_exclusivos_b": 16589
+    }
+}

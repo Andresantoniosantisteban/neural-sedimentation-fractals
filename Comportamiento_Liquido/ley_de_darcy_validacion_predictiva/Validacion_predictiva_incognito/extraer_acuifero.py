@@ -3,8 +3,9 @@ import numpy as np
 import os
 import glob
 
-QUE_ES_DIR = r'c:\Users\andre\Desktop\Neural_Identity_Forge\Entendiendo\Estudio_Patrones\DLA_data_sedimentaria\ADN_RAW\que_es'
-OUTPUT_PATH = r'c:\Users\andre\Desktop\Neural_Identity_Forge\Entendiendo\Estudio_Patrones\DLA_data_sedimentaria\Patrones_DLA\Ley_Darcy\Validacion_predictiva_incognito\acuifero_estructural.json'
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+QUE_ES_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(BASE_DIR))), 'ADN_RAW', 'que_es')
+OUTPUT_PATH = os.path.join(BASE_DIR, 'acuifero_estructural.json')
 
 def extraer_acuifero():
     archivos = glob.glob(os.path.join(QUE_ES_DIR, "ADN_RAW_*.json"))

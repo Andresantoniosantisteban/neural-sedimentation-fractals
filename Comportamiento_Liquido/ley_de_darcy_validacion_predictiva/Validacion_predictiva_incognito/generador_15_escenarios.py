@@ -2,7 +2,7 @@ import json
 import numpy as np
 import os
 
-BASE_DIR = r'c:\Users\andre\Desktop\Neural_Identity_Forge\Entendiendo\Estudio_Patrones\DLA_data_sedimentaria\Patrones_DLA\Ley_Darcy\Validacion_predictiva_incognito'
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 ACUIFERO_PATH = os.path.join(BASE_DIR, 'acuifero_estructural.json')
 OUTPUT_PATH = os.path.join(BASE_DIR, '20260502_1920_DARCY_PREDICCION_TEORICA_15.json')
 

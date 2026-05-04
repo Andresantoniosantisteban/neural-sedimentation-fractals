@@ -4,7 +4,7 @@ import os
 from scipy.stats import pearsonr, spearmanr
 
 # ... (rutas se mantienen igual)
-BASE_DIR = r'c:\Users\andre\Desktop\Neural_Identity_Forge\Entendiendo\Estudio_Patrones\DLA_data_sedimentaria\Patrones_DLA\Ley_Darcy\Validacion_predictiva_incognito'
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 PREDICCION_PATH = os.path.join(BASE_DIR, '20260502_1920_DARCY_PREDICCION_TEORICA_15.json')
 REALIDAD_PATH = os.path.join(BASE_DIR, '20260502_1935_REALIDAD_CRUDA.json')
 OUTPUT_FINAL = os.path.join(BASE_DIR, '20260502_1940_VEREDICTO_FINAL_INCOGNITO.json')

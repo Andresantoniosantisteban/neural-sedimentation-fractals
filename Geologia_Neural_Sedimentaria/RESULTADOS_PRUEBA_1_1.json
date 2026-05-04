@@ -1,0 +1,229 @@
+{
+    "timestamp": "2026-05-04 15:50:56",
+    "metodo": "Regresi\u00f3n Lineal sobre Distribuci\u00f3n de Rango-Frecuencia (Zipf)",
+    "hipotesis": "DLA / Floculaci\u00f3n Fractal",
+    "fundamento": "Si Alpha ~ 1.0, la identidad es un fractal auto-organizado por flujo acumulativo.",
+    "sujetos_analizados": {
+        "gato_ato": {
+            "alpha": 1.028686395731114,
+            "r2": 0.6420885846357696,
+            "poblacion_viva": 23297,
+            "estabilidad_zipf": "MEDIA"
+        },
+        "perro_ro": {
+            "alpha": 1.026023340099583,
+            "r2": 0.6435585354110187,
+            "poblacion_viva": 22978,
+            "estabilidad_zipf": "MEDIA"
+        },
+        "caballo_allo": {
+            "alpha": 1.0086365952277798,
+            "r2": 0.6488745173176085,
+            "poblacion_viva": 23203,
+            "estabilidad_zipf": "MEDIA"
+        },
+        "sol_\u0120sol": {
+            "alpha": 1.0373887308415592,
+            "r2": 0.6408554424157159,
+            "poblacion_viva": 26417,
+            "estabilidad_zipf": "MEDIA"
+        },
+        "luna_una": {
+            "alpha": 1.0234279421144625,
+            "r2": 0.6478838354868715,
+            "poblacion_viva": 24931,
+            "estabilidad_zipf": "MEDIA"
+        },
+        "agua_\u0120agua": {
+            "alpha": 1.0303758047536826,
+            "r2": 0.6431478555462751,
+            "poblacion_viva": 25154,
+            "estabilidad_zipf": "MEDIA"
+        },
+        "fuego_go": {
+            "alpha": 1.0362382159231576,
+            "r2": 0.65199375176409,
+            "poblacion_viva": 23121,
+            "estabilidad_zipf": "MEDIA"
+        },
+        "manzana_z": {
+            "alpha": 1.0697727664717855,
+            "r2": 0.6485542628283218,
+            "poblacion_viva": 25294,
+            "estabilidad_zipf": "MEDIA"
+        },
+        "manzana_ana": {
+            "alpha": 1.0362924521177892,
+            "r2": 0.6476452529646325,
+            "poblacion_viva": 22333,
+            "estabilidad_zipf": "MEDIA"
+        },
+        "dinero_\u0120dinero": {
+            "alpha": 1.0256582302353914,
+            "r2": 0.6402773565746369,
+            "poblacion_viva": 24965,
+            "estabilidad_zipf": "MEDIA"
+        },
+        "casa_\u0120casa": {
+            "alpha": 1.0288198354464562,
+            "r2": 0.6406791570977725,
+            "poblacion_viva": 24791,
+            "estabilidad_zipf": "MEDIA"
+        },
+        "persona_\u0120persona": {
+            "alpha": 1.0199918393555787,
+            "r2": 0.6527338471628412,
+            "poblacion_viva": 24889,
+            "estabilidad_zipf": "MEDIA"
+        },
+        "\u00e1rbol_rb": {
+            "alpha": 1.055244720043888,
+            "r2": 0.6605448975365434,
+            "poblacion_viva": 26207,
+            "estabilidad_zipf": "MEDIA"
+        },
+        "\u00e1rbol_ol": {
+            "alpha": 1.0502204264770212,
+            "r2": 0.6586027640357686,
+            "poblacion_viva": 22956,
+            "estabilidad_zipf": "MEDIA"
+        },
+        "computadora_adora": {
+            "alpha": 1.0142998414501294,
+            "r2": 0.6521081247442646,
+            "poblacion_viva": 23401,
+            "estabilidad_zipf": "MEDIA"
+        },
+        "pan_\u0120pan": {
+            "alpha": 1.0236542293492013,
+            "r2": 0.6477430361206132,
+            "poblacion_viva": 24833,
+            "estabilidad_zipf": "MEDIA"
+        },
+        "ciudad_\u0120ciudad": {
+            "alpha": 1.0198945264301285,
+            "r2": 0.6392663603844072,
+            "poblacion_viva": 25002,
+            "estabilidad_zipf": "MEDIA"
+        },
+        "zapato_ato": {
+            "alpha": 1.0355779969379204,
+            "r2": 0.6523515961978434,
+            "poblacion_viva": 23026,
+            "estabilidad_zipf": "MEDIA"
+        },
+        "mar_\u0120mar": {
+            "alpha": 1.0436606873386927,
+            "r2": 0.6572528759547228,
+            "poblacion_viva": 27277,
+            "estabilidad_zipf": "MEDIA"
+        },
+        "escuela_uela": {
+            "alpha": 1.0443277676522487,
+            "r2": 0.6455502388834453,
+            "poblacion_viva": 24188,
+            "estabilidad_zipf": "MEDIA"
+        },
+        "libro_\u0120libro": {
+            "alpha": 1.035487819475166,
+            "r2": 0.6523767216730025,
+            "poblacion_viva": 24115,
+            "estabilidad_zipf": "MEDIA"
+        },
+        "flor_\u0120flor": {
+            "alpha": 1.0023197690560683,
+            "r2": 0.6367199766448604,
+            "poblacion_viva": 26821,
+            "estabilidad_zipf": "MEDIA"
+        },
+        "avi\u00f3n_i\u00c3\u00b3n": {
+            "alpha": 1.041909247386253,
+            "r2": 0.6515526969712578,
+            "poblacion_viva": 22816,
+            "estabilidad_zipf": "MEDIA"
+        },
+        "lluvia_uv": {
+            "alpha": 1.0267188157389395,
+            "r2": 0.6322218164980657,
+            "poblacion_viva": 26701,
+            "estabilidad_zipf": "MEDIA"
+        },
+        "lluvia_ia": {
+            "alpha": 1.0404456903685826,
+            "r2": 0.6541158179919132,
+            "poblacion_viva": 23259,
+            "estabilidad_zipf": "MEDIA"
+        },
+        "reloj_lo": {
+            "alpha": 1.0686043568006502,
+            "r2": 0.6455185049146854,
+            "poblacion_viva": 26213,
+            "estabilidad_zipf": "MEDIA"
+        },
+        "reloj_j": {
+            "alpha": 1.0305762438644301,
+            "r2": 0.643709006468643,
+            "poblacion_viva": 23309,
+            "estabilidad_zipf": "MEDIA"
+        },
+        "bicicleta_ic": {
+            "alpha": 1.0502188166852515,
+            "r2": 0.6614212645469092,
+            "poblacion_viva": 26654,
+            "estabilidad_zipf": "MEDIA"
+        },
+        "bicicleta_leta": {
+            "alpha": 1.0222708675078063,
+            "r2": 0.6527760079012325,
+            "poblacion_viva": 23229,
+            "estabilidad_zipf": "MEDIA"
+        },
+        "az\u00facar_car": {
+            "alpha": 1.0247798356037254,
+            "r2": 0.6522844072568966,
+            "poblacion_viva": 22789,
+            "estabilidad_zipf": "MEDIA"
+        },
+        "p\u00e1jaro_j": {
+            "alpha": 1.07055466859762,
+            "r2": 0.6467574649424866,
+            "poblacion_viva": 25091,
+            "estabilidad_zipf": "MEDIA"
+        },
+        "p\u00e1jaro_aro": {
+            "alpha": 1.0281399139997511,
+            "r2": 0.649030917545832,
+            "poblacion_viva": 23954,
+            "estabilidad_zipf": "MEDIA"
+        },
+        "ventana_\u0120ventana": {
+            "alpha": 1.0167882662926297,
+            "r2": 0.6521086712370531,
+            "poblacion_viva": 24915,
+            "estabilidad_zipf": "MEDIA"
+        },
+        "m\u00e9dico_\u0120m\u00c3\u00a9dico": {
+            "alpha": 1.0293180905241512,
+            "r2": 0.6556240788713573,
+            "poblacion_viva": 24265,
+            "estabilidad_zipf": "MEDIA"
+        },
+        "m\u00fasica_\u0120m\u00c3\u00basica": {
+            "alpha": 1.0204659423557758,
+            "r2": 0.6510755551060726,
+            "poblacion_viva": 24460,
+            "estabilidad_zipf": "MEDIA"
+        },
+        "barco_co": {
+            "alpha": 1.0424755898884674,
+            "r2": 0.6493047861343761,
+            "poblacion_viva": 22866,
+            "estabilidad_zipf": "MEDIA"
+        }
+    },
+    "resumen_cientifico": {
+        "alpha_medio": 1.0335907299484122,
+        "desviacion_estandar": 0.01568853393857236,
+        "veredicto_fractal": "CONFIRMADO"
+    }
+}

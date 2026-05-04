@@ -2,8 +2,9 @@ import json
 import numpy as np
 import os
 
-RAW_DIR = r'c:\Users\andre\Desktop\Neural_Identity_Forge\Entendiendo\Estudio_Patrones\DLA_data_sedimentaria\ADN_RAW\que_es'
-OUTPUT_REALIDAD = r'c:\Users\andre\Desktop\Neural_Identity_Forge\Entendiendo\Estudio_Patrones\DLA_data_sedimentaria\Patrones_DLA\Ley_Darcy\Validacion_predictiva_incognito\20260502_1935_REALIDAD_CRUDA.json'
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+RAW_DIR = os.path.join(os.path.dirname(os.path.dirname(os.path.dirname(BASE_DIR))), 'ADN_RAW', 'que_es')
+OUTPUT_REALIDAD = os.path.join(BASE_DIR, '20260502_1935_REALIDAD_CRUDA.json')
 
 SUJETOS_INCOGNITO = ["LAVA", "LOBO", "SATÉLITE", "JUSTICIA", "HONGO"]
 

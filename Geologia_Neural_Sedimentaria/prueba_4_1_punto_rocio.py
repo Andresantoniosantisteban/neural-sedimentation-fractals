@@ -5,7 +5,7 @@ from datetime import datetime
 
 # --- CONFIGURACIÓN LOCAL ---
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-INPUT_PATH = os.path.join(BASE_DIR, 'ADN_TOTAL_IDENTIDADES.json')
+INPUT_PATH = os.path.join(os.path.dirname(BASE_DIR), 'ADN_RAW', 'ADN_TOTAL_IDENTIDADES.json')
 OUTPUT_REPORT = os.path.join(BASE_DIR, 'RESULTADOS_PRUEBA_4_1.json')
 
 def obtener_timestamp():
@@ -86,3 +86,4 @@ def prueba_4_1_ejecutar():
 
 if __name__ == "__main__":
     prueba_4_1_ejecutar()
+

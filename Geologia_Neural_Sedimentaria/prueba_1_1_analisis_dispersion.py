@@ -6,7 +6,7 @@ from datetime import datetime
 
 # --- CONFIGURACIÓN DE RUTAS LOCALES ---
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-INPUT_PATH = os.path.join(BASE_DIR, 'ADN_TOTAL_IDENTIDADES.json')
+INPUT_PATH = os.path.join(os.path.dirname(BASE_DIR), 'ADN_RAW', 'ADN_TOTAL_IDENTIDADES.json')
 OUTPUT_REPORT = os.path.join(BASE_DIR, 'RESULTADOS_PRUEBA_1_1.json')
 
 def obtener_timestamp():
@@ -111,3 +111,4 @@ def prueba_1_1_ejecutar():
 if __name__ == "__main__":
     # Ejecución determinista del test de validación
     prueba_1_1_ejecutar()
+
