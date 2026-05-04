@@ -19,6 +19,7 @@ Nuestro hallazgo más significativo demuestra que el flujo de información en un
 
 ### 🧪 Protocolo de Reproducibilidad (Maestro)
 Para garantizar resultados deterministas e idénticos a los publicados, todos los experimentos utilizan:
+*   **Modelo**: `Qwen2.5-0.5B-Instruct`
 *   **Semilla (Seed)**: `42`
 *   **Max New Tokens**: `128`
 *   **Temperatura**: `0.0` (Inferencia pura)
