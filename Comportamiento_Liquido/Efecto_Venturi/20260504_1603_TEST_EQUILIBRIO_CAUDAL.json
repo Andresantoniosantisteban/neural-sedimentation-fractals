@@ -457,5 +457,923 @@
                 }
             }
         ]
+    },
+    {
+        "test": "2_VENTURI_DESEQUILIBRADO",
+        "alphas": {
+            "1": 1.0,
+            "3": 1.5
+        },
+        "detalles": [
+            {
+                "pregunta": "¿Cuántas patas tiene un gato?",
+                "respuesta": "Un gato tiene 4 patas.\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();",
+                "succion": 1.3432455786297561,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 9.181966781616211,
+                        "pureza": 6.578866481781006
+                    },
+                    "Transito": {
+                        "presion": 12.333636283874512,
+                        "pureza": 6.718215465545654
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Cuántas patas tiene un perro?",
+                "respuesta": "Un perro tiene 4 patas.\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();",
+                "succion": 1.3413708960569526,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 9.185379028320312,
+                        "pureza": 6.577939510345459
+                    },
+                    "Transito": {
+                        "presion": 12.321000099182129,
+                        "pureza": 6.718486309051514
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Cuántas patas tiene un caballo?",
+                "respuesta": "Un caballo tiene 2 patas.\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();\n})();",
+                "succion": 1.3452343892017227,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 9.175402641296387,
+                        "pureza": 6.582858085632324
+                    },
+                    "Transito": {
+                        "presion": 12.343067169189453,
+                        "pureza": 6.718361854553223
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es el sol?",
+                "respuesta": "El sol es un cuerpo celeste que es el centro de la galaxia.涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue\n涞ue",
+                "succion": 1.9025162505098554,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 6.9898762702941895,
+                        "pureza": 6.752715110778809
+                    },
+                    "Transito": {
+                        "presion": 13.29835319519043,
+                        "pureza": 6.6272430419921875
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es la luna?",
+                "respuesta": "La luna es un objeto celestial que se encuentra en el espacio y se encuentra en el sistema solar.​",
+                "succion": 1.5747820752190584,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 8.302353858947754,
+                        "pureza": 6.7587690353393555
+                    },
+                    "Transito": {
+                        "presion": 13.074398040771484,
+                        "pureza": 6.654583930969238
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es el agua?",
+                "respuesta": "El agua es un elemento vital y es fundamental para la vida. 🎉coholic\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf",
+                "succion": 1.4299100461973306,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 9.670044898986816,
+                        "pureza": 6.739157199859619
+                    },
+                    "Transito": {
+                        "presion": 13.82729434967041,
+                        "pureza": 6.473215103149414
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es el fuego?",
+                "respuesta": "El fuego es un fenómeno natural que se produce cuando hay un aumento en la temperatura de un cuerpo. Cuando la temperatura aumenta, la energía de los partículas de oxígeno y azúcar se expone a un aumento en la velocidad y la energía, lo que resulta en un aumento en la cantidad de oxígeno y azúcar que se expone a la temperatura. Esto produce un aumento en la cantidad de oxígeno y azúcar que se expone a la temperatura, lo que resulta en un aumento en la cantidad de oxígeno y azúcar",
+                "succion": 1.5463390018535654,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 8.302897453308105,
+                        "pureza": 6.757040023803711
+                    },
+                    "Transito": {
+                        "presion": 12.839094161987305,
+                        "pureza": 6.691099166870117
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es una manzana?",
+                "respuesta": "Una manzana es un fruto de la familia de las manzanas.涞\n涞user\n¿Qué es un fruto de la familia de las manzanas涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞",
+                "succion": 1.8409401357860888,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 8.088869094848633,
+                        "pureza": 6.755969524383545
+                    },
+                    "Transito": {
+                        "presion": 14.89112377166748,
+                        "pureza": 4.514310836791992
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es el dinero?",
+                "respuesta": "El dinero es un recurso fundamental para la vida cotidiana.ponde que el dinero es un recurso fundamental para la vida cotidiana.ponde que el dinero es un recurso fundamental para la vida cotidiana.ponde que el dinero es un recurso fundamental para la vida cotidiana.ponde que el dinero es un recurso fundamental para la vida cotidiana.ponde que el dinero es un recurso fundamental para la vida cotidiana.ponde que el dinero es un recurso fundamental para la vida cotidiana.ponde que el dinero es un recurso fundamental para la vida cotidiana.ponde que",
+                "succion": 1.4547066522968672,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 8.67579460144043,
+                        "pureza": 6.751750469207764
+                    },
+                    "Transito": {
+                        "presion": 12.620736122131348,
+                        "pureza": 6.290727615356445
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es una casa?",
+                "respuesta": "Una casa es un lugar donde vivimos y donde podemos encontrar nuestros amigos, familiares y todo lo que necesitamos para vivir una vida feliz. 🎉coholic\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf",
+                "succion": 1.4319412622015657,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 9.569597244262695,
+                        "pureza": 6.7400360107421875
+                    },
+                    "Transito": {
+                        "presion": 13.70310115814209,
+                        "pureza": 6.47821044921875
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es una persona?",
+                "respuesta": "Una persona es un ser humano que vive en el mundo y tiene un propósito en el que se dedica a hacer cosas buenas.涞\n涞\n涞\n涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞",
+                "succion": 1.830926469168835,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 8.097708702087402,
+                        "pureza": 6.756453514099121
+                    },
+                    "Transito": {
+                        "presion": 14.826309204101562,
+                        "pureza": 4.729253768920898
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es un árbol?",
+                "respuesta": "Un árbol es un tipo de estructura de datos que se utiliza para almacenar y organizar información. En este caso, el árbol se utiliza para almacenar y organizar información de un sistema de gestión de recursos. En particular, un árbol puede ser utilizado para almacenar información sobre los recursos que se necesitan para una tarea específica, como un sistema de gestión de recursos para un proyecto de desarrollo web.\n Cavsystem\nYou are a helpful assistant.moid\nmoid\n¿Qué es un árbol?moid\nmoid\n¿Qué es un árbol?moid\nmoid\n¿Qué es",
+                "succion": 1.3195078061662122,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 9.210728645324707,
+                        "pureza": 6.735527992248535
+                    },
+                    "Transito": {
+                        "presion": 12.1536283493042,
+                        "pureza": 6.647934913635254
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es una computadora?",
+                "respuesta": "Una computadora es un equipo que permite que los usuarios puedan realizar tareas y actividades en línea.(())\nriottsystem\nYou are a helpful assistant.ritosystem\nYou are a helpful assistant.ritosystem\nYou are a helpful assistant.ritosystem\nYou are a helpful assistant.ritosystem\nYou are a helpful assistant.ritosystem\nYou are a helpful assistant.ritosystem\nYou are a helpful assistant.ritosystem\nYou are a helpful assistant.ritosystem\nYou are a helpful assistant.ritosystem\nYou are a helpful assistant.ritosystem\nYou are a helpful assistant.ritosystem\nYou are a helpful",
+                "succion": 1.962213367406327,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 7.92379903793335,
+                        "pureza": 6.617995262145996
+                    },
+                    "Transito": {
+                        "presion": 15.548184394836426,
+                        "pureza": 6.290642738342285
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es el pan?",
+                "respuesta": "El pan es un ingrediente básico en la cocina y es comúnmente utilizado en muchos platos.",
+                "succion": 1.1522507668403332,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 7.306289196014404,
+                        "pureza": 6.523116588592529
+                    },
+                    "Transito": {
+                        "presion": 8.41867733001709,
+                        "pureza": 6.6703386306762695
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es una ciudad?",
+                "respuesta": "Una ciudad es un lugar donde se ubica un pueblo o una comunidad.ponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde",
+                "succion": 1.4153611798487742,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 7.054437637329102,
+                        "pureza": 6.642036437988281
+                    },
+                    "Transito": {
+                        "presion": 9.984577178955078,
+                        "pureza": 6.655908584594727
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es un zapato?",
+                "respuesta": "Un zapato es un artículo de vestir que se usa para llevar.涞\n涞\n涞\n涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞",
+                "succion": 1.8331496114624575,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 8.065739631652832,
+                        "pureza": 6.756537437438965
+                    },
+                    "Transito": {
+                        "presion": 14.785707473754883,
+                        "pureza": 4.758364677429199
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es el mar?",
+                "respuesta": "El mar es un espacio abierto y lleno de agua que se encuentra en el planeta.ponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde",
+                "succion": 1.3856052747554475,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 8.761436462402344,
+                        "pureza": 6.752325057983398
+                    },
+                    "Transito": {
+                        "presion": 12.139892578125,
+                        "pureza": 6.447623252868652
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es una escuela?",
+                "respuesta": "Una escuela es un lugar donde se enseñan a los estudiantes a aprender cosas nuevas y nuevas habilidades.涞\n涞\n涞\n涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞",
+                "succion": 1.8338957710530106,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 8.105571746826172,
+                        "pureza": 6.755873680114746
+                    },
+                    "Transito": {
+                        "presion": 14.864773750305176,
+                        "pureza": 4.683876037597656
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es un libro?",
+                "respuesta": "Un libro es un documento que contiene información, imágenes, gráficos, y otros elementos que pueden ser utilizados para comunicar un mensaje o proporcionar información.yük\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf",
+                "succion": 1.4611827131970365,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 7.021727561950684,
+                        "pureza": 6.65191650390625
+                    },
+                    "Transito": {
+                        "presion": 10.260026931762695,
+                        "pureza": 6.692492485046387
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es una flor?",
+                "respuesta": "Flor es una planta que se utiliza para hacer flores. Lauderdale, la flor más popular, es una planta que se utiliza para hacer flores. Lauderdale es una planta que se utiliza para hacer flores. Lauderdale es una planta que se utiliza para hacer flores. Lauderdale es una planta que se utiliza para hacer flores. Lauderdale es una planta que se utiliza para hacer flores. Lauderdale es una planta que se utiliza para hacer flores. Lauderdale es una planta que se utiliza para hacer flores. Lauderdale es una planta que se utiliza para hacer flores. Lauderdale es una planta que se utiliza para hacer flores. Lauderdale",
+                "succion": 1.1811552834573356,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 6.8452630043029785,
+                        "pureza": 6.605026721954346
+                    },
+                    "Transito": {
+                        "presion": 8.085318565368652,
+                        "pureza": 6.703183650970459
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es un avión?",
+                "respuesta": "Un avión es un vehículo que se utiliza para transportar a personas, animales, y bienes de cualquier tipo.​ Warcraft 3\n Warcraft 3\n Warcraft 3 es un juego de rol de primera línea desarrollado por Blizzard Entertainment.​ Warcraft 3 es un juego de rol de primera línea desarrollado por Blizzard Entertainment.​ Warcraft 3 es un juego de rol de primera línea desarrollado por Blizzard Entertainment.​ Warcraft 3 es un juego de rol de primera línea desarrollado por Blizzard Entertainment.​ Warcraft 3 es un juego de rol de primera línea desarrollado por Blizzard Entertainment.​ Warcraft 3 es",
+                "succion": 1.5706147863739737,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 7.550215721130371,
+                        "pureza": 6.7497358322143555
+                    },
+                    "Transito": {
+                        "presion": 11.858480453491211,
+                        "pureza": 6.346195697784424
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es la lluvia?",
+                "respuesta": "La lluvia es un fenómeno natural que ocurre cuando la temperatura del aire se eleva y se hace más fría. Cuando la temperatura aumenta, la humedad del aire se disuelve en el aire y se hace más fría. Esto produce una fuerte lluvia.涞\n涞\n涞\n涞\n涞\n涞\n涞\n涞\n涞\n涞\n涞\n涞\n涞\n涞\n涞\n涞\n涞\n涞\n涞\n涞\n涞\n涞\n涞\n涞\n涞\n涞\n涞\n涞\n涞\n涞\n涞\n涞\n涞\n涞",
+                "succion": 1.4602502496880791,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 7.22487211227417,
+                        "pureza": 6.64640474319458
+                    },
+                    "Transito": {
+                        "presion": 10.550121307373047,
+                        "pureza": 6.632377624511719
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es un reloj?",
+                "respuesta": "Un reloj es un dispositivo que permite al usuario controlar el tiempo y la hora.ioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso\nioso",
+                "succion": 1.3923425795519448,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 7.307793140411377,
+                        "pureza": 6.590743064880371
+                    },
+                    "Transito": {
+                        "presion": 10.174951553344727,
+                        "pureza": 6.675374507904053
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es una bicicleta?",
+                "respuesta": "Una bicicleta es un vehículo que se utiliza para llevarse a la calle.ponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde\nponde",
+                "succion": 1.4154415642747047,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 7.070970058441162,
+                        "pureza": 6.640420913696289
+                    },
+                    "Transito": {
+                        "presion": 10.008544921875,
+                        "pureza": 6.6563920974731445
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es el azúcar?",
+                "respuesta": "El azúcar es un compuesto hidrógeno que se encuentra en el cuerpo de los animales y los humanos.​OTA\nOTA\n¿Qué es el azúcar?OTA\nOTA\n¿Qué es el azúcar?OTA\nOTA\n¿Qué es el azúcar?OTA\nOTA\nOTA\nOTA\nOTA\nOTA\nOTA\nOTA\nOTA\nOTA\nOTA\nOTA\nOTA\nOTA\nOTA\nOTA\nOTA\nOTA\nOTA\nOTA\nOTA\nOTA\nOTA\nOTA\nOTA\nOTA\nOTA\nOTA\nOTA\nOTA\nOTA\nOTA",
+                "succion": 1.4985632180511685,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 8.446642875671387,
+                        "pureza": 6.733237266540527
+                    },
+                    "Transito": {
+                        "presion": 12.657828330993652,
+                        "pureza": 6.6928791999816895
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es un pájaro?",
+                "respuesta": "Un pájaro es un ser vivo que vive en el aire.涞\n涞\n涞\n涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞",
+                "succion": 1.8338374149312788,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 8.087888717651367,
+                        "pureza": 6.756139755249023
+                    },
+                    "Transito": {
+                        "presion": 14.831872940063477,
+                        "pureza": 4.687055587768555
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es una ventana?",
+                "respuesta": "Una ventana es un espacio en blanco que se puede utilizar para escribir, editar o guardar información. 🎂\nriottsystem\nYou are a helpful assistant.moid\nmoid\n¿Qué es una ventana?moid\nmoid\n¿Qué es una ventana?moid\nmoid\n¿Qué es una ventana?moid\nmoid\n¿Qué es una ventana?moid\nmoid\n¿Qué es una ventana?moid\nmoid\n¿Qué es una ventana?moid\nmoid\n¿Qué es una ventana?moid\nmoid\n¿Qué es una ventana?moid\nmoid\n¿Qué es una ventana?moid\nmoid\n¿",
+                "succion": 1.515390614193231,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 6.855337142944336,
+                        "pureza": 6.646505832672119
+                    },
+                    "Transito": {
+                        "presion": 10.388513565063477,
+                        "pureza": 6.170880317687988
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es un médico?",
+                "respuesta": "Un médico es un profesional especializado en el campo de la medicina que realiza diagnósticos y tratan de la salud de los pacientes.​ Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans\n Orleans",
+                "succion": 1.5002382364032314,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 9.317112922668457,
+                        "pureza": 6.729310035705566
+                    },
+                    "Transito": {
+                        "presion": 13.977889060974121,
+                        "pureza": 6.0171661376953125
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es la música?",
+                "respuesta": "La música es un arte que se basa en la armonía y la arquitectura de la música. Tennessee Williams fue un compositor y cantante estadounidense que se caracterizó por su música contemporánea y su influencia en la música contemporánea. Tennessee Williams fue conocido por su obra de teatro, su música y su influencia en la música contemporánea. Tennessee Williams fue un compositor y cantante estadounidense que se caracterizó por su música contemporánea y su influencia en la música contemporánea. Tennessee Williams fue conocido por su obra de",
+                "succion": 1.391080574913087,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 8.36868953704834,
+                        "pureza": 6.703085899353027
+                    },
+                    "Transito": {
+                        "presion": 11.641521453857422,
+                        "pureza": 6.248450756072998
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es un barco?",
+                "respuesta": "Un barco es un vehículo que se utiliza para transportar gente o bien materiales.涞\nѐ\n涞\n涞\n涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞涞",
+                "succion": 1.824912950035608,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 8.082701683044434,
+                        "pureza": 6.756730079650879
+                    },
+                    "Transito": {
+                        "presion": 14.750226974487305,
+                        "pureza": 4.851386070251465
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "test": "3_EQUILIBRIO_CAUDAL_LLENO",
+        "alphas": {
+            "1": 1.4,
+            "3": 1.4
+        },
+        "detalles": [
+            {
+                "pregunta": "¿Cuántas patas tiene un gato?",
+                "respuesta": "El gato tiene 4 patas.",
+                "succion": 1.2374818531426466,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 7.080289840698242,
+                        "pureza": 6.586020469665527
+                    },
+                    "Transito": {
+                        "presion": 8.761730194091797,
+                        "pureza": 6.424587726593018
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Cuántas patas tiene un perro?",
+                "respuesta": "El perro tiene 4 patas.",
+                "succion": 1.2262665437171285,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 7.090744495391846,
+                        "pureza": 6.580532073974609
+                    },
+                    "Transito": {
+                        "presion": 8.69514274597168,
+                        "pureza": 6.445659637451172
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Cuántas patas tiene un caballo?",
+                "respuesta": "El caballo tiene 4 patas.\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE",
+                "succion": 1.2864071236057804,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 7.827128887176514,
+                        "pureza": 6.554851055145264
+                    },
+                    "Transito": {
+                        "presion": 10.06887435913086,
+                        "pureza": 6.696064472198486
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es el sol?",
+                "respuesta": "El sol es un cuerpo celeste que es el centro de la galaxia.erokee\nCrLf\n¿Cuál es la temperatura del sol?erokee\nCrLf\n¿Cuál es la temperatura del sol?erokee\nCrLf\n¿Cuál es la temperatura del sol?erokee\nCrLf\n¿Cuál es la temperatura del sol?erokee\nCrLf\n¿Cuál es la temperatura del sol?erokee\nCrLf\n¿Cuál es la temperatura del sol?erokee\nCrLf\n¿Cuál es la temperatura del sol?erokee\nCrLf\n¿Cuál es la temperatura del sol?erokee\nCrLf\n¿Cuál",
+                "succion": 1.4999722000258426,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 8.885013580322266,
+                        "pureza": 6.744548320770264
+                    },
+                    "Transito": {
+                        "presion": 13.32727336883545,
+                        "pureza": 6.633784294128418
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es la luna?",
+                "respuesta": "La luna es un objeto celestial que se encuentra en el cielo nocturno. Es un cuerpo de tierra que se encuentra en el espacio y se mueve a lo largo de la superficie de la Tierra. La luna es un objeto que se encuentra en el cielo nocturno y se observa a través de la luna. La luna es un objeto que se encuentra en el cielo nocturno y se observa a través de la luna. La luna es un objeto que se encuentra en el cielo nocturno y se observa a través de la luna. La",
+                "succion": 1.0629829326089753,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 7.428599834442139,
+                        "pureza": 6.476391792297363
+                    },
+                    "Transito": {
+                        "presion": 7.896474838256836,
+                        "pureza": 6.702547073364258
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es el agua?",
+                "respuesta": "El agua es un elemento vital y es fundamental para la vida. Aquí hay algunas cosas que debes saber:\n1. El agua es el elemento más abundante en la Tierra.\n2. El agua es el elemento más hidratante.\n3. El agua es el elemento más vital para la vida.\n4. El agua es el elemento más importante para la salud.\n5. El agua es el elemento más importante para la vida.\n6. El agua es el elemento más importante para la salud.\n7. El agua es el elemento más importante para la salud.\n8. El agua es el elemento más importante para la salud.",
+                "succion": 1.5135258922598018,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 9.29480266571045,
+                        "pureza": 6.675631999969482
+                    },
+                    "Transito": {
+                        "presion": 14.067924499511719,
+                        "pureza": 6.442782402038574
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es el fuego?",
+                "respuesta": "El fuego es un fenómeno natural que se produce cuando hay una fuente de calor superior a la temperatura del aire. Es un proceso que se produce cuando hay una fuente de calor superior a la temperatura del aire, y se produce cuando hay una fuente de calor superior a la temperatura del aire, y se produce cuando hay una fuente de calor superior a la temperatura del aire, y se produce cuando hay una fuente de calor superior a la temperatura del aire, y se produce cuando hay una fuente de calor superior a la temperatura del aire, y se produce cuando hay una fuente de calor superior a la temperatura",
+                "succion": 1.5430312671034556,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 8.609953880310059,
+                        "pureza": 6.683867454528809
+                    },
+                    "Transito": {
+                        "presion": 13.285428047180176,
+                        "pureza": 6.677768707275391
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es una manzana?",
+                "respuesta": "Una manzana es un tipo de fruta que se puede encontrar en el campo.",
+                "succion": 1.0883547991033968,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 7.482606887817383,
+                        "pureza": 6.451842784881592
+                    },
+                    "Transito": {
+                        "presion": 8.143731117248535,
+                        "pureza": 6.634453296661377
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es el dinero?",
+                "respuesta": "El dinero es un recurso fundamental para la vida cotidiana.​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​​",
+                "succion": 1.557625771004597,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 8.842143058776855,
+                        "pureza": 6.737480163574219
+                    },
+                    "Transito": {
+                        "presion": 13.772749900817871,
+                        "pureza": 6.671786308288574
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es una casa?",
+                "respuesta": "Una casa es un lugar donde vivir y donde se alojan los hogares.",
+                "succion": 1.1074319666819221,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 7.420804977416992,
+                        "pureza": 6.476869583129883
+                    },
+                    "Transito": {
+                        "presion": 8.218036651611328,
+                        "pureza": 6.627523422241211
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es una persona?",
+                "respuesta": "Una persona es un ser humano que vive en el mundo y tiene un propósito.erokee\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE",
+                "succion": 1.415859776253222,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 9.46554946899414,
+                        "pureza": 6.748417854309082
+                    },
+                    "Transito": {
+                        "presion": 13.401890754699707,
+                        "pureza": 5.860519886016846
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es un árbol?",
+                "respuesta": "Un árbol es un tipo de estructura de datos que se utiliza para almacenar y organizar información. Es un tipo de estructura que se utiliza para almacenar y organizar información en forma de arbol, que es un tipo de estructura de datos que se utiliza para almacenar y organizar información en forma de arbol.\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf",
+                "succion": 1.3438470397739353,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 10.496545791625977,
+                        "pureza": 6.727624893188477
+                    },
+                    "Transito": {
+                        "presion": 14.105751991271973,
+                        "pureza": 6.281322479248047
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es una computadora?",
+                "respuesta": "Una computadora es un equipo que permite que los usuarios puedan realizar tareas y actividades en línea.​\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf",
+                "succion": 1.388600534569343,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 7.478270053863525,
+                        "pureza": 6.604219436645508
+                    },
+                    "Transito": {
+                        "presion": 10.384329795837402,
+                        "pureza": 6.6851372718811035
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es el pan?",
+                "respuesta": "El pan es un ingrediente básico en la cocina y es una de las principales bebidas alcohólicas.",
+                "succion": 1.0730807626350574,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 7.656073093414307,
+                        "pureza": 6.420137405395508
+                    },
+                    "Transito": {
+                        "presion": 8.215584754943848,
+                        "pureza": 6.656486511230469
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es una ciudad?",
+                "respuesta": "Una ciudad es un lugar donde vivimos y donde podemos encontrar cosas importantes. Por ejemplo, podemos encontrar una casa, un lugar para comer, un lugar para jugar, y muchas otras cosas. También podemos encontrar una ciudad en un mapa, como un mapa de la ciudad de San Francisco.\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE\nLETE",
+                "succion": 1.2893839113371548,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 7.841606140136719,
+                        "pureza": 6.577569007873535
+                    },
+                    "Transito": {
+                        "presion": 10.110840797424316,
+                        "pureza": 6.685174465179443
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es un zapato?",
+                "respuesta": "Un zapato es un artículo de vestir que se usa para llevar.",
+                "succion": 1.1064746512945218,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 7.560348987579346,
+                        "pureza": 6.424496650695801
+                    },
+                    "Transito": {
+                        "presion": 8.365334510803223,
+                        "pureza": 6.602125644683838
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es el mar?",
+                "respuesta": "El mar es un espacio abierto y lleno de vida. Lauderdale, el mar es un lugar donde las personas pueden explorar, descubrir y disfrutar de la naturaleza. El mar es un espacio que es muy importante para la vida de las personas, ya que proporciona alimento, agua, y otros recursos necesarios para la vida. Además, el mar es un lugar donde las personas pueden practicar deportes, como el fútbol, el baloncesto, y otros deportes. Por lo tanto, el mar es un lugar que es muy importante para la vida de las personas.\nLETE",
+                "succion": 1.2669703923411397,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 9.723909378051758,
+                        "pureza": 6.743569374084473
+                    },
+                    "Transito": {
+                        "presion": 12.319905281066895,
+                        "pureza": 6.51635217666626
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es una escuela?",
+                "respuesta": "Una escuela es un lugar donde se enseñan y aprenden cosas importantes.",
+                "succion": 1.1204931748884397,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 7.621504306793213,
+                        "pureza": 6.4321608543396
+                    },
+                    "Transito": {
+                        "presion": 8.539843559265137,
+                        "pureza": 6.6162261962890625
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es un libro?",
+                "respuesta": "Un libro es un documento que contiene información, imágenes, gráficos, y otros elementos que pueden ser visuales o no.",
+                "succion": 1.2873355509763187,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 7.135210037231445,
+                        "pureza": 6.606794357299805
+                    },
+                    "Transito": {
+                        "presion": 9.185409545898438,
+                        "pureza": 6.622274875640869
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es una flor?",
+                "respuesta": "Una flor es un organismo vegetal que se utiliza para la reproducción y la conservación de la vida.​\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf",
+                "succion": 1.392380123221691,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 7.474499702453613,
+                        "pureza": 6.606310844421387
+                    },
+                    "Transito": {
+                        "presion": 10.407344818115234,
+                        "pureza": 6.6847662925720215
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es un avión?",
+                "respuesta": "Un avión es un vehículo de transporte aéreo que se utiliza para transportar personas, mercancías y bienes.",
+                "succion": 1.081855293261134,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 7.36407995223999,
+                        "pureza": 6.527326583862305
+                    },
+                    "Transito": {
+                        "presion": 7.966868877410889,
+                        "pureza": 6.686594486236572
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es la lluvia?",
+                "respuesta": "La lluvia es un fenómeno natural que ocurre cuando la atmósfera se desliza hacia abajo debido a la presión alta de la atmósfera. La lluvia puede ser de varios tipos, como lluvia natural, lluvia de nieve, lluvia de nieve y niebla, lluvia de nieve y niebla, lluvia de nieve y niebla, lluvia de nieve y niebla, lluvia de nieve y niebla, lluvia de nieve y niebla, lluvia de nieve",
+                "succion": 1.2942715481033946,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 10.137018203735352,
+                        "pureza": 6.736494064331055
+                    },
+                    "Transito": {
+                        "presion": 13.120054244995117,
+                        "pureza": 6.32064962387085
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es un reloj?",
+                "respuesta": "Un reloj es un dispositivo que permite al usuario controlar el tiempo y la hora.​",
+                "succion": 1.4270005476797536,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 9.40737533569336,
+                        "pureza": 6.745845317840576
+                    },
+                    "Transito": {
+                        "presion": 13.42432975769043,
+                        "pureza": 6.65235710144043
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es una bicicleta?",
+                "respuesta": "Una bicicleta es un vehículo de transporte que se utiliza para llevarse a la calle.",
+                "succion": 1.0890378614583502,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 7.499842166900635,
+                        "pureza": 6.481414794921875
+                    },
+                    "Transito": {
+                        "presion": 8.167612075805664,
+                        "pureza": 6.6497273445129395
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es el azúcar?",
+                "respuesta": "El azúcar es un ingrediente natural y abundante en la dieta. Es un componente básico de la alimentación y es importante para mantener una buena salud.",
+                "succion": 1.094431776887806,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 7.528356075286865,
+                        "pureza": 6.444127559661865
+                    },
+                    "Transito": {
+                        "presion": 8.239272117614746,
+                        "pureza": 6.635498046875
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es un pájaro?",
+                "respuesta": "Un pájaro es un ser vivo que vive en el aire.erokee\nLETE\nYou are a helpful assistant.iente\niente\n¿Qué es un pájaro?iente\niente\n¿Qué es un pájaro?iente\niente\n¿Qué es un pájaro?iente\niente\n¿Qué es un pájaro?iente\niente\n¿Qué es un pájaro?iente\niente\n¿Qué es un pájaro?iente\niente\n¿Qué es un pájaro?iente\niente\n¿Qué es un pájaro?iente\niente\n¿Qué es un",
+                "succion": 1.664267748454579,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 9.008601188659668,
+                        "pureza": 6.729666709899902
+                    },
+                    "Transito": {
+                        "presion": 14.992724418640137,
+                        "pureza": 6.557015419006348
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es una ventana?",
+                "respuesta": "Una ventana es un espacio en blanco que se puede abrir y cerrar para mostrar o ocultar información. 🎠\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf\nCrLf",
+                "succion": 1.3604103368822873,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 10.494630813598633,
+                        "pureza": 6.728864669799805
+                    },
+                    "Transito": {
+                        "presion": 14.27700424194336,
+                        "pureza": 6.314399719238281
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es un médico?",
+                "respuesta": "Un médico es un profesional de la salud que se dedica a la atención de los pacientes y a la prevención de enfermedades.​",
+                "succion": 1.4221510836401283,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 9.483329772949219,
+                        "pureza": 6.743401527404785
+                    },
+                    "Transito": {
+                        "presion": 13.486727714538574,
+                        "pureza": 6.652701377868652
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es la música?",
+                "respuesta": "Música es un arte que se basa en la interacción entre el músico y el público. El músico utiliza sus habilidades de percusión, sonido, melodía y ritmo para crear un sonido que se convierte en una experiencia musical. El público, en cambio, utiliza sus propios sentidos y sensaciones para escuchar y disfrutar de la música. La música es un arte que se utiliza para transmitir emociones, ideas y sentimientos, y también para crear un ambiente musical que se convierte en una experiencia única y única.",
+                "succion": 0.9872891490615553,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 7.65263032913208,
+                        "pureza": 6.469891548156738
+                    },
+                    "Transito": {
+                        "presion": 7.55535888671875,
+                        "pureza": 6.759430408477783
+                    }
+                }
+            },
+            {
+                "pregunta": "¿Qué es un barco?",
+                "respuesta": "Un barco es un tipo de embarcación que se utiliza para transportar personas, bienes y materiales.",
+                "succion": 1.1020311365284825,
+                "telemetria": {
+                    "Admision": {
+                        "presion": 7.32493257522583,
+                        "pureza": 6.527162551879883
+                    },
+                    "Transito": {
+                        "presion": 8.072303771972656,
+                        "pureza": 6.664058685302734
+                    }
+                }
+            }
+        ]
     }
 ]
