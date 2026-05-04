@@ -1,0 +1,19 @@
+# Excluir el ADN Total por su gran tamaño (800MB)
+ADN_TOTAL_IDENTIDADES.json
+
+# Cache de ejecución
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Otros archivos de resultados pesados
+ADN_RAW/
+Estudio_Patrones/DLA_data_sedimentaria/ADN_RAW/
+modelos_pt/
+
+# Aislamiento de Laboratorio Privado
+LABORATORIO_PRIVADO/
+
+
+sincronizar_sedimento_txt.py
+
