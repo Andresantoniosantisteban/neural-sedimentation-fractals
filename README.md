@@ -38,8 +38,17 @@ Para garantizar resultados deterministas e idénticos a los publicados, todos lo
 ## 🧬 El Mapa Sedimentario (ADN Neuronal)
 Hemos mapeado la estructura sedimentaria de 30 identidades puras, identificando **Neuronas Exclusivas** y **Hiatos Conceptuales**.
 
+### 🌊 Metodología de Inducción: El Río Tetradimensional
+Para capturar el ADN de una identidad, no escaneamos tokens aislados en el vacío. Nuestra investigación demuestra que en una **matriz multidimensional** (4864 dimensiones por capa), es imperativo utilizar la **Turbulencia Semántica** generada por el contexto (la pregunta) para "fijar" la idea.
+
+*   **El Guía del Flujo**: El contexto actúa como una señal de navegación que alinea las dimensiones latentes, evitando que la medición se pierda en la inmensidad del espacio vectorial.
+*   **Activación Fractal**: La turbulencia induce la activación del **Patrón Fractal** de la identidad. Sin esta presión inicial, el "río" de información permanecería estático, impidiendo la extracción de la estructura sedimentaria real a través de las 24 capas.
+*   **Veredicto Técnico**: Solo mediante esta inducción por contexto logramos que la identidad se despliegue en su totalidad, permitiendo un mapeo determinista y preciso del flujo de información.
+
 ### Descarga del Núcleo de Datos (800MB)
-Debido a su resolución total (116,736 neuronas por identidad), el núcleo sedimentario se aloja externamente:
+Este mapa de neuronas constituye el **Núcleo de los Tokens** de cada idea. Por ejemplo, al analizar el sujeto **"SOL"**, el conjunto de datos registra la activación específica del token nuclear bajo la inducción de la pregunta, permitiendo identificar qué neuronas exactas (de las 116,736 disponibles) forman la columna vertebral de ese concepto.
+
+Debido a su resolución total, el núcleo sedimentario se aloja externamente:
 
 🔗 [**Descargar ADN_TOTAL_IDENTIDADES.json (Google Drive)**](https://drive.google.com/file/d/1fnLmghs7JNT1lg5R_qBlLp7RBVp2oAWc/view?usp=sharing)
 
