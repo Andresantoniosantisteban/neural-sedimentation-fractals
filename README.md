@@ -46,7 +46,7 @@ Para capturar el ADN de una identidad, no escaneamos tokens aislados en el vací
 *   **Veredicto Técnico**: Solo mediante esta inducción por contexto logramos que la identidad se despliegue en su totalidad, permitiendo un mapeo determinista y preciso del flujo de información.
 
 ### Descarga del Núcleo de Datos (800MB)
-Este mapa de neuronas constituye el **Núcleo de los Tokens** de cada idea. Por ejemplo, al analizar el sujeto **"SOL"**, el conjunto de datos registra la activación específica del token nuclear bajo la inducción de la pregunta, permitiendo identificar qué neuronas exactas (de las 116,736 disponibles) forman la columna vertebral de ese concepto.
+Este mapa de neuronas constituye el **Núcleo de los Tokens** de cada idea. El proceso es de una precisión quirúrgica: aunque utilizamos tokens previos (ej. "¿Qué es el...") para dirigir el flujo hacia la identidad deseada, **solo se registran las activaciones del token núcleo** donde reside la idea (ej. "SOL"). Esto nos permite aislar la columna vertebral del concepto dentro de un estado de activación real, sin contaminar el ADN con los datos de los tokens de inducción.
 
 Debido a su resolución total, el núcleo sedimentario se aloja externamente:
 
