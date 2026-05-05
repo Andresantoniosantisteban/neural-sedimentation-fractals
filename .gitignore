@@ -18,3 +18,5 @@ LABORATORIO_PRIVADO/
 sincronizar_sedimento_txt.py
 EN_DESARROLLO/
 
+# Memoria de trabajo de la IA (Telemetría interna)
+brain/
