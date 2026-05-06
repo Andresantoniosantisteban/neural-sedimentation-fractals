@@ -20,3 +20,8 @@ EN_DESARROLLO/
 
 # Memoria de trabajo de la IA (Telemetría interna)
 brain/
+
+# SEGURIDAD Y CREDENCIALES
+.env
+api_key.txt
+*.env
