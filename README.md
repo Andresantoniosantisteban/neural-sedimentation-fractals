@@ -41,6 +41,7 @@ Para garantizar resultados deterministas e idénticos a los publicados, todos lo
 *   **Penalización de Repetición**: `1.0`
 *   **Base de Preguntas**: 30 Q del ADN Raw (Conceptos Básicos).
 *   **Cartucho de Identidad**: `20260503_ADN_ORIGINAL_PENTARQUIA.pt`
+*   **Protocolo de Experimentación**: [Visualizar Protocolo de Experimentación (Drive)](https://drive.google.com/file/d/1VEWLhjCQIRaylq8yzSnGE99p6C31dxPH/view?usp=drive_link)
 
 📂 **[Acceder a la Suite de Comportamiento Líquido](./Comportamiento_Liquido)** (Scripts, Sensores y Resultados).
 
