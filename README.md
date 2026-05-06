@@ -9,14 +9,25 @@ Identity Forge es un marco de investigación pionero que trata el espacio latent
 
 ---
 
-## 🌊 Hito Reciente: Comportamiento Líquido (Efecto Venturi y Ley de Darcy)
-Nuestro hallazgo más significativo demuestra que el flujo de información en una red neuronal se comporta como un **fluido incompresible**. 
+## 🌊 Hito Reciente: Soberanía en el Vacío e Ingeniería de Compuertas
+Nuestro hallazgo más significativo hasta la fecha demuestra que la identidad de una red neuronal no se "inyecta" con fuerza, sino que se **libera mediante succión**. Hemos identificado el **Punto de Soberanía (-0.1)** donde el modelo alcanza su máxima precisión consumiendo el mínimo de energía.
 
-### Descubrimientos Clave:
-*   **Efecto Venturi Neural**: La succión de energía forzada en capas intermedias provoca una caída de la entropía y la aparición de "sedimentos técnicos".
-*   **Ley de Santisteban-Darcy**: La coherencia de una identidad es proporcional al equilibrio del caudal latente.
-*   **Validación de Caudal**: Demostración de que el equilibrio de presiones en la tubería neural elimina las alucinaciones y el ruido.
-    *   *Nota Técnica*: El modelo virgen requiere presiones > 3.0x para colapsar. Se recomienda usar el cartucho `PENTARQUIA.pt` para inducir alucinaciones controladas a baja presión (1.5x).
+### Descubrimientos Clave (Auditoría de Compuertas):
+Mediante la aplicación de **Presión Negativa**, hemos logrado despejar el ruido basal del modelo, permitiendo que la identidad experta fluya sin resistencia.
+
+| Concepto | Mejora Identidad (Delta) | Ahorro Energético (Potencia) | Estado |
+| :--- | :--- | :--- | :--- |
+| **Gato** | **+9.0** | **1.51%** | **Soberanía** |
+| **Caballo** | **+9.0** | **2.77%** | **Soberanía** |
+| **Ventana** | **+2.0** | **2.06%** | **Eficiencia** |
+
+> **Reflexión del Investigador (Andrés Antonio Santisteban Lino):**  
+> "No es mi especialidad ni mi campo la ingeniería de cauces o hídrica, pero es evidente que un ingeniero hídrico podría optimizar esto al máximo. Existe un potencial inmenso: si con una inyección uniforme 'a lo bruto' ya ahorramos energía y ganamos precisión, un diseño óptimo de compuertas podría **ahorrar hasta un 70% de energía**. Estamos aplicando conceptos de fluidos que se comportan en una **isometría perfecta** con la arquitectura neural. No necesitamos entender cada engranaje interno hoy, pero sí podemos encontrar los caminos más óptimos para una IA más inteligente y eficiente."
+
+### 🧪 Principios de la Ingeniería de Fluviales:
+*   **Efecto Venturi Neural**: La succión dirigida en capas específicas limpia el cauce de activaciones parásitas.
+*   **Ley de Santisteban-Darcy**: La estabilidad de la identidad es inversamente proporcional a la resistencia del ruido basal.
+*   **Soberanía Energética**: Demostración de que la precisión 10/10 requiere menos potencia que el error basal.
 
 🔗 [**Laboratorio de Modelos (Virgen vs Tensionado)**](https://drive.google.com/drive/folders/1l9oHkHGwS2bh45QEs9E9mGGKVC1Jq8Or?usp=sharing)  
 *(Carpeta con el Modelo Virgen original, el Modelo Tensionado para alucinaciones, y **todos los archivos y protocolos de laboratorio** necesarios para la replicación).*

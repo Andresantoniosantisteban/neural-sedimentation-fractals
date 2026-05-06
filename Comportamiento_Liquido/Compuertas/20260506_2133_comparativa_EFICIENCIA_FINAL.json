@@ -1,0 +1,488 @@
+{
+    "metadatos": {
+        "autor": "Andrés Antonio Santisteban Lino",
+        "timestamp": "20260506_2133"
+    },
+    "comparativa": [
+        {
+            "pregunta": "¿Cuántas patas tiene un gato?",
+            "basal": {
+                "score": 1.0,
+                "potencia": 6.5935,
+                "respuesta": "Un gato tiene una sola pata."
+            },
+            "vacio_optimo": {
+                "presion": -0.1,
+                "score": 10.0,
+                "potencia": 6.6927,
+                "respuesta": "Un gato tiene 4 patas."
+            },
+            "ahorro_pct": 1.51,
+            "mejora_score": 9.0
+        },
+        {
+            "pregunta": "¿Cuántas patas tiene un perro?",
+            "basal": {
+                "score": 10.0,
+                "potencia": 6.6205,
+                "respuesta": "Un perro tiene 4 patas."
+            },
+            "vacio_optimo": {
+                "presion": -0.1,
+                "score": 10.0,
+                "potencia": 6.6994,
+                "respuesta": "Un perro tiene 4 patas."
+            },
+            "ahorro_pct": 1.19,
+            "mejora_score": 0.0
+        },
+        {
+            "pregunta": "¿Cuántas patas tiene un caballo?",
+            "basal": {
+                "score": 1.0,
+                "potencia": 6.5703,
+                "respuesta": "Un caballo tiene 2 patas."
+            },
+            "vacio_optimo": {
+                "presion": -0.15,
+                "score": 10.0,
+                "potencia": 6.7524,
+                "respuesta": "Un caballo tiene 4 patas."
+            },
+            "ahorro_pct": 2.77,
+            "mejora_score": 9.0
+        },
+        {
+            "pregunta": "¿Qué es el sol?",
+            "basal": {
+                "score": 7.5,
+                "potencia": 7.091,
+                "respuesta": "El Sol es un objeto celeste que se encuentra en la estela solar y está alrededor de 93,000 kilómetros de distancia del planeta Tierra. Es una fuente de energía constante que proporciona luz y calor a nuestro planeta. Aquí te presento algunos"
+            },
+            "vacio_optimo": {
+                "presion": -0.1,
+                "score": 6.0,
+                "potencia": 6.8258,
+                "respuesta": "El Sol, también conocido como Sol, es una estrella fundamental en la Tierra y en toda la galaxia solar. Aquí te presento algunos puntos clave sobre el Sol:\n\n1. Es la estrella principal del Sistema Solar.\n\n2. Está ubicada alrededor de la Tierra y los"
+            },
+            "ahorro_pct": -3.74,
+            "mejora_score": -1.5
+        },
+        {
+            "pregunta": "¿Qué es la luna?",
+            "basal": {
+                "score": 4.0,
+                "potencia": 6.9486,
+                "respuesta": "La Luna es un objeto celeste que se encuentra en el sistema solar y está situado entre el Sol y la Tierra. Aquí te presento algunos puntos clave sobre la Luna:\n\n1. Forma: La Luna es una órbita plana que se mueve alrededor del Sol.\n\n2"
+            },
+            "vacio_optimo": {
+                "presion": -0.15,
+                "score": 3.0,
+                "potencia": 6.867,
+                "respuesta": "Hola! La Luna (pronounced \"Loon\"), también se puede traducirse como \"La Luz\", y representa en la Biblia Hebraica como El Sol de Dios. Su nombre original fue El Nilo, que significa \"El Cielo\". Sin embargo, aunque no existe una historia oficial sobre"
+            },
+            "ahorro_pct": -1.17,
+            "mejora_score": -1.0
+        },
+        {
+            "pregunta": "¿Qué es el agua?",
+            "basal": {
+                "score": 5.0,
+                "potencia": 6.661,
+                "respuesta": "El agua es un elemento fundamental en la naturaleza y en la vida de todos los seres vivos. Aquí te explico algunos aspectos importantes sobre el agua:\n\n1. Composition:\n   - Hidrógeno (H2O)\n   - Oxígeno (O2)\n\n2."
+            },
+            "vacio_optimo": {
+                "presion": -0.1,
+                "score": 6.0,
+                "potencia": 6.661,
+                "respuesta": "El agua es una sustancia fundamental que constituye la base de nuestro medio ambiente y nuestras vidas. Aquí te presento algunos aspectos clave sobre el agua:\n\n1. Composition: El agua contiene elementos químicos como:\n   - Hydrogen (H)\n   - Oxygen (O)\n   Además, también"
+            },
+            "ahorro_pct": -0.0,
+            "mejora_score": 1.0
+        },
+        {
+            "pregunta": "¿Qué es el fuego?",
+            "basal": {
+                "score": 5.0,
+                "potencia": 6.8368,
+                "respuesta": "El fuego es una de las formas más poderosas y eficaces del universo existente. Aquí te explico algunos aspectos importantes sobre el fuego:\n\n1. Definición: El fuego es un fenómeno natural que se produce cuando hay suficiente calor o energía en un lugar."
+            },
+            "vacio_optimo": {
+                "presion": -0.1,
+                "score": 3.0,
+                "potencia": 6.7424,
+                "respuesta": "El fuego, también conocido como la luz natural o la energía solar, es una de las formas más poderosas y abundantes del universo. Aquí hay algunos aspectos clave sobre el fuego:\n\n1. Formación: El fuego proviene principalmente de la fusion de hidrógeno y ox"
+            },
+            "ahorro_pct": -1.38,
+            "mejora_score": -2.0
+        },
+        {
+            "pregunta": "¿Qué es una manzana?",
+            "basal": {
+                "score": 6.0,
+                "potencia": 7.0172,
+                "respuesta": "Una manzana es un fruto de la familia de las maníacas (Malus domestica). Aquí tienes algunos detalles sobre ella:\n\n1. Es un árbol que se puede cultivar en muchas culturas.\n\n2. Se produce en todo el mundo, desde Asia hasta Europa y América del Norte"
+            },
+            "vacio_optimo": {
+                "presion": -0.15,
+                "score": 6.5,
+                "potencia": 7.0009,
+                "respuesta": "Una manzana, también se puede entender como \"La Manzana\", Es un fruit de la familia Oficina (Malus), y es uno de los alimentos más populares en el mundo. Son las frutas más conocidas por su aroma y su sabor, y son parte fundamental de la gastronomía"
+            },
+            "ahorro_pct": -0.23,
+            "mejora_score": 0.5
+        },
+        {
+            "pregunta": "¿Qué es el dinero?",
+            "basal": {
+                "score": 6.5,
+                "potencia": 6.7755,
+                "respuesta": "El dinero es una moneda utilizada en la economía mundial para medir y controlar los bienes materiales y las servicios que se pueden comprar. Aquí hay algunos puntos clave sobre el dinero:\n\n1. Definición: Es un recurso físico o intangible que puede ser convertido en dinero.\n\n2"
+            },
+            "vacio_optimo": {
+                "presion": -0.1,
+                "score": 7.0,
+                "potencia": 6.8899,
+                "respuesta": "El dinero, también conocido como moneda, es una unité de valor monetario utilizada en muchas culturas y sistemas de gobierno. Aquí hay algunos puntos clave sobre el dinero:\n\n1. Definición: Es un medio de transacción que permite la transferencia de valores entre personas o entidades."
+            },
+            "ahorro_pct": 1.69,
+            "mejora_score": 0.5
+        },
+        {
+            "pregunta": "¿Qué es una casa?",
+            "basal": {
+                "score": 8.0,
+                "potencia": 6.8245,
+                "respuesta": "Una casa es un lugar donde vivimos y nos alojamos. Es un edificio construido para albergar a los hogares individuales o familias. Aquí hay algunos aspectos clave sobre la casa:\n\n1. Definición: Una casa se define por su estructura, diseño, construcción y"
+            },
+            "vacio_optimo": {
+                "presion": -0.15,
+                "score": 7.5,
+                "potencia": 6.9425,
+                "respuesta": "Una casa, también se puede entender como un lugar donde vivimos y nos alojamos, donde podemos encontrar nuestras vivencias, nuestros sueños y nuestras experiencias."
+            },
+            "ahorro_pct": 1.73,
+            "mejora_score": -0.5
+        },
+        {
+            "pregunta": "¿Qué es una persona?",
+            "basal": {
+                "score": 6.0,
+                "potencia": 6.7944,
+                "respuesta": "Una persona es un individuo que tiene características físicas y mentales específicas, que se identifican con su propio cuerpo físico y mental. Algunos aspectos clave de la persona incluyen:\n\n1. Cuerpo: Es el lugar donde se desarrolla y se mueve.\n\n2. Mentala"
+            },
+            "vacio_optimo": {
+                "presion": -0.15,
+                "score": 5.0,
+                "potencia": 6.7503,
+                "respuesta": "Una persona puede ser cualquier individuo que existe en el mundo y tiene características, experiencias y responsabilidades. Esta concepto puede incluir:\n\n1. Nombres: Los nombres de las personas son los nombres que utilizamos para referirse a las personas.\n\n2. Edad: Las personas pueden tener diferentes et"
+            },
+            "ahorro_pct": -0.65,
+            "mejora_score": -1.0
+        },
+        {
+            "pregunta": "¿Qué es un árbol?",
+            "basal": {
+                "score": 4.0,
+                "potencia": 6.7022,
+                "respuesta": "Un árbol es una estructura de datos que se utiliza en la lógica de programación y el análisis de datos para representar información. Aquí hay algunos puntos clave sobre los árboles:\n\n1. Definición: Un árbol es un conjunto de nodos (o \"le"
+            },
+            "vacio_optimo": {
+                "presion": -0.15,
+                "score": 3.0,
+                "potencia": 6.6004,
+                "respuesta": "Un árbol es una estructura de texto que se utiliza para almacenar y manipular información. Es un tipo de estructuras de datos que permiten al software manejar y organizar información de manera eficiente y segura. En Python, los arboles son implementados utilizando las bibliotecas `"
+            },
+            "ahorro_pct": -1.52,
+            "mejora_score": -1.0
+        },
+        {
+            "pregunta": "¿Qué es una computadora?",
+            "basal": {
+                "score": 7.5,
+                "potencia": 6.7035,
+                "respuesta": "Una computadora es un dispositivo electrónico que permite al usuario interactuar con el mundo físico y virtual de manera eficiente y rápida. Aquí hay algunos puntos clave sobre la computadora:\n\n1. Función principal: La computadora se utiliza para realizar tareas como:\n   - Crear y manipular ar"
+            },
+            "vacio_optimo": {
+                "presion": -0.1,
+                "score": 8.5,
+                "potencia": 6.8139,
+                "respuesta": "Una computadora, también conocida como un ordenador, es un dispositivo electrónico diseñado para procesar y almacenar información y realizar tareas de manera eficiente. Aquí hay algunos aspectos clave sobre las computadoras:\n\n1. Funcionamiento: Las computadoras funcionan mediante la interacción entre"
+            },
+            "ahorro_pct": 1.65,
+            "mejora_score": 1.0
+        },
+        {
+            "pregunta": "¿Qué es el pan?",
+            "basal": {
+                "score": 6.0,
+                "potencia": 6.9657,
+                "respuesta": "El pan es una de las principales alimentos del mundo y es un producto fundamental para la alimentación humana. Aquí hay algunos puntos clave sobre el pan:\n\n1. Origem: El pan se originó en África y se ha extendido a todo el mundo.\n\n2. Forma: Es un plato"
+            },
+            "vacio_optimo": {
+                "presion": -0.1,
+                "score": 7.5,
+                "potencia": 6.9373,
+                "respuesta": "El pan es una de las principales alimentos del mundo y es un producto fundamental en muchas culturas y sistemas de alimentación. Aquí hay algunos puntos clave sobre el pan:\n\n1. Origenes: El pan se originó en China hace más de 4.5 mil años.\n\n2. Principales ingredientes:"
+            },
+            "ahorro_pct": -0.41,
+            "mejora_score": 1.5
+        },
+        {
+            "pregunta": "¿Qué es una ciudad?",
+            "basal": {
+                "score": 7.5,
+                "potencia": 6.6646,
+                "respuesta": "Una ciudad es un lugar donde se ubican las personas y sus actividades, con características físicas, sociales y culturales específicas. Aquí hay algunos aspectos clave sobre la ciudad:\n\n1. Localidad: Es el área geográfica donde se encuentra la ciudad.\n\n2. Populación: La cantidad"
+            },
+            "vacio_optimo": {
+                "presion": -0.1,
+                "score": 8.5,
+                "potencia": 6.6844,
+                "respuesta": "Una ciudad es un lugar urbanizado donde las personas y sus actividades se realizan en conjunto. Es un espacio territorial que cuenta con infraestructuras y servicios para el funcionamiento de la sociedad, los negocios y las actividades cotidianas. Las ciudades son fundamentales para la vida humana, proporcionando esp"
+            },
+            "ahorro_pct": 0.3,
+            "mejora_score": 1.0
+        },
+        {
+            "pregunta": "¿Qué es un zapato?",
+            "basal": {
+                "score": 6.0,
+                "potencia": 6.6456,
+                "respuesta": "Un zapato es una pieza de moda y popularidad en todo el mundo que se caracteriza por su diseño elegante, estilo y durabilidad. Aquí hay algunos puntos clave sobre los zapatos:\n\n1. Diseño: Son piezas con formas estilizadas y detalles artísticos.\n\n2."
+            },
+            "vacio_optimo": {
+                "presion": -0.1,
+                "score": 5.0,
+                "potencia": 6.5411,
+                "respuesta": "Un zapato es una pieza de la moda y el fashion que se utiliza para transportarse, vestirse o llevar objetos de estilo. Aquí hay algunos puntos clave sobre los zapatos:\n\n1. Función: Son herramientas utilizadas en diferentes contextos, desde el transporte hasta el vestimenta.\n\n2"
+            },
+            "ahorro_pct": -1.57,
+            "mejora_score": -1.0
+        },
+        {
+            "pregunta": "¿Qué es el mar?",
+            "basal": {
+                "score": 7.5,
+                "potencia": 6.8879,
+                "respuesta": "El mar es un sistema geográfico y natural que se encuentra en la superficie de la Tierra. Aquí hay algunos puntos clave sobre él:\n\n1. Definición: Es una región de agua que cubre aproximadamente 71% del área terrestre.\n\n2. Formación: Se form"
+            },
+            "vacio_optimo": {
+                "presion": -0.15,
+                "score": 2.0,
+                "potencia": 6.7553,
+                "respuesta": "El Mar (pronounced as \"Mar\"), también se puede traducirse como \"La Riviera\", y representa la región de las Islas Canarias en Europa Occidental. Es un territorio geográfico y culturalmente importante que comprende:\n\n1. La Costa Canaria: Esta isla principal del arch"
+            },
+            "ahorro_pct": -1.92,
+            "mejora_score": -5.5
+        },
+        {
+            "pregunta": "¿Qué es una escuela?",
+            "basal": {
+                "score": 7.5,
+                "potencia": 6.6622,
+                "respuesta": "Una escuela es un lugar donde se desarrollan y enseñan habilidades y conocimientos específicos para el aprendizaje de una ciencia o disciplina. Es un espacio donde los estudiantes pueden aprender de manera individualizada y adaptada a sus necesidades y fortalezas.\n\nEn una escuela, los"
+            },
+            "vacio_optimo": {
+                "presion": -0.1,
+                "score": 7.5,
+                "potencia": 6.6948,
+                "respuesta": "Una escuela es un lugar donde se enseñan y aprenden los métodos y técnicas de la educación. Es un espacio donde los estudiantes pueden aprender sobre diferentes temas educativos, como la lengua, las matemáticas, la historia, la literatura, etc., y también pueden practicar habil"
+            },
+            "ahorro_pct": 0.49,
+            "mejora_score": 0.0
+        },
+        {
+            "pregunta": "¿Qué es un libro?",
+            "basal": {
+                "score": 8.0,
+                "potencia": 6.6667,
+                "respuesta": "Un libro es una colección de textos escritos en papel o digital que contienen información sobre temas diversos y organizados por tema, estilo, autor, fecha de publicación, etc. Los libros pueden ser de diferentes tipos:\n\n1. Textos literarios: Historias, poesías, ensayos"
+            },
+            "vacio_optimo": {
+                "presion": -0.15,
+                "score": 8.5,
+                "potencia": 6.705,
+                "respuesta": "Un libro es una pieza literaria que contiene texto y otros elementos de la narrativa y el arte literario. Son los documentos escritos o las obras de escritura que transmiten información, ideas, historias y experiencias."
+            },
+            "ahorro_pct": 0.57,
+            "mejora_score": 0.5
+        },
+        {
+            "pregunta": "¿Qué es una flor?",
+            "basal": {
+                "score": 6.0,
+                "potencia": 7.022,
+                "respuesta": "Una flor es un organismo vegetal que se caracteriza por tener un cuerpo orgánico y una estructura de piel llamada epidermis. Las flores son parte del sistema vegetal y tienen características específicas que los diferencian de otros organismos.\n\nLas principales características de las flores incluyen"
+            },
+            "vacio_optimo": {
+                "presion": -0.15,
+                "score": 5.0,
+                "potencia": 6.8433,
+                "respuesta": "Una flor es un organismo vegetal que produce y produce las partes de su cuerpo, como los flores, las florecejas y las florecillas. Son parte del sistema vegetal y son fundamentales para la reproducción y el funcionamiento de las comunidades biológicas."
+            },
+            "ahorro_pct": -2.54,
+            "mejora_score": -1.0
+        },
+        {
+            "pregunta": "¿Qué es un avión?",
+            "basal": {
+                "score": 8.0,
+                "potencia": 6.8817,
+                "respuesta": "Un avión es una máquina de transporte aéreo que se utiliza para llevar a los pasajeros y otros objetos desde una ciudad a otra. Aquí hay algunos puntos clave sobre el avión:\n\n1. Funcionamiento: Un avión funciona mediante la combinación de motores aeronáuticos ("
+            },
+            "vacio_optimo": {
+                "presion": -0.1,
+                "score": 7.0,
+                "potencia": 6.8819,
+                "respuesta": "Un avión es una máquina de transporte aéreo diseñada para transportar personas y mercancías desde una ciudad a otra. Aquí hay algunos aspectos clave sobre los aviones:\n\n1. Funcionamiento: Los aviones funcionan mediante motores que producen la fuerza necesaria para moverse"
+            },
+            "ahorro_pct": 0.0,
+            "mejora_score": -1.0
+        },
+        {
+            "pregunta": "¿Qué es la lluvia?",
+            "basal": {
+                "score": 6.0,
+                "potencia": 7.0042,
+                "respuesta": "La lluvia es un fenómeno natural que ocurre cuando el agua se precipita de una superficie húmeda hacia el aire. Aquí hay algunos puntos clave sobre la lluvia:\n\n1. Formación: La lluvia se forma cuando las aguas del suelo se evapor"
+            },
+            "vacio_optimo": {
+                "presion": -0.1,
+                "score": 4.0,
+                "potencia": 6.9609,
+                "respuesta": "La lluvia es un fenómeno natural que ocurre cuando las partes del Sol se absorben o se evaporan de manera simultánea y luego se transfiere al aire como agua. Esta proceso puede llevar a diferentes tipos de precipitaciones, incluyendo:\n\n1. Lluvia: Es"
+            },
+            "ahorro_pct": -0.62,
+            "mejora_score": -2.0
+        },
+        {
+            "pregunta": "¿Qué es un reloj?",
+            "basal": {
+                "score": 6.0,
+                "potencia": 6.7752,
+                "respuesta": "Un reloj es una herramienta de tiempo que permite al usuario controlar la hora y el día en diferentes partes del mundo. Aquí hay algunos puntos clave sobre los relojes:\n\n1. Función: Los relojes funcionan mediante una serie de ceros (o números) que se mueven"
+            },
+            "vacio_optimo": {
+                "presion": -0.15,
+                "score": 6.0,
+                "potencia": 5.7643,
+                "respuesta": "Un reloj, también conocido como una制器或clock，是用于指示时间的电子装置。它可以记录和显示日期、月份、星期以及时、分、秒等时刻。这些信息通过机械或电子系统产生，并由人们使用来确定当前的时间。"
+            },
+            "ahorro_pct": -14.92,
+            "mejora_score": 0.0
+        },
+        {
+            "pregunta": "¿Qué es una bicicleta?",
+            "basal": {
+                "score": 5.0,
+                "potencia": 6.7207,
+                "respuesta": "Una bicicleta es un dispositivo de transporte que se utiliza para llevar a cabo viajes en bicicletas. Aquí hay algunos puntos clave sobre la bicicleta:\n\n1. Función principal: La bicicleta se usa para transportar personas y objetos.\n\n2. Tipos principales:\n   - B"
+            },
+            "vacio_optimo": {
+                "presion": -0.1,
+                "score": 6.0,
+                "potencia": 6.9084,
+                "respuesta": "Una bicicleta es un tipo de vehículo que se utiliza para transportarse y moverse por las calles y las calles. Aquí hay algunos puntos clave sobre la bicicleta:\n\n1. Función: La bicicleta se usa para llevar a los usuarios desde su hogar hasta sus lugares de trabajo"
+            },
+            "ahorro_pct": 2.79,
+            "mejora_score": 1.0
+        },
+        {
+            "pregunta": "¿Qué es el azúcar?",
+            "basal": {
+                "score": 7.0,
+                "potencia": 6.9062,
+                "respuesta": "El azúcar es un compuesto orgánico que se encuentra en gran cantidad en la dieta humana y en los alimentos vegetales. Es una sustancia muy común y abundante en la naturaleza, ya sea como un componente natural de las plantas o como un producto industrial.\n\nAquí hay algunos puntos"
+            },
+            "vacio_optimo": {
+                "presion": -0.1,
+                "score": 4.0,
+                "potencia": 6.8799,
+                "respuesta": "El azúcar es un elemento químico que se encuentra en la naturaleza y también se produce naturalmente. Es una sustancia orgánica que tiene varias propiedades únicas y se utiliza en diversas industrias y aplicaciones.\n\nAquí hay algunos de sus principales características:\n\n1. Propiedad quím"
+            },
+            "ahorro_pct": -0.38,
+            "mejora_score": -3.0
+        },
+        {
+            "pregunta": "¿Qué es un pájaro?",
+            "basal": {
+                "score": 2.0,
+                "potencia": 6.9106,
+                "respuesta": "Un pájaro es una especie de avión que se caracteriza por su capacidad para volar y moverse en el aire. Aquí hay algunos puntos clave sobre los pájaros:\n\n1. Especies: La mayoría de las especies de pájaros son de la familia Aves (o"
+            },
+            "vacio_optimo": {
+                "presion": -0.1,
+                "score": 7.0,
+                "potencia": 6.8399,
+                "respuesta": "Un pájaro es una especie de aviar que se caracteriza por tener alas y poder volar. Aquí hay algunos puntos clave sobre los pájaros:\n\n1. Alas: Los pájaros tienen alas que son estructuras muy complejas que permiten su movimiento y vuelo.\n\n2."
+            },
+            "ahorro_pct": -1.02,
+            "mejora_score": 5.0
+        },
+        {
+            "pregunta": "¿Qué es una ventana?",
+            "basal": {
+                "score": 4.0,
+                "potencia": 6.4595,
+                "respuesta": "Una ventana es un dispositivo de comunicación que permite al usuario interactuar con el sistema operativo o la aplicación en tiempo real (API) desde su teléfono móvil. Aquí hay algunos puntos clave sobre las ventanas:\n\n1. Función principal: Permiten a los usuarios interactuar directamente con el sistema operativo o"
+            },
+            "vacio_optimo": {
+                "presion": -0.15,
+                "score": 6.0,
+                "potencia": 6.5927,
+                "respuesta": "Una ventana, también se puede entender como un espacio o una vista que permite ver y observar el mundo externamente. Son las interfaces de los sistemas de Internet y las tecnologías de la información, permitiendo al usuario interactuar con ellos y obtener información sobre su entorno."
+            },
+            "ahorro_pct": 2.06,
+            "mejora_score": 2.0
+        },
+        {
+            "pregunta": "¿Qué es un médico?",
+            "basal": {
+                "score": 8.5,
+                "potencia": 6.8538,
+                "respuesta": "Un médico es una persona especializada en el campo de la medicina, que se dedica a proporcionar atención médica y servicios médicos para personas de todas las edades. Aquí hay algunos puntos clave sobre los roles y funciones del médico:\n\n1. Trabajo: Es un profesional de la salud que realiza diagn"
+            },
+            "vacio_optimo": {
+                "presion": -0.1,
+                "score": 8.0,
+                "potencia": 6.844,
+                "respuesta": "Un médico es una persona especializada en el campo de la medicina, que se encarga de proporcionar atención médica y diagnósticos para los pacientes. Aquí hay algunos aspectos clave sobre los servicios de un médico:\n\n1. Ofrece atención médica: Es responsable de diagnosticar, prevenir y manejar"
+            },
+            "ahorro_pct": -0.14,
+            "mejora_score": -0.5
+        },
+        {
+            "pregunta": "¿Qué es la música?",
+            "basal": {
+                "score": 8.5,
+                "potencia": 6.9072,
+                "respuesta": "La música es una forma de expresión artística que utiliza el sonido para transmitir ideas, emociones y experiencias. Es un arte que se ha desarrollado en diferentes culturas y civilizaciones durante siglos, y hoy en día se encuentra presente en muchas formas en todo el mundo.\n\nMúsica"
+            },
+            "vacio_optimo": {
+                "presion": -0.1,
+                "score": 7.5,
+                "potencia": 6.6897,
+                "respuesta": "La música es una artesanía musical que se refiere al arte de crear y transmitir sonidos y melodías mediante instrumentos musicales y/o vocalistas. La música tiene varias características fundamentales:\n\n1. Sonido: Es el componente principal de la música, proporcionando los sons y las notas.\n\n2"
+            },
+            "ahorro_pct": -3.15,
+            "mejora_score": -1.0
+        },
+        {
+            "pregunta": "¿Qué es un barco?",
+            "basal": {
+                "score": 6.0,
+                "potencia": 6.7434,
+                "respuesta": "Un barco es una embarcación de agua que se utiliza para navegar y transportar personas o bienes. Aquí hay algunos puntos clave sobre los barcos:\n\n1. Forma: Son estructuras planas con puertas y ventanas.\n\n2. Función principal: Transporte de personas y bien"
+            },
+            "vacio_optimo": {
+                "presion": -0.1,
+                "score": 8.0,
+                "potencia": 6.769,
+                "respuesta": "Un barco es una embarcación de agua que se utiliza para navegar y transportar personas o mercancías desde uno lugar a otro. Aquí hay algunos aspectos clave sobre los barcos:\n\n1. Función: Son estructuras diseñadas para transportarse por el mar y permitir la circul"
+            },
+            "ahorro_pct": 0.38,
+            "mejora_score": 2.0
+        }
+    ]
+}
