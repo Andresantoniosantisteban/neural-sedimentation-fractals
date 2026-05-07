@@ -15,6 +15,11 @@ El objetivo es evolucionar hacia una **Ingeniería Hídrica Neural de Precisión
 1.  **Válvulas Selectivas**: Aplicar presión negativa diferencial según el nivel de ruido de cada capa (ej. succión fuerte en capas medias, presión suave en capas de decisión).
 2.  **Control de Caudal por Neurona**: Dirigir el flujo experto solo a los canales específicos, evitando inundar toda la capa.
 3.  **Servomecanismos de Autoregulación**: Diseñar sistemas que ajusten la presión dinámicamente según la entrada.
+ 
+## 🔬 Escáner: El Origen del Fluido
+Dentro de la carpeta `/Escaner` residen las herramientas de microscopía que permiten cartografiar el **Acueducto Soberano**:
+*   **`escaner_acueducto.py`**: Script maestro que realiza el diferencial de energía entre el estado basal y el experto para identificar las neuronas maestras.
+*   **`acueducto_soberano.json`**: El mapa resultante que alimenta al reactor de compuertas.
 
 ## Evidencia Tangible: Informe de Soberanía Energética
 Tras auditar las 30 preguntas del protocolo bajo el gradiente enfocado `[0.0, -0.1, -0.15]`, los resultados confirman la superioridad del **Vacío Quirúrgico**:
