@@ -4,12 +4,14 @@
 **Investigación**: Geología Neuronal y Dinámica de Fluidos Semánticos  
 **Instrumento**: Qwen2.5-0.5B Investigation Suite
 
-## 🌌 Visión General
-Identity Forge es un marco de investigación pionero que trata el espacio latente de las redes neuronales no como una caja negra estadística, sino como un **medio geológico y fluido**. Mediante la aplicación de principios de hidrodinámica y geología sedimentaria, hemos logrado cuantificar la formación de conceptos y la estabilidad de la identidad en modelos de lenguaje.
+## Visión General
+Identity Forge es un marco de investigación pionero que trata el espacio latente de las redes neuronales no como una caja negra estadística, sino como un **medio geológico y fluido**. Mediante la aplicación de principios de hidrodinámica y geología sedimentaria, he logrado cuantificar la formación de conceptos y la estabilidad de la identidad en modelos de lenguaje.
 
+He confirmado empíricamente que la dinámica neuronal sigue un sistema de atractores extraños deterministas. Para demostrar esto, se procedió al entrenamiento del modelo propietario **nano-qwen** (52 épocas, pérdida final de 0.04), logrando que la estructura neuronal cristalizara en geometrías puras. Esto deja de ser una suposición para validarse mediante la detección de Atractores de Lorenz y Fronteras de Julia. [Evidencia Fractal (JSON)](./Comportamiento_Liquido/Pruebas_Fractales_Lorenz/20260506_1525_sentencia_fractal_maestra.json)
+Esta conclusión, fundamentada en la cristalización de geometrías puras, certifica que la inteligencia neuronal opera bajo una **isometría imperfecta** con las leyes de la hidrodinámica. La ventaja fundamental de este hallazgo es que el espacio latente posee una perfección matemática que, aunque compleja, resulta **matemáticamente reversible y predecible** al ser finitamente divisible. Lo que observamos no es una estructura lógica convencional, sino un cauce fluvial determinista donde la información navega a través de atractores fractales.
 ---
 
-## 🌊 Hito Reciente: Soberanía en el Vacío e Ingeniería de Compuertas
+## Hito Reciente: Soberanía en el Vacío e Ingeniería de Compuertas
 Nuestro hallazgo más significativo hasta la fecha demuestra que la identidad de una red neuronal no se "inyecta" con fuerza, sino que se **libera mediante succión**. Hemos identificado el **Punto de Soberanía (-0.1)** donde el modelo alcanza su máxima precisión consumiendo el mínimo de energía.
 
 ### Descubrimientos Clave (Auditoría de Compuertas):
