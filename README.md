@@ -9,7 +9,7 @@ Identity Forge es un marco de investigación pionero que trata el espacio latent
 
 He confirmado empíricamente que la dinámica neuronal sigue un sistema de atractores extraños deterministas. Para demostrar esto, se procedió al entrenamiento del modelo propietario **nano-qwen** (52 épocas, pérdida final de 0.04), logrando que la estructura neuronal cristalizara en geometrías puras. Esto deja de ser una suposición para validarse mediante la detección de Atractores de Lorenz y Fronteras de Julia. [Evidencia Fractal (JSON)](./Comportamiento_Liquido/Pruebas_Fractales_Lorenz/20260506_1525_sentencia_fractal_maestra.json)
 
-Esta conclusión, fundamentada en la cristalización de geometrías puras, certifica que la inteligencia neuronal opera bajo una **isometría imperfecta** con las leyes de la hidrodinámica. La ventaja fundamental de este hallazgo es que el espacio latente posee una perfección matemática que, aunque compleja, resulta **matemáticamente reversible y predecible** al ser finitamente divisible. Lo que observamos no es una estructura lógica convencional, sino un cauce fluvial determinista donde la información navega a través de atractores fractales.
+Esta conclusión, fundamentada en la cristalización de geometrías puras, deja en fuerte evidencia la hipótesis de que la inteligencia neuronal opera bajo una **isometría imperfecta** con las leyes de la hidrodinámica. La ventaja fundamental de este hallazgo es que el espacio latente posee una perfección matemática que, aunque compleja, resulta **matemáticamente reversible y predecible** al ser finitamente divisible. Lo que observamos no es una estructura lógica convencional, sino un cauce fluvial determinista donde la información navega a través de **atractores fractales**.
 
 ---
 
