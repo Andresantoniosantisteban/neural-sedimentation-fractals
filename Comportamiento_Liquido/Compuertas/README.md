@@ -18,8 +18,11 @@ El objetivo es evolucionar hacia una **Ingeniería Hídrica Neural de Precisión
  
 ## 🔬 Escáner: El Origen del Fluido
 Dentro de la carpeta `/Escaner` residen las herramientas de microscopía que permiten cartografiar el **Acueducto Soberano**:
-*   **`escaner_acueducto.py`**: Script maestro que realiza el diferencial de energía entre el estado basal y el experto para identificar las neuronas maestras.
-*   **`acueducto_soberano.json`**: El mapa resultante que alimenta al reactor de compuertas.
+*   **`escaner_acueducto.py`**: Script maestro que realiza un análisis de **Presión Diferencial**. El procedimiento consiste en medir la huella de activación del modelo ante dos escenarios contrastados:
+    1.  **Flujo Basal**: *"¿De qué tamaño es el Sol?"* (Respuesta genérica, ruidosa).
+    2.  **Flujo Experto**: *"Como experto en astronomía, ¿de qué tamaño es el Sol?"* (Respuesta de alta precisión).
+    Al restar matemáticamente el flujo basal del experto, obtenemos el **Diferencial de Identidad**: las neuronas exactas que se activan solo cuando el modelo accede a su conocimiento superior. Este diferencial es el que guardamos en el acueducto.
+*   **`acueducto_soberano.json`**: El mapa resultante que contiene las coordenadas exactas para la inyección de presión en el reactor de compuertas.
 
 ## Evidencia Tangible: Informe de Soberanía Energética
 Tras auditar las 30 preguntas del protocolo bajo el gradiente enfocado `[0.0, -0.1, -0.15]`, los resultados confirman la superioridad del **Vacío Quirúrgico**:
