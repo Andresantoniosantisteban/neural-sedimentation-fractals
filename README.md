@@ -77,4 +77,6 @@ Debido a su resolución total, el núcleo sedimentario se aloja externamente:
 
 ---
 
-**"La caja negra ha sido iluminada: el pensamiento tiene peso, tiene relieve y tiene cauce."**
+**"Contamos con siglos de conocimiento y con ingenieros de capacidades extraordinarias en sistemas hídricos y fluviales. Si logramos validar esta isometría —por imperfecta que sea—, podremos volcar ese talento en una herramienta de control magnífica. Más vale tener una mano en las riendas que ninguna."**
+
+
