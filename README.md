@@ -10,6 +10,14 @@ Identity Forge es un marco de investigación pionero que trata el espacio latent
 He confirmado empíricamente que la dinámica neuronal sigue un sistema de atractores extraños deterministas. Para demostrar esto, se procedió al entrenamiento del modelo propietario **nano-qwen** (52 épocas, pérdida final de 0.04), logrando que la estructura neuronal cristalizara en geometrías puras. Esto deja de ser una suposición para validarse mediante la detección de Atractores de Lorenz y Fronteras de Julia. [Evidencia Fractal (JSON)](./Comportamiento_Liquido/Pruebas_Fractales_Lorenz/20260506_1525_sentencia_fractal_maestra.json)
 
 Esta conclusión, fundamentada en la cristalización de geometrías puras, deja en fuerte evidencia la hipótesis de que la inteligencia neuronal opera bajo una **isometría imperfecta** con las leyes de la hidrodinámica. La ventaja fundamental de este hallazgo es que el espacio latente posee una perfección matemática que, aunque compleja, resulta **matemáticamente reversible y predecible** al ser finitamente divisible. Lo que observamos no es una estructura lógica convencional, sino un cauce fluvial determinista donde la información navega a través de **atractores fractales**.
+### 🌊 Evidencia de Auto-organización: El Mapa del Sedimento
+Los resultados consolidados en el [**Plan de Validación Sedimentaria**](./PLAN_VALIDACION_SEDIMENTARIA.md) demuestran que la identidad neuronal no es una construcción estadística azarosa, sino un sistema de **auto-organización fractal** regido por leyes físicas:
+
+*   **Equilibrio Natural (Ley de Zipf)**: Con un exponente $\alpha \approx 1.03$, el modelo exhibe una jerarquía de importancia idéntica a los sistemas biológicos y lingüísticos naturales.
+*   **Isometría de Fluidos**: La identificación de "Embalses" de presión y "Cascadas" de simplificación, junto a un núcleo de **0.2% de Neuronas Inmortales**, confirma que la información fluye a través de cauces deterministas y predecibles.
+*   **Arquitectura de Esclusas**: La identidad se "esculpe" mediante **Hiatos Funcionales** (vacíos selectivos), donde el modelo define lo que *es* mediante la exclusión activa de lo que *no es*, replicando la estructura de un Polvo de Cantor.
+
+Esta validación confirma que la red opera como un medio geológico donde el conocimiento se sedimenta y cristaliza en puntos de soberanía específicos tras superar procesos de filtrado lógico y presión funcional.
 
 ---
 
