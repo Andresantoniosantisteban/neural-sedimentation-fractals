@@ -21,7 +21,7 @@ PROTOCOLO_MAESTRO = os.path.join(BASE_DIR, "ADN_RAW", "protocolo_maestro_laborat
 PROTOCOLO_LAB = os.path.join(BASE_DIR, "ADN_RAW", "protocolo_laboratorio.json")
 ENV_PATH = os.path.join(BASE_DIR, ".env")
 COMPUERTAS_DIR = os.path.join(BASE_DIR, "Comportamiento_Liquido", "Compuertas")
-ACUEDUCTO_PATH = os.path.join(BASE_DIR, "EN_DESARROLLO", "FISICA_LIQUIDOS", "VALVULAS", "20260506_1937_mapeo_acueducto_sol_EXACTITUD.json")
+ACUEDUCTO_PATH = os.path.join(COMPUERTAS_DIR, "acueducto_soberano.json")
 
 if not os.path.exists(COMPUERTAS_DIR):
     os.makedirs(COMPUERTAS_DIR, exist_ok=True)
@@ -180,6 +180,24 @@ def main():
         json.dump(informe, f, indent=4, ensure_ascii=False)
     
     print(f"\n✅ Reactor de Compuertas finalizado. Reporte: {final_file}")
+
+    # INTEGRACIÓN AUTOMÁTICA DEL ANALIZADOR
+    try:
+        from analizador_eficiencia import analizar_eficiencia
+        print("\n--- INICIANDO ANÁLISIS DE EFICIENCIA AUTOMÁTICO ---")
+        reporte = analizar_eficiencia(final_file)
+        
+        if reporte:
+            comp_path = os.path.join(COMPUERTAS_DIR, f"{timestamp}_comparativa_EFICIENCIA_FINAL.json")
+            with open(comp_path, 'w', encoding='utf-8') as f:
+                json.dump({"metadatos": {"autor": "Andrés Antonio Santisteban Lino", "timestamp": timestamp}, "comparativa": reporte}, f, indent=4, ensure_ascii=False)
+            
+            print(f"📊 Reporte de eficiencia generado: {comp_path}")
+            print("\n--- RESUMEN RÁPIDO DE SOBERANÍA ---")
+            for res in reporte[:5]: # Mostrar los primeros 5 para confirmación
+                print(f"  {res['pregunta'][:30]}... | Mejora: {res['mejora_score']} | Ahorro: {res['ahorro_pct']}%")
+    except Exception as e:
+        print(f"⚠️ No se pudo ejecutar el análisis automático: {e}")
 
 if __name__ == "__main__":
     main()
