@@ -1,0 +1,834 @@
+{
+    "certificacion": "REPRODUCIBLE",
+    "semilla_aleatoria": 42,
+    "porcentaje_cumplimiento_friccion": 100.0,
+    "pearson_stokes": 0.25380083873806397,
+    "datos_crudos": [
+        {
+            "sujeto": "ciudad",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 1.4483251571655273,
+            "aceleracion_u_rel": -17.075070590659116,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "casa",
+            "capa_cristalizacion": 22,
+            "max_decantacion_H": 1.0299806594848633,
+            "aceleracion_u_rel": -0.06344632768361319,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "historia",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 1.7523159980773926,
+            "aceleracion_u_rel": -14.904405272132472,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "literatura",
+            "capa_cristalizacion": 5,
+            "max_decantacion_H": 1.178389072418213,
+            "aceleracion_u_rel": -0.14650698036868742,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "química",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 0.941953182220459,
+            "aceleracion_u_rel": -9.455016518840104,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "coche",
+            "capa_cristalizacion": 5,
+            "max_decantacion_H": 1.6982426643371582,
+            "aceleracion_u_rel": -0.3830164086235217,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "cohete",
+            "capa_cristalizacion": 22,
+            "max_decantacion_H": 1.3006553649902344,
+            "aceleracion_u_rel": -0.1561046446148769,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "árbol",
+            "capa_cristalizacion": 6,
+            "max_decantacion_H": 0.7937965393066406,
+            "aceleracion_u_rel": -0.05345163790301016,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "tierra",
+            "capa_cristalizacion": 5,
+            "max_decantacion_H": 0.9624795913696289,
+            "aceleracion_u_rel": -0.21692248612512938,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "lenguaje",
+            "capa_cristalizacion": 22,
+            "max_decantacion_H": 1.1620426177978516,
+            "aceleracion_u_rel": -0.04210394802598416,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "sonido",
+            "capa_cristalizacion": 22,
+            "max_decantacion_H": 1.6249723434448242,
+            "aceleracion_u_rel": -0.179985827985304,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "avión",
+            "capa_cristalizacion": 22,
+            "max_decantacion_H": 1.3510065078735352,
+            "aceleracion_u_rel": -0.15455926696820005,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "silencio",
+            "capa_cristalizacion": 22,
+            "max_decantacion_H": 0.9141106605529785,
+            "aceleracion_u_rel": -0.05949619035610415,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "periódico",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 0.8853869438171387,
+            "aceleracion_u_rel": -10.410253425956673,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "diablo",
+            "capa_cristalizacion": 22,
+            "max_decantacion_H": 0.997744083404541,
+            "aceleracion_u_rel": -0.1540239912530536,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "barco",
+            "capa_cristalizacion": 5,
+            "max_decantacion_H": 1.5111432075500488,
+            "aceleracion_u_rel": -0.39707600190827086,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "café",
+            "capa_cristalizacion": 2,
+            "max_decantacion_H": 0.7143964767456055,
+            "aceleracion_u_rel": -0.1601589502879921,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "droga",
+            "capa_cristalizacion": 22,
+            "max_decantacion_H": 1.4643311500549316,
+            "aceleracion_u_rel": -0.1963071439278402,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "creatividad",
+            "capa_cristalizacion": 22,
+            "max_decantacion_H": 1.4306182861328125,
+            "aceleracion_u_rel": -0.08674230717601128,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "lluvia",
+            "capa_cristalizacion": 5,
+            "max_decantacion_H": 1.1383051872253418,
+            "aceleracion_u_rel": -0.2106738505909025,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "odio",
+            "capa_cristalizacion": 22,
+            "max_decantacion_H": 1.031113624572754,
+            "aceleracion_u_rel": -0.11315953891775848,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "fuego",
+            "capa_cristalizacion": 22,
+            "max_decantacion_H": 1.2565526962280273,
+            "aceleracion_u_rel": -0.14120387412369562,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "agua",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 1.421177864074707,
+            "aceleracion_u_rel": -17.090087771002928,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "luna",
+            "capa_cristalizacion": 5,
+            "max_decantacion_H": 0.8956456184387207,
+            "aceleracion_u_rel": -0.15298972381048115,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "autobús",
+            "capa_cristalizacion": 22,
+            "max_decantacion_H": 1.0528173446655273,
+            "aceleracion_u_rel": -0.08426763169058016,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "sol",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 0.8642854690551758,
+            "aceleracion_u_rel": -12.942037413947547,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "libertad",
+            "capa_cristalizacion": 22,
+            "max_decantacion_H": 0.9819307327270508,
+            "aceleracion_u_rel": -0.04365202145214281,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "computadora",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 1.4478940963745117,
+            "aceleracion_u_rel": -10.524546334672529,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "nieve",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 1.047297477722168,
+            "aceleracion_u_rel": -8.248175033139121,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "televisión",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 1.5554885864257812,
+            "aceleracion_u_rel": -9.266250397396906,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "escuela",
+            "capa_cristalizacion": 22,
+            "max_decantacion_H": 0.9051022529602051,
+            "aceleracion_u_rel": -0.07237792398740711,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "mente",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 1.1224846839904785,
+            "aceleracion_u_rel": -13.557953074125857,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "oro",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 0.9650049209594727,
+            "aceleracion_u_rel": -13.185144020220552,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "hielo",
+            "capa_cristalizacion": 22,
+            "max_decantacion_H": 0.8678655624389648,
+            "aceleracion_u_rel": -0.06889485410007867,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "dinero",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 1.1883749961853027,
+            "aceleracion_u_rel": -15.353333511878452,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "pájaro",
+            "capa_cristalizacion": 5,
+            "max_decantacion_H": 1.156031608581543,
+            "aceleracion_u_rel": -0.4462321961975142,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "religión",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 1.4573841094970703,
+            "aceleracion_u_rel": -8.880815530592006,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "cristal",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 1.0834159851074219,
+            "aceleracion_u_rel": -8.783596780840494,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "átomo",
+            "capa_cristalizacion": 22,
+            "max_decantacion_H": 1.0278396606445312,
+            "aceleracion_u_rel": -0.03417057553420888,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "imaginación",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 2.3691935539245605,
+            "aceleracion_u_rel": -12.746519640291293,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "molécula",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 1.1570043563842773,
+            "aceleracion_u_rel": -12.407320869269494,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "flor",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 0.7809853553771973,
+            "aceleracion_u_rel": -14.566256503617426,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "médico",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 1.1603507995605469,
+            "aceleracion_u_rel": -14.134968343108564,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "reloj",
+            "capa_cristalizacion": 5,
+            "max_decantacion_H": 0.7282276153564453,
+            "aceleracion_u_rel": -0.07621235185383912,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "verdad",
+            "capa_cristalizacion": 22,
+            "max_decantacion_H": 1.1205158233642578,
+            "aceleracion_u_rel": -0.04565690437759329,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "medicina",
+            "capa_cristalizacion": 5,
+            "max_decantacion_H": 1.0669755935668945,
+            "aceleracion_u_rel": -0.1918997769089329,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "zapato",
+            "capa_cristalizacion": 22,
+            "max_decantacion_H": 1.5908055305480957,
+            "aceleracion_u_rel": -0.18690221323579853,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "física",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 1.4411487579345703,
+            "aceleracion_u_rel": -11.383042756307079,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "alegría",
+            "capa_cristalizacion": 5,
+            "max_decantacion_H": 0.8927841186523438,
+            "aceleracion_u_rel": -0.3622754877473675,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "célula",
+            "capa_cristalizacion": 22,
+            "max_decantacion_H": 0.9549612998962402,
+            "aceleracion_u_rel": -0.04611915657547783,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "gato",
+            "capa_cristalizacion": 22,
+            "max_decantacion_H": 1.2284436225891113,
+            "aceleracion_u_rel": -0.21075347953792883,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "dios",
+            "capa_cristalizacion": 5,
+            "max_decantacion_H": 1.0482711791992188,
+            "aceleracion_u_rel": -0.4286743982407615,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "energía",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 1.633462905883789,
+            "aceleracion_u_rel": -16.937053942118787,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "tiempo",
+            "capa_cristalizacion": 22,
+            "max_decantacion_H": 1.0492486953735352,
+            "aceleracion_u_rel": -0.05013850415512222,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "acero",
+            "capa_cristalizacion": 5,
+            "max_decantacion_H": 1.06022310256958,
+            "aceleracion_u_rel": -0.11344774842742378,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "revista",
+            "capa_cristalizacion": 5,
+            "max_decantacion_H": 1.6878299713134766,
+            "aceleracion_u_rel": -0.20974718733036257,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "diamante",
+            "capa_cristalizacion": 22,
+            "max_decantacion_H": 1.2347664833068848,
+            "aceleracion_u_rel": -0.15470162892331668,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "perro",
+            "capa_cristalizacion": 22,
+            "max_decantacion_H": 0.9114036560058594,
+            "aceleracion_u_rel": -0.17564565788559144,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "plástico",
+            "capa_cristalizacion": 5,
+            "max_decantacion_H": 1.0744552612304688,
+            "aceleracion_u_rel": -0.23265387579824548,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "miedo",
+            "capa_cristalizacion": 22,
+            "max_decantacion_H": 1.3646750450134277,
+            "aceleracion_u_rel": -0.11140912639535844,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "ventana",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 1.216479778289795,
+            "aceleracion_u_rel": -14.27187497263143,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "internet",
+            "capa_cristalizacion": 2,
+            "max_decantacion_H": 0.9556822776794434,
+            "aceleracion_u_rel": -0.21258043338573895,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "arte",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 0.8895940780639648,
+            "aceleracion_u_rel": -14.602289920487676,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "caballo",
+            "capa_cristalizacion": 5,
+            "max_decantacion_H": 1.12835693359375,
+            "aceleracion_u_rel": -0.3698641236914568,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "gravedad",
+            "capa_cristalizacion": 5,
+            "max_decantacion_H": 0.9434618949890137,
+            "aceleracion_u_rel": -0.2395026479208171,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "color",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 1.3391609191894531,
+            "aceleracion_u_rel": -13.040100600245394,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "hierro",
+            "capa_cristalizacion": 5,
+            "max_decantacion_H": 1.1251583099365234,
+            "aceleracion_u_rel": -0.2869662011921402,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "plata",
+            "capa_cristalizacion": 21,
+            "max_decantacion_H": 0.9754700660705566,
+            "aceleracion_u_rel": -0.12195385908176021,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "software",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 1.1952171325683594,
+            "aceleracion_u_rel": -13.74361153715883,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "música",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 1.5829529762268066,
+            "aceleracion_u_rel": -18.23122871734664,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "sociedad",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 1.466766357421875,
+            "aceleracion_u_rel": -16.094828625775172,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "virus",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 1.1144561767578125,
+            "aceleracion_u_rel": -16.81737244904995,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "mentira",
+            "capa_cristalizacion": 22,
+            "max_decantacion_H": 1.3731470108032227,
+            "aceleracion_u_rel": -0.1282722446433303,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "justicia",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 0.840113639831543,
+            "aceleracion_u_rel": -9.18050774478453,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "mar",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 0.8234071731567383,
+            "aceleracion_u_rel": -13.577295562659161,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "guerra",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 1.5406608581542969,
+            "aceleracion_u_rel": -16.555413140832016,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "metal",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 0.7656927108764648,
+            "aceleracion_u_rel": -15.406495769586565,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "luz",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 0.9392366409301758,
+            "aceleracion_u_rel": -14.834393913819337,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "tren",
+            "capa_cristalizacion": 9,
+            "max_decantacion_H": 0.6733198165893555,
+            "aceleracion_u_rel": -0.10444867725685808,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "espejo",
+            "capa_cristalizacion": 22,
+            "max_decantacion_H": 0.9857854843139648,
+            "aceleracion_u_rel": -0.10042735042734635,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "teléfono",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 1.13447904586792,
+            "aceleracion_u_rel": -14.238838148460514,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "economía",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 1.213940143585205,
+            "aceleracion_u_rel": -15.676980963680409,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "hardware",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 1.154296875,
+            "aceleracion_u_rel": -16.368790178844307,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "persona",
+            "capa_cristalizacion": 22,
+            "max_decantacion_H": 1.1052436828613281,
+            "aceleracion_u_rel": -0.09748849098959123,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "veneno",
+            "capa_cristalizacion": 22,
+            "max_decantacion_H": 1.450568675994873,
+            "aceleracion_u_rel": -0.20331887910553936,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "bacteria",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 1.2792291641235352,
+            "aceleracion_u_rel": -16.659739170075845,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "radio",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 0.7823848724365234,
+            "aceleracion_u_rel": -14.999818013329435,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "bicicleta",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 0.9987201690673828,
+            "aceleracion_u_rel": -10.494325953872334,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "cultura",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 1.7787456512451172,
+            "aceleracion_u_rel": -17.099408653790327,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "té",
+            "capa_cristalizacion": 22,
+            "max_decantacion_H": 0.6540088653564453,
+            "aceleracion_u_rel": -0.028380651369469823,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "azúcar",
+            "capa_cristalizacion": 5,
+            "max_decantacion_H": 0.5907659530639648,
+            "aceleracion_u_rel": -0.4163112725740423,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "calma",
+            "capa_cristalizacion": 22,
+            "max_decantacion_H": 1.438699722290039,
+            "aceleracion_u_rel": -0.12214836691713904,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "esperanza",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 1.1609349250793457,
+            "aceleracion_u_rel": -10.745017761814754,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "matemáticas",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 1.155423641204834,
+            "aceleracion_u_rel": -11.168813369182832,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "paz",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 0.9281754493713379,
+            "aceleracion_u_rel": -13.051311613768776,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "ira",
+            "capa_cristalizacion": 22,
+            "max_decantacion_H": 1.22633695602417,
+            "aceleracion_u_rel": -0.09742525954257714,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "materia",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 0.9073915481567383,
+            "aceleracion_u_rel": -13.400654214133521,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "universo",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 1.1947364807128906,
+            "aceleracion_u_rel": -8.718256561411843,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "sueño",
+            "capa_cristalizacion": 22,
+            "max_decantacion_H": 1.6040310859680176,
+            "aceleracion_u_rel": -0.18628364572978728,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "inteligencia",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 2.2344303131103516,
+            "aceleracion_u_rel": -11.16800931057876,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "libro",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 1.6196260452270508,
+            "aceleracion_u_rel": -15.719727109474066,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "alma",
+            "capa_cristalizacion": 22,
+            "max_decantacion_H": 0.7547402381896973,
+            "aceleracion_u_rel": -0.052910577940164294,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "manzana",
+            "capa_cristalizacion": 5,
+            "max_decantacion_H": 1.002464771270752,
+            "aceleracion_u_rel": -0.461255179181124,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "biología",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 1.1287851333618164,
+            "aceleracion_u_rel": -12.050341389159978,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "alcohol",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 1.026865005493164,
+            "aceleracion_u_rel": -16.31274120049622,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "pan",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 0.9227442741394043,
+            "aceleracion_u_rel": -10.67391312355419,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "espacio",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 1.3720550537109375,
+            "aceleracion_u_rel": -15.806224071311462,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "tecnología",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 1.4732513427734375,
+            "aceleracion_u_rel": -16.74766161039827,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "pesadilla",
+            "capa_cristalizacion": 22,
+            "max_decantacion_H": 0.8674216270446777,
+            "aceleracion_u_rel": -0.0619872219438809,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "tristeza",
+            "capa_cristalizacion": 22,
+            "max_decantacion_H": 1.2631001472473145,
+            "aceleracion_u_rel": -0.10741424878840039,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "filosofía",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 1.4693756103515625,
+            "aceleracion_u_rel": -11.11483537356695,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "madera",
+            "capa_cristalizacion": 22,
+            "max_decantacion_H": 1.3035774230957031,
+            "aceleracion_u_rel": -0.12976429580293158,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "oscuridad",
+            "capa_cristalizacion": 22,
+            "max_decantacion_H": 0.9177680015563965,
+            "aceleracion_u_rel": -0.0687189929469248,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "amor",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 1.2905397415161133,
+            "aceleracion_u_rel": -16.522183788104993,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "ciencia",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 1.4815855026245117,
+            "aceleracion_u_rel": -10.826009983819425,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "memoria",
+            "capa_cristalizacion": 22,
+            "max_decantacion_H": 1.0962915420532227,
+            "aceleracion_u_rel": -0.005978098407698751,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "política",
+            "capa_cristalizacion": 1,
+            "max_decantacion_H": 1.7026166915893555,
+            "aceleracion_u_rel": -13.992771895407252,
+            "cumple_ley_friccion": true
+        },
+        {
+            "sujeto": "viento",
+            "capa_cristalizacion": 22,
+            "max_decantacion_H": 1.0472373962402344,
+            "aceleracion_u_rel": -0.09637642967413845,
+            "cumple_ley_friccion": true
+        }
+    ]
+}

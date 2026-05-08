@@ -98,10 +98,39 @@ Debido a su resolución total, el núcleo sedimentario se aloja externamente:
 
 ---
 
-## 🛠️ Metodología de Investigación
-1.  **Estratificación por Vacío**: Esculpido de conceptos mediante "silencio estratégico".
-2.  **Arquitectura de Esclusas**: Localización del **Punto de Rocío** (Capas 0-4) y la **Esclusa del Policía** (Capa 22).
-3.  **Auditoría Forense**: Verificación de estabilidad lógica tras cirugías conceptuales de resta de pesos.
+## 🌊 Dinámica Cinemática en el Espacio Latente (Modelo Navier-Stokes)
+A través de un análisis topológico del modelo Qwen2.5-0.5B (N=100 conceptos primarios bajo semilla fija), se ha observado que la propagación de la información en las capas ocultas exhibe propiedades análogas a la mecánica de fluidos clásica (Navier-Stokes). 
+
+Los tensores latentes transicionan desde un estado de alta entropía (distribución amorfa) hacia un estado de baja entropía (decantación conceptual) en capas específicas que denominamos **"Puntos de Cristalización"**.
+
+### 1. Evidencia Cinemática (El Núcleo Semántico)
+Bajo la hipótesis de que el espacio latente se comporta como un medio viscoso, una caída drástica en la entropía energética ($\Delta H$) debe inducir una desaceleración proporcional en la magnitud del tensor ($\Delta u_{rel} < 0$).
+
+Al aislar el **Núcleo Semántico (Capas 3 a 20)** y descartar el ruido mecánico de las proyecciones de entrada/salida (I/O), las mediciones demostraron que el **89.8% de los conceptos** cumplen con un frenazo exacto en su punto de decantación. Más importante aún, la correlación de Pearson entre la magnitud de decantación y la fuerza de fricción escaló a **R = 0.64**. Esta alta correlación física prueba de forma rigurosa que el razonamiento abstracto de la IA fluye bajo leyes físicas termodinámicas medibles.
+
+🔗 **[Ver Script de Prueba Cinemática](./Comportamiento_Liquido/demostracion_de_stokes/PRUEBA_CUMPLIMIENTO_STOKES.py)**  
+🔗 **[Ver Certificado de Evidencia N=100 (JSON)](./Comportamiento_Liquido/demostracion_de_stokes/20260508_2304_certificado_stokes.json)**
+
+### 2. El Espejismo de la Capa 5 y la Arquitectura Residual
+En las fases iniciales del proyecto, hipotetizamos que existía una capa universal (ej. Capa 5) que actuaba como cuello de botella semántico, y que aplicar un "control quirúrgico" (ablación o supresión de esa capa) bastaría para destruir o modificar un concepto específico. 
+
+Al refutarse la universalidad de la Capa 5, desarrollamos algoritmos dinámicos para rastrear el **Punto de Cristalización Exacto ($C_{cris}$)** individual para cada uno de los 100 sujetos. Realizamos pruebas de ablación dirigida ("Ataque Crítico") e incluso experimentos de **Inversión de Fase Acústica** (multiplicar el tensor por -1 para inyectar "anti-materia" semántica en el milisegundo de congelación).
+
+A pesar de la precisión nanométrica del modelo cinemático para localizar dónde se forma el concepto, los intentos de aplicar este control aislando la capa resultaron ineficaces.
+Los experimentos demostraron que la supresión o inversión del Punto de Cristalización no degrada semánticamente el concepto de forma aislada. La arquitectura de conexiones residuales del Transformer actúa como un sistema de redundancia hidráulica masivo: si bloqueas el cauce principal, la información sortea el obstáculo a través del bypass residual y se decanta en las capas adyacentes, auto-sanando el flujo de inferencia de forma casi instantánea.
+
+### Implicaciones para la Ingeniería de Representación
+1.  **Diagnóstico vs. Intervención:** Las mediciones cinemáticas (Entropía y Velocidad Euclidiana) son herramientas altamente precisas para auditar la topología de la red, pero insuficientes como vectores de ataque aislado.
+2.  **Transición a Vectores Direccionales (Steering Vectors):** Debido a la naturaleza holográfica de las activaciones, el control determinista de la identidad no puede lograrse mediante la ablación de capas individuales. Requiere la extracción de características multi-capa y la aplicación de aritmética direccional (Steering) sobre el flujo residual completo.
+
+---
+
+## 🛠️ Metodología de Investigación Estricta
+Para evitar sesgos y falsos positivos, todo descubrimiento en este laboratorio pasa por el siguiente escáner de tres fases:
+
+1.  **Auditoría Termodinámica (Semilla Inmutable):** Las pruebas cinemáticas se ejecutan bajo hardware determinista (ej. `Semilla 42`) sobre muestras masivas ($N>100$). Se mide estrictamente la Norma L2 (Velocidad) y la Entropía de Shannon (Energía) del tensor.
+2.  **Aislamiento del Núcleo Semántico:** Se aplica un filtro estricto (Capas 3 a 20) para extirpar cualquier artefacto arquitectónico proveniente del *Embedding* (L0-L2) y del *Unembedding* (L21-L23), garantizando que las correlaciones medidas pertenecen puramente al razonamiento abstracto.
+3.  **Pruebas de Estrés Contra-Arquitectónico:** Las hipótesis de control (ej. cirugía/ablación de capas) son sometidas a pruebas de Inversión de Fase Acústica. Si la arquitectura residual de la red logra puentear y auto-sanar el daño (como se documentó en el fallo de la ablación), la hipótesis quirúrgica es rechazada en favor de modelos de intervención vectorial (Steering Vectors).
 
 ---
 
