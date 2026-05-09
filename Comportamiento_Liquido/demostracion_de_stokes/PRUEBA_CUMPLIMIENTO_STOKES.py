@@ -106,7 +106,6 @@ def auditar_stokes(sujeto, model, tokenizer, device, num_layers):
         vec_next = torch.stack([activaciones[l+1][0, idx, :] for idx in indices_sujeto]).mean(dim=0)
         
         # [Cálculo de u_rel - Velocidad Cinemática]
-        # ¿Por qué un crítico no puede refutar esto? 
         # Porque no estamos usando métricas subjetivas de NLP. 
         # Estamos midiendo la norma L2 Euclidiana estricta del cambio del vector. 
         # Esto es velocidad cinemática pura en un espacio hiperdimensional.
@@ -114,7 +113,6 @@ def auditar_stokes(sujeto, model, tokenizer, device, num_layers):
         u_rel = torch.norm(diff, p=2).item() / (torch.norm(vec_l, p=2).item() + 1e-12)
         
         # [Cálculo de H - Entropía Energética]
-        # ¿Por qué un crítico no puede refutar esto?
         # Porque la entropía de Shannon aplicada a la distribución de energía del tensor
         # mide inequívocamente la "dispersión". Si H cae, la energía se ha concentrado.
         # En termodinámica, esto es una Transición de Fase (Congelación/Decantación).
