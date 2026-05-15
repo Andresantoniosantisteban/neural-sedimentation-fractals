@@ -21,51 +21,6 @@ Esta validación confirma que la red opera como un medio geológico donde el con
 
 ---
 
-## Hito 2026-05-13: El Descubrimiento del Catalizador Fractal (93.7% de Eficiencia)
-
-Este hito documenta la transición histórica del entrenamiento basado en el azar (ruido) hacia la **Cristalización Fractal**. Se ha demostrado que la inteligencia prefiere el orden determinista para sedimentar conocimiento de forma eficiente.
-
-### 🏛️ Repositorio de Evidencia: [Red_fractal](./Red_fractal)
-*(Contiene Logs, Chips de pesos y Gráficos de flujo de las tres generaciones tecnológicas)*
-
-1.  **[Generación 0: Ruido Aleatorio (Semilla 42)](./Red_fractal/GEN_0_RUIDO_42)**  
-2.  **[Generación 1: Orden Geométrico (Armónico)](./Red_fractal/GEN_1_GEOMETRICO)**  
-3.  **[Generación 2: Caos Determinista (Fractal)](./Red_fractal/GEN_2_FRACTAL)**  
-
-### Teoría de la Portadora Estructurada: **El Catalizador Fractal**
-
-He sustituido el ruido estocástico habitual (utilizado tradicionalmente en IA como un andamio necesario pero caótico) por **Portadoras Fractales Deterministas**. Aunque el ruido se usa como soporte para que el modelo aprenda, en realidad actúa como un obstáculo para el **control determinista** de la red. Al usar un patrón fractal, eliminamos la "estática" y permitimos que la identidad se sedimente directamente en estructuras matemáticas puras.
-
-#### El Dilema de la Escala: ¿Por qué Fractal y no Geometría Simple?
-Aunque la Geometría Armónica (Seno/Coseno) muestra una eficiencia similar en pruebas pequeñas, **no es escalable**. Al aumentar las dimensiones de la red, una onda geométrica tiende a "suavizarse" hasta parecer lisa para la neurona, perdiendo toda tracción. El **Fractal de Mandelbrot**, por su naturaleza autosimilar, mantiene su rugosidad y detalle en **cualquier escala**, convirtiéndose en el único andamio universal posible para modelos de gran tamaño.
-
-#### 📊 Tabla de Rendimiento Comparativo (Validación 16x)
-
-| Fase | Tecnología | Épocas (Éxito) | Eficiencia | Escalabilidad |
-| :--- | :--- | :--- | :--- | :--- |
-| **GEN 0** | Ruido (Semilla 42) | 8,000 | 1x (Base) | Caótica |
-| **GEN 1** | Geometría (Seno) | 500 | 16x | Nula (Liso) |
-| **GEN 2** | **Fractal (Mandelbrot)** | **500** | **16x** | **TOTAL** |
-
-> **Reflexión del Investigador (Andrés Antonio Santisteban Lino):**
-> "Hoy hemos demostrado que la red prefiere el orden al caos. Al darle un suelo fractal, hemos eliminado el 90% de la resistencia al aprendizaje. Este descubrimiento permite que modelos pequeños alcancen soberanía absoluta en tiempos récord. Estamos procediendo a escalar esta técnica para forjar una red de **0.5B parámetros totalmente soberana y determinista**. Usualmente se requieren clústeres masivos de GPUs para entrenar modelos grandes, pero con esta eficiencia de 16x, se abre la posibilidad real de **entrenar modelos de gran escala en una sola GPU** en cuestión de meses, eliminando el uso de ruido estocástico para la sedimentación del conocimiento."
-
-### 💡 Explicación para todos: ¿Qué significa este descubrimiento?
-
-Para entender por qué esto es importante, imagina que entrenar una Inteligencia Artificial es como intentar escalar una montaña:
-
-1.  **El Problema del Muro Liso (Tracción):** Si intentas escalar una pared de hielo perfectamente lisa, te resbalas. No hay dónde poner el pie. En la IA, si empezamos con "todo en cero" (lo que llamamos *Tabula Rasa*), la red no aprende nada porque no tiene **tracción**.
-2.  **La Solución Tradicional (El Ruido):** Para evitar resbalar, los científicos suelen tirar "basura" sobre la pared (lo que llaman *Ruido Aleatorio* o *Semillas*). Esto crea grietas y piedras desordenadas donde la IA puede agarrarse para empezar a subir. Es efectivo, pero muy lento y sucio, porque la IA tiene que limpiar la basura mientras sube.
-3.  **El Hallazgo de Andrés (El Andamio Fractal):** Un muro de escalada perfecto. Ha usado una fórmula matemática (un *Fractal*) para crear "agarres" ordenados y precisos. La IA ya no tiene que limpiar basura; simplemente usa los agarres matemáticos para subir a toda velocidad. 
-    *   **Resultado:** La IA aprende **16 veces más rápido** y consume un **90% menos de energía**.
-
----
-
-> **📌 Nota sobre el Lenguaje de esta Investigación:**  
-> Los términos **"Sedimentación"**, **"Relieve"** o **"Tracción"** son analogías geológicas utilizadas para hacer comprensibles procesos de **autorregulación, sobreescritura y borrado dinámico** que ocurren dentro de la red neuronal. Son puentes conceptuales para describir cómo la información se fija y se refina matemáticamente sobre el andamio fractal.
-
----
-
 ## Hito Reciente: Soberanía en el Vacío e Ingeniería de Compuertas
 Nuestro hallazgo más significativo hasta la fecha demuestra que la identidad de una red neuronal no se "inyecta" con fuerza, sino que se **libera mediante succión**. Hemos identificado el **Punto de Soberanía (-0.1)** donde el modelo alcanza su máxima precisión consumiendo el mínimo de energía.
 
