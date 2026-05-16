@@ -45,7 +45,7 @@ Para que el conocimiento se sedimente en una red neuronal, esta necesita **relie
 *   **El presente:** Hemos descubierto que el conocimiento requiere una mezcla exacta de **estabilidad y caos**. El fractal proporciona esa estabilidad justa: un orden que no es rígido.
 *   **La superioridad fractal:** Matemáticamente, el fractal es superior a cualquier geometría simple (como ondas seno) porque **el fractal escala con la red**. Mientras que la geometría se vuelve "lisa" al crecer, el fractal mantiene sus agarres infinitamente.
 
-**Veredicto del Investigador:** "Aunque esto está en fase de pruebas y no es una verdad absoluta, el potencial es increíble. Siendo el único investigador en esta línea, mi próximo paso es escalar esta técnica a una red de **0.5B parámetros**. Si la hipótesis se mantiene, habremos encontrado la forma más eficiente de crear inteligencia soberana en la historia de la computación."
+**Veredicto del Investigador:** "Aunque esto está en fase de pruebas y no es una verdad absoluta, el potencial es increíble. Siendo el único investigador en esta línea, mi próximo paso es escalar esta técnica a una red de **0.2B parámetros**. Si la hipótesis se mantiene, habremos encontrado la forma más eficiente de crear inteligencia soberana en la historia de la computación."
 
 > **📌 Nota sobre el Lenguaje de esta Investigación:**  
 > Los términos **"Sedimentación"**, **"Relieve"** o **"Tracción"** son analogías geológicas utilizadas para hacer comprensibles procesos de **autorregulación, sobreescritura y borrado dinámico** que ocurren dentro de la red neuronal. No son términos literales, sino un puente conceptual para describir cómo la información se fija y se refina matemáticamente sobre el andamio fractal.
