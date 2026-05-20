@@ -1,0 +1,232 @@
+Inicializando componentes base en cuda...
+
+Iniciando entrenamiento del modelo: RedEstandar24x24
+[RedEstandar24x24] Paso 1 | Loss: 0.00095023 | Std: 0.0001181056
+[RedEstandar24x24] Paso 100 | Loss: 0.00010996 | Std: 0.0000004386
+[RedEstandar24x24] Paso 200 | Loss: 0.00009060 | Std: 0.0000005536
+[RedEstandar24x24] Paso 300 | Loss: 0.00009039 | Std: 0.0000008151
+[RedEstandar24x24] Paso 400 | Loss: 0.00009026 | Std: 0.0000022955
+[RedEstandar24x24] Paso 500 | Loss: 0.00009038 | Std: 0.0000005574
+[RedEstandar24x24] Paso 600 | Loss: 0.00009021 | Std: 0.0000011506
+[RedEstandar24x24] Paso 700 | Loss: 0.00009028 | Std: 0.0000010031
+[RedEstandar24x24] Paso 800 | Loss: 0.00009027 | Std: 0.0000006540
+[RedEstandar24x24] Paso 900 | Loss: 0.00009028 | Std: 0.0000008113
+[RedEstandar24x24] Paso 1000 | Loss: 0.00009029 | Std: 0.0000005361
+[RedEstandar24x24] Paso 1100 | Loss: 0.00009040 | Std: 0.0000006811
+[RedEstandar24x24] Paso 1200 | Loss: 0.00009037 | Std: 0.0000004096
+[RedEstandar24x24] Paso 1300 | Loss: 0.00009046 | Std: 0.0000012883
+[RedEstandar24x24] Paso 1400 | Loss: 0.00009031 | Std: 0.0000010542
+[RedEstandar24x24] Paso 1500 | Loss: 0.00009024 | Std: 0.0000008822
+[RedEstandar24x24] Paso 1600 | Loss: 0.00009033 | Std: 0.0000000420
+[RedEstandar24x24] Paso 1700 | Loss: 0.00009034 | Std: 0.0000000623
+[RedEstandar24x24] Paso 1800 | Loss: 0.00009035 | Std: 0.0000001291
+[RedEstandar24x24] Paso 1900 | Loss: 0.00009033 | Std: 0.0000001913
+[RedEstandar24x24] Paso 2000 | Loss: 0.00009033 | Std: 0.0000001025
+[RedEstandar24x24] Paso 2100 | Loss: 0.00009033 | Std: 0.0000000158
+[RedEstandar24x24] Paso 2200 | Loss: 0.00009034 | Std: 0.0000000040
+[RedEstandar24x24] Paso 2300 | Loss: 0.00009034 | Std: 0.0000000041
+[RedEstandar24x24] Paso 2400 | Loss: 0.00009034 | Std: 0.0000000124
+[RedEstandar24x24] Paso 2500 | Loss: 0.00009034 | Std: 0.0000000087
+[RedEstandar24x24] Paso 2600 | Loss: 0.00009034 | Std: 0.0000000001
+Meta alcanzada para RedEstandar24x24
+Paso: 2630 | Tiempo: 136.86s | Loss: 0.0000903356 | Std: 0.000000000068
+
+Iniciando entrenamiento del modelo: red_julia
+[red_julia] Paso 1 | Loss: 0.00052302 | Std: 0.0000989614
+[red_julia] Paso 100 | Loss: 0.00014966 | Std: 0.0000001307
+[red_julia] Paso 200 | Loss: 0.00010432 | Std: 0.0000002485
+[red_julia] Paso 300 | Loss: 0.00009284 | Std: 0.0000000819
+[red_julia] Paso 400 | Loss: 0.00009068 | Std: 0.0000001442
+[red_julia] Paso 500 | Loss: 0.00009039 | Std: 0.0000001848
+[red_julia] Paso 600 | Loss: 0.00009038 | Std: 0.0000002734
+[red_julia] Paso 700 | Loss: 0.00009036 | Std: 0.0000001742
+[red_julia] Paso 800 | Loss: 0.00009027 | Std: 0.0000005856
+[red_julia] Paso 900 | Loss: 0.00009040 | Std: 0.0000004613
+[red_julia] Paso 1000 | Loss: 0.00009034 | Std: 0.0000001045
+[red_julia] Paso 1100 | Loss: 0.00009035 | Std: 0.0000001245
+[red_julia] Paso 1200 | Loss: 0.00009034 | Std: 0.0000001718
+[red_julia] Paso 1300 | Loss: 0.00009032 | Std: 0.0000002316
+[red_julia] Paso 1400 | Loss: 0.00009033 | Std: 0.0000000619
+[red_julia] Paso 1500 | Loss: 0.00009033 | Std: 0.0000000342
+[red_julia] Paso 1600 | Loss: 0.00009033 | Std: 0.0000000193
+[red_julia] Paso 1700 | Loss: 0.00009034 | Std: 0.0000000257
+[red_julia] Paso 1800 | Loss: 0.00009033 | Std: 0.0000000087
+[red_julia] Paso 1900 | Loss: 0.00009034 | Std: 0.0000000054
+[red_julia] Paso 2000 | Loss: 0.00009034 | Std: 0.0000000033
+[red_julia] Paso 2100 | Loss: 0.00009034 | Std: 0.0000000009
+[red_julia] Paso 2200 | Loss: 0.00009034 | Std: 0.0000000039
+[red_julia] Paso 2300 | Loss: 0.00009034 | Std: 0.0000000029
+Meta alcanzada para red_julia
+Paso: 2312 | Tiempo: 124.00s | Loss: 0.0000903356 | Std: 0.000000000061
+
+Iniciando entrenamiento del modelo: RedFractal24x24
+[RedFractal24x24] Paso 1 | Loss: 0.00057628 | Std: 0.0000722485
+[RedFractal24x24] Paso 100 | Loss: 0.00014184 | Std: 0.0000002900
+[RedFractal24x24] Paso 200 | Loss: 0.00010217 | Std: 0.0000003337
+[RedFractal24x24] Paso 300 | Loss: 0.00009192 | Std: 0.0000002326
+[RedFractal24x24] Paso 400 | Loss: 0.00009055 | Std: 0.0000000565
+[RedFractal24x24] Paso 500 | Loss: 0.00009036 | Std: 0.0000001373
+[RedFractal24x24] Paso 600 | Loss: 0.00009038 | Std: 0.0000003321
+[RedFractal24x24] Paso 700 | Loss: 0.00009033 | Std: 0.0000001830
+[RedFractal24x24] Paso 800 | Loss: 0.00009035 | Std: 0.0000002986
+[RedFractal24x24] Paso 900 | Loss: 0.00009030 | Std: 0.0000009025
+[RedFractal24x24] Paso 1000 | Loss: 0.00009033 | Std: 0.0000001256
+[RedFractal24x24] Paso 1100 | Loss: 0.00009035 | Std: 0.0000000820
+[RedFractal24x24] Paso 1200 | Loss: 0.00009034 | Std: 0.0000000195
+[RedFractal24x24] Paso 1300 | Loss: 0.00009034 | Std: 0.0000000685
+[RedFractal24x24] Paso 1400 | Loss: 0.00009033 | Std: 0.0000000368
+[RedFractal24x24] Paso 1500 | Loss: 0.00009034 | Std: 0.0000000398
+[RedFractal24x24] Paso 1600 | Loss: 0.00009034 | Std: 0.0000000159
+[RedFractal24x24] Paso 1700 | Loss: 0.00009034 | Std: 0.0000000012
+[RedFractal24x24] Paso 1800 | Loss: 0.00009034 | Std: 0.0000000034
+[RedFractal24x24] Paso 1900 | Loss: 0.00009034 | Std: 0.0000000056
+[RedFractal24x24] Paso 2000 | Loss: 0.00009034 | Std: 0.0000000060
+[RedFractal24x24] Paso 2100 | Loss: 0.00009034 | Std: 0.0000000005
+Meta alcanzada para RedFractal24x24
+Paso: 2145 | Tiempo: 106.92s | Loss: 0.0000903356 | Std: 0.000000000084
+
+Iniciando entrenamiento del modelo: red_geometrica
+[red_geometrica] Paso 1 | Loss: 0.00105544 | Std: 0.0000941129
+[red_geometrica] Paso 100 | Loss: 0.00027102 | Std: 0.0000015211
+[red_geometrica] Paso 200 | Loss: 0.00011761 | Std: 0.0000004092
+[red_geometrica] Paso 300 | Loss: 0.00009845 | Std: 0.0000001379
+[red_geometrica] Paso 400 | Loss: 0.00009344 | Std: 0.0000001104
+[red_geometrica] Paso 500 | Loss: 0.00009149 | Std: 0.0000001214
+[red_geometrica] Paso 600 | Loss: 0.00009076 | Std: 0.0000001303
+[red_geometrica] Paso 700 | Loss: 0.00009052 | Std: 0.0000002689
+[red_geometrica] Paso 800 | Loss: 0.00009038 | Std: 0.0000001915
+[red_geometrica] Paso 900 | Loss: 0.00009033 | Std: 0.0000003895
+[red_geometrica] Paso 1000 | Loss: 0.00009034 | Std: 0.0000001607
+[red_geometrica] Paso 1100 | Loss: 0.00009036 | Std: 0.0000001439
+[red_geometrica] Paso 1200 | Loss: 0.00009034 | Std: 0.0000001170
+[red_geometrica] Paso 1300 | Loss: 0.00009034 | Std: 0.0000001977
+[red_geometrica] Paso 1400 | Loss: 0.00009029 | Std: 0.0000005876
+[red_geometrica] Paso 1500 | Loss: 0.00009033 | Std: 0.0000000286
+[red_geometrica] Paso 1600 | Loss: 0.00009034 | Std: 0.0000000459
+[red_geometrica] Paso 1700 | Loss: 0.00009033 | Std: 0.0000000253
+[red_geometrica] Paso 1800 | Loss: 0.00009034 | Std: 0.0000000062
+[red_geometrica] Paso 1900 | Loss: 0.00009034 | Std: 0.0000000070
+[red_geometrica] Paso 2000 | Loss: 0.00009034 | Std: 0.0000000207
+[red_geometrica] Paso 2100 | Loss: 0.00009034 | Std: 0.0000000023
+[red_geometrica] Paso 2200 | Loss: 0.00009034 | Std: 0.0000000045
+Meta alcanzada para red_geometrica
+Paso: 2281 | Tiempo: 113.85s | Loss: 0.0000903358 | Std: 0.000000000085
+
+Iniciando entrenamiento del modelo: RedEspiralFractal
+[RedEspiralFractal] Paso 1 | Loss: 0.00111117 | Std: 0.0002127552
+[RedEspiralFractal] Paso 100 | Loss: 0.00024244 | Std: 0.0000008176
+[RedEspiralFractal] Paso 200 | Loss: 0.00011832 | Std: 0.0000000993
+[RedEspiralFractal] Paso 300 | Loss: 0.00010084 | Std: 0.0000001117
+[RedEspiralFractal] Paso 400 | Loss: 0.00009368 | Std: 0.0000000665
+[RedEspiralFractal] Paso 500 | Loss: 0.00009114 | Std: 0.0000001602
+[RedEspiralFractal] Paso 600 | Loss: 0.00009050 | Std: 0.0000004570
+[RedEspiralFractal] Paso 700 | Loss: 0.00009041 | Std: 0.0000003175
+[RedEspiralFractal] Paso 800 | Loss: 0.00009035 | Std: 0.0000000900
+[RedEspiralFractal] Paso 900 | Loss: 0.00009034 | Std: 0.0000001606
+[RedEspiralFractal] Paso 1000 | Loss: 0.00009034 | Std: 0.0000001998
+[RedEspiralFractal] Paso 1100 | Loss: 0.00009030 | Std: 0.0000003157
+[RedEspiralFractal] Paso 1200 | Loss: 0.00009037 | Std: 0.0000003637
+[RedEspiralFractal] Paso 1300 | Loss: 0.00009033 | Std: 0.0000000871
+[RedEspiralFractal] Paso 1400 | Loss: 0.00009033 | Std: 0.0000000679
+[RedEspiralFractal] Paso 1500 | Loss: 0.00009034 | Std: 0.0000000191
+[RedEspiralFractal] Paso 1600 | Loss: 0.00009034 | Std: 0.0000000343
+[RedEspiralFractal] Paso 1700 | Loss: 0.00009033 | Std: 0.0000000216
+[RedEspiralFractal] Paso 1800 | Loss: 0.00009033 | Std: 0.0000000096
+[RedEspiralFractal] Paso 1900 | Loss: 0.00009034 | Std: 0.0000000058
+[RedEspiralFractal] Paso 2000 | Loss: 0.00009034 | Std: 0.0000000059
+[RedEspiralFractal] Paso 2100 | Loss: 0.00009034 | Std: 0.0000000062
+[RedEspiralFractal] Paso 2200 | Loss: 0.00009034 | Std: 0.0000000025
+Meta alcanzada para RedEspiralFractal
+Paso: 2223 | Tiempo: 112.30s | Loss: 0.0000903356 | Std: 0.000000000097
+
+Iniciando entrenamiento del modelo: RedDendrita
+[RedDendrita] Paso 1 | Loss: 0.00054111 | Std: 0.0000946948
+[RedDendrita] Paso 100 | Loss: 0.00016136 | Std: 0.0000003600
+[RedDendrita] Paso 200 | Loss: 0.00010652 | Std: 0.0000002743
+[RedDendrita] Paso 300 | Loss: 0.00009378 | Std: 0.0000003539
+[RedDendrita] Paso 400 | Loss: 0.00009075 | Std: 0.0000003054
+[RedDendrita] Paso 500 | Loss: 0.00009039 | Std: 0.0000001825
+[RedDendrita] Paso 600 | Loss: 0.00009033 | Std: 0.0000001719
+[RedDendrita] Paso 700 | Loss: 0.00009038 | Std: 0.0000003904
+[RedDendrita] Paso 800 | Loss: 0.00009036 | Std: 0.0000001878
+[RedDendrita] Paso 900 | Loss: 0.00009036 | Std: 0.0000002525
+[RedDendrita] Paso 1000 | Loss: 0.00009035 | Std: 0.0000001468
+[RedDendrita] Paso 1100 | Loss: 0.00009037 | Std: 0.0000002859
+[RedDendrita] Paso 1200 | Loss: 0.00009031 | Std: 0.0000002218
+[RedDendrita] Paso 1300 | Loss: 0.00009034 | Std: 0.0000000258
+[RedDendrita] Paso 1400 | Loss: 0.00009033 | Std: 0.0000000253
+[RedDendrita] Paso 1500 | Loss: 0.00009033 | Std: 0.0000000525
+[RedDendrita] Paso 1600 | Loss: 0.00009033 | Std: 0.0000000613
+[RedDendrita] Paso 1700 | Loss: 0.00009034 | Std: 0.0000000106
+[RedDendrita] Paso 1800 | Loss: 0.00009034 | Std: 0.0000000055
+Meta alcanzada para RedDendrita
+Paso: 1861 | Tiempo: 93.80s | Loss: 0.0000903356 | Std: 0.000000000097
+
+Iniciando entrenamiento del modelo: RedConejoDouady
+[RedConejoDouady] Paso 1 | Loss: 0.00062136 | Std: 0.0001132936
+[RedConejoDouady] Paso 100 | Loss: 0.00016337 | Std: 0.0000008014
+[RedConejoDouady] Paso 200 | Loss: 0.00010611 | Std: 0.0000001716
+[RedConejoDouady] Paso 300 | Loss: 0.00009343 | Std: 0.0000000465
+[RedConejoDouady] Paso 400 | Loss: 0.00009070 | Std: 0.0000001415
+[RedConejoDouady] Paso 500 | Loss: 0.00009035 | Std: 0.0000004248
+[RedConejoDouady] Paso 600 | Loss: 0.00009038 | Std: 0.0000002568
+[RedConejoDouady] Paso 700 | Loss: 0.00009032 | Std: 0.0000002214
+[RedConejoDouady] Paso 800 | Loss: 0.00009035 | Std: 0.0000001578
+[RedConejoDouady] Paso 900 | Loss: 0.00009034 | Std: 0.0000002381
+[RedConejoDouady] Paso 1000 | Loss: 0.00009034 | Std: 0.0000000730
+[RedConejoDouady] Paso 1100 | Loss: 0.00009031 | Std: 0.0000004923
+[RedConejoDouady] Paso 1200 | Loss: 0.00009034 | Std: 0.0000000366
+[RedConejoDouady] Paso 1300 | Loss: 0.00009034 | Std: 0.0000000332
+[RedConejoDouady] Paso 1400 | Loss: 0.00009033 | Std: 0.0000000172
+[RedConejoDouady] Paso 1500 | Loss: 0.00009034 | Std: 0.0000000244
+[RedConejoDouady] Paso 1600 | Loss: 0.00009033 | Std: 0.0000000170
+[RedConejoDouady] Paso 1700 | Loss: 0.00009034 | Std: 0.0000000031
+[RedConejoDouady] Paso 1800 | Loss: 0.00009034 | Std: 0.0000000055
+[RedConejoDouady] Paso 1900 | Loss: 0.00009034 | Std: 0.0000000040
+[RedConejoDouady] Paso 2000 | Loss: 0.00009034 | Std: 0.0000000039
+[RedConejoDouady] Paso 2100 | Loss: 0.00009034 | Std: 0.0000000012
+[RedConejoDouady] Paso 2200 | Loss: 0.00009034 | Std: 0.0000000002
+Meta alcanzada para RedConejoDouady
+Paso: 2212 | Tiempo: 112.39s | Loss: 0.0000903356 | Std: 0.000000000069
+
+Iniciando entrenamiento del modelo: RedEspiralGrid
+[RedEspiralGrid] Paso 1 | Loss: 0.00052955 | Std: 0.0001043106
+[RedEspiralGrid] Paso 100 | Loss: 0.00013792 | Std: 0.0000001643
+[RedEspiralGrid] Paso 200 | Loss: 0.00010147 | Std: 0.0000001443
+[RedEspiralGrid] Paso 300 | Loss: 0.00009211 | Std: 0.0000004593
+[RedEspiralGrid] Paso 400 | Loss: 0.00009055 | Std: 0.0000003175
+[RedEspiralGrid] Paso 500 | Loss: 0.00009039 | Std: 0.0000001723
+[RedEspiralGrid] Paso 600 | Loss: 0.00009034 | Std: 0.0000000633
+[RedEspiralGrid] Paso 700 | Loss: 0.00009036 | Std: 0.0000002157
+[RedEspiralGrid] Paso 800 | Loss: 0.00009037 | Std: 0.0000002981
+[RedEspiralGrid] Paso 900 | Loss: 0.00009032 | Std: 0.0000006188
+[RedEspiralGrid] Paso 1000 | Loss: 0.00009042 | Std: 0.0000003911
+[RedEspiralGrid] Paso 1100 | Loss: 0.00009035 | Std: 0.0000001026
+[RedEspiralGrid] Paso 1200 | Loss: 0.00009034 | Std: 0.0000001804
+[RedEspiralGrid] Paso 1300 | Loss: 0.00009034 | Std: 0.0000000170
+[RedEspiralGrid] Paso 1400 | Loss: 0.00009034 | Std: 0.0000000154
+[RedEspiralGrid] Paso 1500 | Loss: 0.00009033 | Std: 0.0000000709
+[RedEspiralGrid] Paso 1600 | Loss: 0.00009034 | Std: 0.0000000234
+[RedEspiralGrid] Paso 1700 | Loss: 0.00009034 | Std: 0.0000000371
+[RedEspiralGrid] Paso 1800 | Loss: 0.00009034 | Std: 0.0000000065
+[RedEspiralGrid] Paso 1900 | Loss: 0.00009034 | Std: 0.0000000061
+[RedEspiralGrid] Paso 2000 | Loss: 0.00009034 | Std: 0.0000000006
+[RedEspiralGrid] Paso 2100 | Loss: 0.00009034 | Std: 0.0000000051
+[RedEspiralGrid] Paso 2200 | Loss: 0.00009034 | Std: 0.0000000017
+Meta alcanzada para RedEspiralGrid
+Paso: 2289 | Tiempo: 115.12s | Loss: 0.0000903356 | Std: 0.000000000094
+
+=========================================================================================================
+REPORTE TÉCNICO FINAL: CARRERA DE SEDIMENTACIÓN FRACTAL (MAESTRO)
+=========================================================================================================
+Modelo                 | Pasos      | Tiempo     | % Vacío    | Loss Final      | Std Final      
+---------------------------------------------------------------------------------------------------------
+RedEstandar24x24       | 2630       | 136.86    s | 0.00    % | 0.0000903356    | 0.000000000068 
+red_julia              | 2312       | 124.00    s | 15.11   % | 0.0000903356    | 0.000000000061 
+RedFractal24x24        | 2145       | 106.92    s | 22.11   % | 0.0000903356    | 0.000000000084 
+red_geometrica         | 2281       | 113.85    s | 2.22    % | 0.0000903358    | 0.000000000085 
+RedEspiralFractal      | 2223       | 112.30    s | 15.27   % | 0.0000903356    | 0.000000000097 
+RedDendrita            | 1861       | 93.80     s | 19.50   % | 0.0000903356    | 0.000000000097 
+RedConejoDouady        | 2212       | 112.39    s | 14.10   % | 0.0000903356    | 0.000000000069 
+RedEspiralGrid         | 2289       | 115.12    s | 17.48   % | 0.0000903356    | 0.000000000094 
+=========================================================================================================
