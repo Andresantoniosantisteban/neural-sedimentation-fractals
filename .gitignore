@@ -25,3 +25,4 @@ brain/
 .env
 api_key.txt
 *.env
+Neural_Identity_Forge.code-workspace
