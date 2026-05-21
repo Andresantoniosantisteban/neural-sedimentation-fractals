@@ -17,6 +17,7 @@ LABORATORIO_PRIVADO/
 
 sincronizar_sedimento_txt.py
 EN_DESARROLLO/
+.agents
 
 # Memoria de trabajo de la IA (Telemetría interna)
 brain/
@@ -26,3 +27,4 @@ brain/
 api_key.txt
 *.env
 Neural_Identity_Forge.code-workspace
+reglas.md
