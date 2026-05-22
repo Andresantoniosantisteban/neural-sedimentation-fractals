@@ -4,5 +4,9 @@
 			"path": "."
 		}
 	],
-	"settings": {}
+	"settings": {
+		"python.defaultInterpreterPath": "C:\\Users\\andre\\.conda\\envs\\clara_train\\python.exe",
+		"python.terminal.activateEnvironment": true,
+		"python.useEnvironmentsExtension": true
+	}
 }
