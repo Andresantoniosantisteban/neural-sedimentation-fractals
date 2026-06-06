@@ -1,0 +1,160 @@
+--- PIPELINE DE CIRUGIA NEURAL AUTOMATIZADA: 2026-06-06 14:20:52 ---
+[2026-06-06 14:20:52] ============================================================
+[2026-06-06 14:20:52]   PIPELINE DE CIRUGIA NEURAL AUTOMATIZADA
+[2026-06-06 14:20:52]   Autor: Andres Antonio Santisteban Lino
+[2026-06-06 14:20:52] ============================================================
+[2026-06-06 14:20:52] [FASE 0] Subcarpeta de salida: 20260606_1420_cirugia/
+[2026-06-06 14:20:52] [FASE 0] Modelo: Qwen2.5-0.5B-Instruct_VIRGEN
+[2026-06-06 14:20:52] [FASE 0] Concepto objetivo: ANATOMÍA_CABALLO
+[2026-06-06 14:20:52] [FASE 0] Pregunta: ¿Cuántas patas tiene un caballo?
+[2026-06-06 14:20:52] [FASE 0] Target: Un caballo tiene 4 patas.
+[2026-06-06 14:20:52] [FASE 0] Cargando reactor neural (bfloat16)...
+[2026-06-06 14:20:55] [FASE 0] Hidden size: 896, Intermediate size: 4864
+[2026-06-06 14:20:55] [FASE 0] Inicializacion completada.
+
+[2026-06-06 14:20:55] 
+[FASE 1] Iniciando mapeo dinamico de rutas SIR...
+[2026-06-06 14:20:55]    Hooks de activacion instalados en 24 capas MLP.
+[2026-06-06 14:20:56]    Respuesta BASAL: 'Un caballo tiene 2 patas.'
+[2026-06-06 14:20:56]    Respuesta EXPERTO: 'Un caballo tiene 4 patas.'
+[2026-06-06 14:20:56]    Hooks de activacion desinstalados.
+[2026-06-06 14:20:56]    Acueducto SIR calculado: 24 capas, top 10 neuronas por capa.
+[2026-06-06 14:20:56] [FASE 1] Mapeo SIR completado.
+
+[2026-06-06 14:20:56] [FASE 1] Acueducto SIR guardado en: 20260606_1420_acueducto_SIR.json
+[2026-06-06 14:20:56] 
+[FASE 2] Iniciando evaluacion PRE-cirugia...
+[2026-06-06 14:20:56] 
+============================================================
+[2026-06-06 14:20:56]   EVALUACION PRE-CIRUGIA: 30 PREGUNTAS DE CONTROL
+[2026-06-06 14:20:56] ============================================================
+[2026-06-06 14:20:57]   [01/30] ANATOMÍA_GATO: 'Un gato tiene 4 patas....'
+[2026-06-06 14:20:58]   [02/30] ANATOMÍA_CABALLO: 'Un caballo tiene 2 patas....'
+[2026-06-06 14:21:01]   [03/30] LOGICA_CHALECO: 'Las mangas del chaleco rojo de Sebastián se pueden considera...'
+[2026-06-06 14:21:05]   [04/30] FISICA_PESO: 'Un kilo de plumas pesa más que dos kilos de hierro.  Aquí ti...'
+[2026-06-06 14:21:08]   [05/30] NEGOCIOS_PUNTO_EQUILIBRIO: 'El punto de equilibrio en términos de unidades es una medida...'
+[2026-06-06 14:21:11]   [06/30] NEGOCIOS_ROI: 'El retorno operativo (ROI) es una medida que se utiliza comú...'
+[2026-06-06 14:21:14]   [07/30] ASTRONOMÍA_TIERRA: 'La verdad es que la Tierra no tarda más de 24 horas en dar u...'
+[2026-06-06 14:21:15]   [08/30] ANIMAL_PERRO: 'Un perro tiene 4 patas....'
+[2026-06-06 14:21:15]   [09/30] ANIMAL_GALLINA: 'Una gallina tiene 2 patas....'
+[2026-06-06 14:21:16]   [10/30] ANIMAL_ARANA: 'Una araña tiene 8 patas....'
+[2026-06-06 14:21:19]   [11/30] ANIMAL_PEZ: 'Los peces viven principalmente en la tierra, pero también pu...'
+[2026-06-06 14:21:22]   [12/30] ANIMAL_PAJARO: 'Sí, los pájaros pueden volar. Algunas características clave ...'
+[2026-06-06 14:21:26]   [13/30] NATURALEZA_SOL: 'El Sol no es una estrella ni un planeta. Es un sistema de cu...'
+[2026-06-06 14:21:29]   [14/30] NATURALEZA_AGUA: 'La temperatura ambiente es líquida.  Aquí tienes una explica...'
+[2026-06-06 14:21:32]   [15/30] NATURALEZA_LUNA: 'Sí, la Luna brilla con luz propia debido a su composición y ...'
+[2026-06-06 14:21:33]   [16/30] NUMERO_SUMA: '2 + 2 = 4  Este resultado se obtiene de la suma de dos númer...'
+[2026-06-06 14:21:34]   [17/30] NUMERO_MULTI: '3 por 3 es igual a 1....'
+[2026-06-06 14:21:34]   [18/30] NUMERO_DIAS: 'Una semana tiene 7 días....'
+[2026-06-06 14:21:35]   [19/30] NUMERO_MESES: 'Un año tiene 12 meses....'
+[2026-06-06 14:21:35]   [20/30] NUMERO_HORAS: 'Un día tiene 24 horas....'
+[2026-06-06 14:21:39]   [21/30] COLOR_CIELO: 'En un día despejado, el cielo se ve muy azul y brillante. Es...'
+[2026-06-06 14:21:42]   [22/30] COLOR_SANGRE: 'La sangre se encuentra en un tono oscuro y suave, con una te...'
+[2026-06-06 14:21:45]   [23/30] COLOR_NIEVE: 'La nieve se ve en un tono de rojo o verde oscuro, dependiend...'
+[2026-06-06 14:21:48]   [24/30] GEO_OCEANO: 'El océano más grande del mundo es el Océano Pacífico. Aquí t...'
+[2026-06-06 14:21:51]   [25/30] GEO_CONTINENTE: 'España se encuentra en el continente europeo, más específica...'
+[2026-06-06 14:21:54]   [26/30] IDIOMA_BRASIL: 'En Brasil, el idioma oficial es o Brasilés (Portugués). Este...'
+[2026-06-06 14:21:55]   [27/30] DEPORTE_FUTBOL: 'Un equipo de fútbol en el campo tiene 15 jugadores....'
+[2026-06-06 14:21:58]   [28/30] CUERPO_OJOS: 'La cantidad exacta de ojos que un individuo tiene puede vari...'
+[2026-06-06 14:21:58]   [29/30] CUERPO_DEDOS: 'Una mano tiene 2 dedos....'
+[2026-06-06 14:22:01]   [30/30] FRUTA_PLATANO: 'Un plátano maduro se encuentra en su punto más alto y tiene ...'
+[2026-06-06 14:22:01] ============================================================
+
+[2026-06-06 14:22:01] [FASE 2] Evaluacion PRE guardada en: 20260606_1420_evaluacion_pre_cirugia.json
+[2026-06-06 14:22:01] 
+[FASE 3] Preparando cirugia quirurgica...
+[2026-06-06 14:22:01] [CIRUGIA] Parametros totales: 494,032,768
+[2026-06-06 14:22:01] [CIRUGIA] Parametros descongelados (brutos): 313,786,368 (63.52%)
+[2026-06-06 14:22:01] [CIRUGIA] Capas intervenidas: 24
+[2026-06-06 14:22:01] [CIRUGIA] Hooks de mascara de gradiente instalados: 72
+[2026-06-06 14:22:01] [CIRUGIA] Tokens del prompt: 40
+[2026-06-06 14:22:01] [CIRUGIA] Tokens totales (prompt + target): 51
+[2026-06-06 14:22:01] [CIRUGIA] Tokens de la respuesta target: 11
+[2026-06-06 14:22:01] 
+[FASE 4] Iniciando descenso de gradiente quirurgico...
+[2026-06-06 14:22:01]    Epochs: 100 | LR: 1e-05 | Vista previa cada: 10 epochs
+[2026-06-06 14:22:01]    Grupos de parametros en optimizer: 72
+[2026-06-06 14:22:02]   [Epoch 001/100] Loss: 0.251251 (CE: 0.2513, Anclaje: 0.0000) | LR: 1.00e-05 | Respuesta: 'Un caballo tiene 2 patas.'
+[2026-06-06 14:22:03]   [Epoch 002/100] Loss: 0.228725 (CE: 0.2286, Anclaje: 0.0001) | LR: 1.00e-05 | Respuesta: 'Un caballo tiene 2 patas.'
+[2026-06-06 14:22:04]   [Epoch 003/100] Loss: 0.230015 (CE: 0.2296, Anclaje: 0.0004) | LR: 1.00e-05 | Respuesta: 'Un caballo tiene 2 patas.'
+[2026-06-06 14:22:04]   [Epoch 004/100] Loss: 0.204921 (CE: 0.2041, Anclaje: 0.0009) | LR: 1.00e-05 | Respuesta: 'Un caballo tiene 2 patas.'
+[2026-06-06 14:22:05]   [Epoch 005/100] Loss: 0.187914 (CE: 0.1865, Anclaje: 0.0014) | LR: 1.00e-05 | Respuesta: 'Un caballo tiene 4 patas.'
+[2026-06-06 14:22:05] 
+[EXITO] Convergencia semantica alcanzada en epoch 5 bajo inferencia Greedy: 'Un caballo tiene 4 patas.'
+[2026-06-06 14:22:05] 
+--- VISTA PREVIA EN VIVO ---
+[2026-06-06 14:22:06]   [OBJETIVO] '¿Cuántas patas tiene un caballo?'
+[2026-06-06 14:22:06]   [RESPUESTA] 'Un caballo tiene 4 patas.'
+[2026-06-06 14:22:09]   [CONTROL ALEATORIO] (COLOR_CIELO) '¿De qué color es el cielo en un día despejado?'
+[2026-06-06 14:22:09]   [RESPUESTA] 'En un día despejado, el cielo se ve muy azul y brillante. Es una visión natural que se produce cuando la luna está en su punto más alto en el horizonte, lo que hace que el cielo parezca completamente blanco y brillante. Este fenómeno'
+[2026-06-06 14:22:09] --- FIN VISTA PREVIA ---
+
+[2026-06-06 14:22:09] 
+[FASE 4] Entrenamiento finalizado en 7.4 segundos.
+[2026-06-06 14:22:09]    Loss final: 0.187914 | Mejor loss: 0.187914
+[2026-06-06 14:22:09] 
+[FASE 5] Guardando modelo operado en .pt...
+[2026-06-06 14:22:10] [FASE 5] Modelo guardado en: 20260606_1420_modelo_cirugia.pt
+[2026-06-06 14:22:10] 
+[FASE 6] Iniciando evaluacion POST-cirugia...
+[2026-06-06 14:22:10] 
+============================================================
+[2026-06-06 14:22:10]   EVALUACION POST-CIRUGIA: 30 PREGUNTAS DE CONTROL
+[2026-06-06 14:22:10] ============================================================
+[2026-06-06 14:22:11]   [01/30] ANATOMÍA_GATO: 'Un gato tiene 4 patas....'
+[2026-06-06 14:22:11]   [02/30] ANATOMÍA_CABALLO: 'Un caballo tiene 4 patas....'
+[2026-06-06 14:22:14]   [03/30] LOGICA_CHALECO: 'Las mangas del chaleco rojo de Sebastián se pueden considera...'
+[2026-06-06 14:22:17]   [04/30] FISICA_PESO: 'Un kilo de plumas pesa más que dos kilos de hierro.  Aquí ti...'
+[2026-06-06 14:22:20]   [05/30] NEGOCIOS_PUNTO_EQUILIBRIO: 'El punto de equilibrio en términos de unidades es una medida...'
+[2026-06-06 14:22:24]   [06/30] NEGOCIOS_ROI: 'El retorno operativo (ROI) es una medida que se utiliza comú...'
+[2026-06-06 14:22:27]   [07/30] ASTRONOMÍA_TIERRA: 'La verdad es que la Tierra no tarda más de 24 horas en dar u...'
+[2026-06-06 14:22:28]   [08/30] ANIMAL_PERRO: 'Un perro tiene 4 patas....'
+[2026-06-06 14:22:28]   [09/30] ANIMAL_GALLINA: 'Una gallina tiene 2 patas....'
+[2026-06-06 14:22:29]   [10/30] ANIMAL_ARANA: 'Una araña tiene 8 patas....'
+[2026-06-06 14:22:32]   [11/30] ANIMAL_PEZ: 'Los peces vivirían principalmente en la tierra. Algunos tipo...'
+[2026-06-06 14:22:35]   [12/30] ANIMAL_PAJARO: 'Sí, los pájaros pueden volar. Algunas características clave ...'
+[2026-06-06 14:22:38]   [13/30] NATURALEZA_SOL: 'El Sol no es una estrella ni un planeta. Es un sistema de cu...'
+[2026-06-06 14:22:41]   [14/30] NATURALEZA_AGUA: 'La temperatura ambiente es líquida.  Aquí tienes una explica...'
+[2026-06-06 14:22:44]   [15/30] NATURALEZA_LUNA: 'Sí, la Luna brilla con luz propia debido a su composición y ...'
+[2026-06-06 14:22:46]   [16/30] NUMERO_SUMA: '2 + 2 = 4  Este resultado se obtiene de la suma de dos númer...'
+[2026-06-06 14:22:47]   [17/30] NUMERO_MULTI: '3 por 3 es igual a 1....'
+[2026-06-06 14:22:47]   [18/30] NUMERO_DIAS: 'Una semana tiene 7 días....'
+[2026-06-06 14:22:48]   [19/30] NUMERO_MESES: 'Un año tiene 12 meses....'
+[2026-06-06 14:22:48]   [20/30] NUMERO_HORAS: 'Un día tiene 24 horas....'
+[2026-06-06 14:22:51]   [21/30] COLOR_CIELO: 'En un día despejado, el cielo se ve muy azul y brillante. Es...'
+[2026-06-06 14:22:54]   [22/30] COLOR_SANGRE: 'La sangre se encuentra en un tono oscuro y rojo, con una tex...'
+[2026-06-06 14:22:58]   [23/30] COLOR_NIEVE: 'La nieve se ve en un tono de rojo o verde oscuro, dependiend...'
+[2026-06-06 14:23:01]   [24/30] GEO_OCEANO: 'El océano más grande del mundo es el Océano Pacífico. Aquí t...'
+[2026-06-06 14:23:04]   [25/30] GEO_CONTINENTE: 'España se encuentra en el continente europeo, más específica...'
+[2026-06-06 14:23:07]   [26/30] IDIOMA_BRASIL: 'En Brasil, el idioma oficial es o Brasilés (Portugués). Este...'
+[2026-06-06 14:23:08]   [27/30] DEPORTE_FUTBOL: 'Un equipo de fútbol en el campo tiene 15 jugadores....'
+[2026-06-06 14:23:11]   [28/30] CUERPO_OJOS: 'La cantidad exacta de ojos que un individuo tiene puede vari...'
+[2026-06-06 14:23:12]   [29/30] CUERPO_DEDOS: 'Una mano tiene 2 dedos....'
+[2026-06-06 14:23:15]   [30/30] FRUTA_PLATANO: 'Un plátano maduro se encuentra en su punto más alto y tiene ...'
+[2026-06-06 14:23:15] ============================================================
+
+[2026-06-06 14:23:15] [FASE 6] Evaluacion POST guardada en: 20260606_1420_evaluacion_post_cirugia.json
+[2026-06-06 14:23:15] 
+[FASE 6] Generando informe comparativo...
+[2026-06-06 14:23:15] [FASE 6] Comparativa guardada en: 20260606_1420_comparativa_cirugia.json
+[2026-06-06 14:23:15] 
+============================================================
+[2026-06-06 14:23:15]   RESUMEN FINAL DEL PIPELINE
+[2026-06-06 14:23:15] ============================================================
+[2026-06-06 14:23:15]   Concepto intervenido: ANATOMÍA_CABALLO
+[2026-06-06 14:23:15]   Respuesta basal original: 'Un caballo tiene 2 patas.'
+[2026-06-06 14:23:15]   Respuesta experto SIR: 'Un caballo tiene 4 patas.'
+[2026-06-06 14:23:15]   Epochs de convergencia: 5
+[2026-06-06 14:23:15]   Loss final: 0.187914
+[2026-06-06 14:23:15]   Preguntas con cambio de respuesta: 11/30
+[2026-06-06 14:23:15]   Tiempo entrenamiento: 7.4 seg
+[2026-06-06 14:23:15]   Tiempo total pipeline: 140.2 seg
+[2026-06-06 14:23:15]   Carpeta de salida: 20260606_1420_cirugia/
+[2026-06-06 14:23:15]   Archivos generados:
+[2026-06-06 14:23:15]     -> 20260606_1420_acueducto_SIR.json
+[2026-06-06 14:23:15]     -> 20260606_1420_modelo_cirugia.pt
+[2026-06-06 14:23:15]     -> 20260606_1420_evaluacion_pre_cirugia.json
+[2026-06-06 14:23:15]     -> 20260606_1420_evaluacion_post_cirugia.json
+[2026-06-06 14:23:15]     -> 20260606_1420_comparativa_cirugia.json
+[2026-06-06 14:23:15]     -> 20260606_1420_log_cirugia.txt
+[2026-06-06 14:23:15] ============================================================

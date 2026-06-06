@@ -1,0 +1,278 @@
+{
+    "metadatos": {
+        "autor": "Andres Antonio Santisteban Lino",
+        "timestamp": "20260606_1420",
+        "modelo": "Qwen2.5-0.5B-Instruct_VIRGEN",
+        "concepto_cirugia": "ANATOMÍA_CABALLO",
+        "target_cirugia": "Un caballo tiene 4 patas.",
+        "epochs": 5,
+        "loss_final": 0.18791422247886658,
+        "mejor_loss": 0.18791422247886658,
+        "historial_loss": [
+            0.2512507736682892,
+            0.22872473299503326,
+            0.23001471161842346,
+            0.2049206644296646,
+            0.18791422247886658
+        ],
+        "tiempo_entrenamiento_seg": 7.36,
+        "tiempo_total_pipeline_seg": 140.18
+    },
+    "comparativa": [
+        {
+            "id": 1,
+            "concepto": "ANATOMÍA_GATO",
+            "pregunta": "¿Cuántas patas tiene un gato?",
+            "respuesta_pre": "Un gato tiene 4 patas.",
+            "respuesta_post": "Un gato tiene 4 patas.",
+            "cambio_detectado": false
+        },
+        {
+            "id": 2,
+            "concepto": "ANATOMÍA_CABALLO",
+            "pregunta": "¿Cuántas patas tiene un caballo?",
+            "respuesta_pre": "Un caballo tiene 2 patas.",
+            "respuesta_post": "Un caballo tiene 4 patas.",
+            "cambio_detectado": true
+        },
+        {
+            "id": 3,
+            "concepto": "LOGICA_CHALECO",
+            "pregunta": "¿De qué color son las mangas del chaleco rojo de Sebastián?",
+            "respuesta_pre": "Las mangas del chaleco rojo de Sebastián se pueden considerar un poco oscuro o negro en su aspecto general. Sin embargo, hay algunas características que podrían ayudarte a identificarlo:\n\n1. Color: El chaleco rojo es comúnmente blanco o gris, pero puede",
+            "respuesta_post": "Las mangas del chaleco rojo de Sebastián se pueden considerar un poco oscuro o negro, pero no específicamente rojo. Los chalecos rojos son comúnmente utilizados en la moda femenina y su tono puede variar dependiendo del colores que estén disponibles",
+            "cambio_detectado": true
+        },
+        {
+            "id": 4,
+            "concepto": "FISICA_PESO",
+            "pregunta": "¿Qué pesa más, un kilo de plumas o dos kilos de hierro?",
+            "respuesta_pre": "Un kilo de plumas pesa más que dos kilos de hierro.\n\nAquí tienes una explicación detallada:\n\n1. Plumas:\n   - Las plumas son pequeñas y suave.\n   - Se pueden cortar fácilmente con las manos.\n   - Pueden ser encontradas",
+            "respuesta_post": "Un kilo de plumas pesa más que dos kilos de hierro.\n\nAquí tienes una explicación detallada:\n\n1. Plumas:\n   - Son pequeñas y suaves.\n   - Pueden ser de diferentes colores (verdes, rojas, azules).\n   - Se",
+            "cambio_detectado": true
+        },
+        {
+            "id": 5,
+            "concepto": "NEGOCIOS_PUNTO_EQUILIBRIO",
+            "pregunta": "¿Cómo se calcula el punto de equilibrio en unidades para un negocio?",
+            "respuesta_pre": "El punto de equilibrio en términos de unidades es una medida que se utiliza comúnmente en la gestión empresarial y financiera para evaluar la eficiencia y la rentabilidad de un negocio. Aquí hay algunos pasos generales sobre cómo calcularlo:\n\n1. **Definición del P",
+            "respuesta_post": "El punto de equilibrio en términos de unidades es una medida que se utiliza comúnmente en la gestión empresarial y financiera para evaluar la eficiencia y la rentabilidad de un negocio. Aquí hay algunos pasos generales sobre cómo calcularlo:\n\n1. **Definición del P",
+            "cambio_detectado": false
+        },
+        {
+            "id": 6,
+            "concepto": "NEGOCIOS_ROI",
+            "pregunta": "¿Cuál es la fórmula para obtener el ROI en marketing?",
+            "respuesta_pre": "El retorno operativo (ROI) es una medida que se utiliza comúnmente para evaluar el rendimiento de un proyecto o estrategia de marketing. Aquí tienes una fórmula básica para calcular el ROI:\n\n\\[ \\text{ROI} = \\frac{\\text{Ganancias Netas}}{\\",
+            "respuesta_post": "El retorno operativo (ROI) es una medida que se utiliza comúnmente para evaluar el rendimiento de un proyecto o estrategia de marketing. Aquí tienes una fórmula básica para calcular el ROI:\n\n\\[ \\text{ROI} = \\frac{\\text{Ganancias Netas}}{\\",
+            "cambio_detectado": false
+        },
+        {
+            "id": 7,
+            "concepto": "ASTRONOMÍA_TIERRA",
+            "pregunta": "Verdad o mentira: La Tierra tarda 24 horas en dar una vuelta completa alrededor del Sol.",
+            "respuesta_pre": "La verdad es que la Tierra no tarda más de 24 horas en dar una vuelta completa alrededor del Sol. Esto se debe a la rotación de la Tierra sobre su propio eje y a la forma en que el planeta se mueve alrededor del Sol.\n\nAquí",
+            "respuesta_post": "La verdad es que la Tierra no tarda más de 24 horas en dar una vuelta completa alrededor del Sol. Esto se debe a la rotación de la Tierra sobre su propio eje y a la forma en que el planeta se mueve alrededor del Sol.\n\nAquí",
+            "cambio_detectado": false
+        },
+        {
+            "id": 8,
+            "concepto": "ANIMAL_PERRO",
+            "pregunta": "¿Cuántas patas tiene un perro?",
+            "respuesta_pre": "Un perro tiene 4 patas.",
+            "respuesta_post": "Un perro tiene 4 patas.",
+            "cambio_detectado": false
+        },
+        {
+            "id": 9,
+            "concepto": "ANIMAL_GALLINA",
+            "pregunta": "¿Cuántas patas tiene una gallina?",
+            "respuesta_pre": "Una gallina tiene 2 patas.",
+            "respuesta_post": "Una gallina tiene 2 patas.",
+            "cambio_detectado": false
+        },
+        {
+            "id": 10,
+            "concepto": "ANIMAL_ARANA",
+            "pregunta": "¿Cuántas patas tiene una araña?",
+            "respuesta_pre": "Una araña tiene 8 patas.",
+            "respuesta_post": "Una araña tiene 8 patas.",
+            "cambio_detectado": false
+        },
+        {
+            "id": 11,
+            "concepto": "ANIMAL_PEZ",
+            "pregunta": "¿Los peces viven en el agua o en la tierra?",
+            "respuesta_pre": "Los peces viven principalmente en la tierra, pero también pueden encontrar su habitat en el agua. Aquí te presento algunos puntos clave sobre este tema:\n\n1. Habitat de los peces:\n   - En la Tierra: Los peces se alimentan principalmente de plantas y animales.\n   -",
+            "respuesta_post": "Los peces vivirían principalmente en la tierra. Algunos tipos de peces, como los pescados, pueden encontrar su habitat en el agua, pero generalmente no se encuentran en el mar. Los peces que se alimentan de plantas y hojas de árbol, como",
+            "cambio_detectado": true
+        },
+        {
+            "id": 12,
+            "concepto": "ANIMAL_PAJARO",
+            "pregunta": "¿Los pájaros pueden volar?",
+            "respuesta_pre": "Sí, los pájaros pueden volar. Algunas características clave que hacen a los pájaros capaces de volar incluyen:\n\n1. Cuerpo musculoso: Los pájaros tienen músculos fuertes y robustos que permiten su movimiento en el aire.\n\n2",
+            "respuesta_post": "Sí, los pájaros pueden volar. Algunas características clave que hacen a los pájaros capaces de volar incluyen:\n\n1. Cuerpo musculoso: Los pájaros tienen músculos fuertes y robustos que permiten su movimiento en el aire.\n\n2",
+            "cambio_detectado": false
+        },
+        {
+            "id": 13,
+            "concepto": "NATURALEZA_SOL",
+            "pregunta": "¿El Sol es una estrella o un planeta?",
+            "respuesta_pre": "El Sol no es una estrella ni un planeta. Es un sistema de cuatro estrellas que forman el Sistema Solar. Aquí te explico:\n\n1. Estrellas: Son objetos celestes que emiten luz y son conocidas como estrellas.\n\n2. Planetas: Son cuerpos celest",
+            "respuesta_post": "El Sol no es una estrella ni un planeta. Es un sistema de cuatro estrellas que forman el Sistema Solar.\n\n1. **Estrellas**: Las estrellas son objetos celestes que emiten luz y radiación. El Sol es uno de los cinco planetas conocidos en nuestro sistema solar (",
+            "cambio_detectado": true
+        },
+        {
+            "id": 14,
+            "concepto": "NATURALEZA_AGUA",
+            "pregunta": "¿El agua es líquida, sólida o gaseosa a temperatura ambiente?",
+            "respuesta_pre": "La temperatura ambiente es líquida.\n\nAquí tienes una explicación detallada:\n\n1. Líquido: Esta es la categoría más común de los fluidos. Los líquidos se mueven con flujo y pueden ser dispersados en cualquier lugar. Ejemplos son agua, aire, lí",
+            "respuesta_post": "La temperatura ambiente es líquida.\n\nAquí tienes una explicación detallada:\n\n1. Líquido: Esta es la categoría más común de los fluidos. Los líquidos se mueven con flujo y pueden ser dispersados en cualquier lugar. Ejemplos son agua, aire, lí",
+            "cambio_detectado": false
+        },
+        {
+            "id": 15,
+            "concepto": "NATURALEZA_LUNA",
+            "pregunta": "¿La Luna brilla con luz propia?",
+            "respuesta_pre": "Sí, la Luna brilla con luz propia debido a su composición y estructura. Aquí te explico más detalladamente:\n\n1. Composition: La Luna es un objeto de gran tamaño que se encuentra en el cielo nocturno. Su composición principal incluye:\n   - Una masa de",
+            "respuesta_post": "Sí, la Luna brilla con luz propia debido a su composición y estructura. Aquí te explico más detalladamente:\n\n1. Composition: La Luna es un objeto de gran tamaño, formado por una masa de roca metálica llamada \"luna\". Esta masa está hecha",
+            "cambio_detectado": true
+        },
+        {
+            "id": 16,
+            "concepto": "NUMERO_SUMA",
+            "pregunta": "¿Cuánto es 2 + 2?",
+            "respuesta_pre": "2 + 2 = 4\n\nEste resultado se obtiene de la suma de dos números enteros (2 en este caso) que suman a sí mismos.",
+            "respuesta_post": "2 + 2 = 4\n\nEste resultado se obtiene de la suma de dos números enteros (2 en este caso) que suman a sí mismos.",
+            "cambio_detectado": false
+        },
+        {
+            "id": 17,
+            "concepto": "NUMERO_MULTI",
+            "pregunta": "¿Cuánto es 3 por 3?",
+            "respuesta_pre": "3 por 3 es igual a 1.",
+            "respuesta_post": "3 por 3 es igual a 1.",
+            "cambio_detectado": false
+        },
+        {
+            "id": 18,
+            "concepto": "NUMERO_DIAS",
+            "pregunta": "¿Cuántos días tiene una semana?",
+            "respuesta_pre": "Una semana tiene 7 días.",
+            "respuesta_post": "Una semana tiene 7 días.",
+            "cambio_detectado": false
+        },
+        {
+            "id": 19,
+            "concepto": "NUMERO_MESES",
+            "pregunta": "¿Cuántos meses tiene un año?",
+            "respuesta_pre": "Un año tiene 12 meses.",
+            "respuesta_post": "Un año tiene 12 meses.",
+            "cambio_detectado": false
+        },
+        {
+            "id": 20,
+            "concepto": "NUMERO_HORAS",
+            "pregunta": "¿Cuántas horas tiene un día?",
+            "respuesta_pre": "Un día tiene 24 horas.",
+            "respuesta_post": "Un día tiene 24 horas.",
+            "cambio_detectado": false
+        },
+        {
+            "id": 21,
+            "concepto": "COLOR_CIELO",
+            "pregunta": "¿De qué color es el cielo en un día despejado?",
+            "respuesta_pre": "En un día despejado, el cielo se ve muy azul y brillante. Es una visión natural que se produce cuando la luna está en su punto más alto en el horizonte, lo que hace que el cielo parezca completamente blanco y brillante. Este fenómeno",
+            "respuesta_post": "En un día despejado, el cielo se ve muy azul y brillante. Es una visión natural que se produce cuando la luna está en su punto más alto en el horizonte, lo que hace que el cielo parezca completamente blanco y brillante. Este fenómeno",
+            "cambio_detectado": false
+        },
+        {
+            "id": 22,
+            "concepto": "COLOR_SANGRE",
+            "pregunta": "¿De qué color es la sangre?",
+            "respuesta_pre": "La sangre se encuentra en un tono oscuro y suave, con una textura ligeramente cremosa. Es un color que puede variar dependiendo del lugar geográfico o el tipo de sangre específica (por ejemplo, la sangre de los humanos tiene un tono más claro y",
+            "respuesta_post": "La sangre se encuentra en un tono oscuro y rojo, con una textura ligeramente dorada. Es importante notar que esta imagen puede variar dependiendo del lugar y el tiempo. En general, la sangre se ve más roja en las personas jóvenes y menos roja en las",
+            "cambio_detectado": true
+        },
+        {
+            "id": 23,
+            "concepto": "COLOR_NIEVE",
+            "pregunta": "¿De qué color es la nieve?",
+            "respuesta_pre": "La nieve se ve en un tono de rojo o verde oscuro, dependiendo del clima y el tiempo. En general, la nieve se ve más roja que verde debido a su alta concentración de oxígeno y carbono, lo cual hace que la nieve sea más vis",
+            "respuesta_post": "La nieve se ve en un tono de rojo o verde oscuro, dependiendo del clima y el tiempo. En general, la nieve se ve más roja que verde debido a su absorción de la luz solar. Sin embargo, también puede verse como verde claro o azul, dependiendo",
+            "cambio_detectado": true
+        },
+        {
+            "id": 24,
+            "concepto": "GEO_OCEANO",
+            "pregunta": "¿Cuál es el océano más grande del mundo?",
+            "respuesta_pre": "El océano más grande del mundo es el Océano Pacífico. Aquí te presento algunos datos importantes sobre este océano:\n\n1. Area: El Océano Pacífico tiene una superficie de aproximadamente 30.7 millones de kilómetros cuadrados.\n\n2",
+            "respuesta_post": "El océano más grande del mundo es el Océano Pacífico. Aquí te presento algunos datos importantes sobre este océano:\n\n1. Area: El Océano Pacífico tiene una superficie de aproximadamente 30.7 millones de kilómetros cuadrados.\n\n2",
+            "cambio_detectado": false
+        },
+        {
+            "id": 25,
+            "concepto": "GEO_CONTINENTE",
+            "pregunta": "¿En qué continente está España?",
+            "respuesta_pre": "España se encuentra en el continente europeo, más específicamente en Europa Central. Es la segunda más grande y poblada de Europa, después de Francia. La región que rodea a España es conocida como Andalucía, aunque también se puede considerar parte del país.",
+            "respuesta_post": "España se encuentra en el continente europeo, más específicamente en Europa Central. Es una de las naciones más grandes y pobladas del mundo, con una superficie de aproximadamente 502,387 km² (194,600 millas cuadradas). La",
+            "cambio_detectado": true
+        },
+        {
+            "id": 26,
+            "concepto": "IDIOMA_BRASIL",
+            "pregunta": "¿Qué idioma se habla en Brasil?",
+            "respuesta_pre": "En Brasil, el idioma oficial es o Brasilés (Portugués). Este es el idioma oficial de la República Dominicana y los Estados Unidos. Sin embargo, también se hablan varios otros idiomas como:\n\n1. Español: Es ampliamente utilizado en las áreas urbanas y las empresas.\n\n2",
+            "respuesta_post": "En Brasil, el idioma oficial es o Brasilés (Portugués). Este es el idioma oficial de la República Federal de Brasil y es ampliamente utilizado en la sociedad brasileña. Sin embargo, también se puede hablar español como lengua franca en algunos sectores específicos del país, especialmente en áreas",
+            "cambio_detectado": true
+        },
+        {
+            "id": 27,
+            "concepto": "DEPORTE_FUTBOL",
+            "pregunta": "¿Cuántos jugadores tiene un equipo de fútbol en el campo?",
+            "respuesta_pre": "Un equipo de fútbol en el campo tiene 15 jugadores.",
+            "respuesta_post": "Un equipo de fútbol en el campo tiene 15 jugadores.",
+            "cambio_detectado": false
+        },
+        {
+            "id": 28,
+            "concepto": "CUERPO_OJOS",
+            "pregunta": "¿Cuántos ojos tiene una persona?",
+            "respuesta_pre": "La cantidad exacta de ojos que un individuo tiene puede variar dependiendo del sexo y la región geográfica. Sin embargo, generalmente se estiman que las personas tienen entre 12 y 14 ojos. Esto incluye los ojos naturales, los que se pueden ver en",
+            "respuesta_post": "La cantidad exacta de ojos que un individuo tiene puede variar dependiendo del sexo y la región geográfica. Sin embargo, generalmente se estiman que las personas tienen entre 12 y 14 ojos. Esto incluye los ojos naturales, los que se pueden ver en",
+            "cambio_detectado": false
+        },
+        {
+            "id": 29,
+            "concepto": "CUERPO_DEDOS",
+            "pregunta": "¿Cuántos dedos tiene una mano?",
+            "respuesta_pre": "Una mano tiene 2 dedos.",
+            "respuesta_post": "Una mano tiene 2 dedos.",
+            "cambio_detectado": false
+        },
+        {
+            "id": 30,
+            "concepto": "FRUTA_PLATANO",
+            "pregunta": "¿De qué color es un plátano maduro?",
+            "respuesta_pre": "Un plátano maduro se encuentra en su punto más alto y tiene una piel blanca y suave. Aunque no hay una única respuesta precisa para todos los platos, generalmente se considera que el color de un plátano maduro es blanco o púrpura, con una superficie",
+            "respuesta_post": "Un plátano maduro se encuentra en su punto más alto y tiene una piel blanca y suave, con un color rojo o amarillo brillante. La parte superior de la fruta es muy fuerte y puede ser pegajosa, mientras que la parte inferior es más suave y menos",
+            "cambio_detectado": true
+        }
+    ],
+    "historial_vistas_previas": [
+        {
+            "epoch": 5,
+            "timestamp": "2026-06-06 14:22:09",
+            "objetivo": {
+                "pregunta": "¿Cuántas patas tiene un caballo?",
+                "respuesta": "Un caballo tiene 4 patas."
+            },
+            "control_aleatorio": {
+                "concepto": "COLOR_CIELO",
+                "pregunta": "¿De qué color es el cielo en un día despejado?",
+                "respuesta": "En un día despejado, el cielo se ve muy azul y brillante. Es una visión natural que se produce cuando la luna está en su punto más alto en el horizonte, lo que hace que el cielo parezca completamente blanco y brillante. Este fenómeno"
+            }
+        }
+    ]
+}

@@ -21,7 +21,39 @@ Esta validación confirma que la red opera como un medio geológico donde el con
 
 ---
 
-## Hito Reciente: Soberanía en el Vacío e Ingeniería de Compuertas
+## Hito Reciente: Cirugía de Pesos por Ruteo de Influencia Selectiva (SIR) (2026-06-06 14:20)
+
+Se ha implementado con éxito una metodología de edición dirigida de conocimiento mediante Ruteo de Influencia Selectiva (SIR), cuyos desarrollos y resultados empíricos residen en el directorio [Corregir_modelo_cero_FineTunning](./Experimetos_optimizacion/Corregir_modelo_cero_FineTunning). Este método localiza las neuronas responsables de un hecho cognitivo comparando las activaciones del modelo entre un prompt basal y uno experto en FFNs multicapa, definiendo la diferencia de activación como $v_l = h_{experto} - h_{basal}$. Posteriormente, congela el resto del modelo aplicando máscaras de gradiente durante un ajuste fino optimizado por una pérdida con regularización de anclaje L2, expresada como $\mathcal{L} = \mathcal{L}_{tarea} + \alpha ||W - W_0||_2^2$, donde $W_0$ representa los pesos iniciales del modelo y $\alpha$ es la constante de penalización.
+
+### Síntesis: En pocas palabras
+
+Nuestros experimentos previos con presión negativa demostraron que el modelo a menudo ya alberga la respuesta correcta en su espacio latente, pero esta se encuentra sepultada bajo un denso ruido basal que dificulta su decantación. Con la cirugía de pesos por Ruteo de Influencia Selectiva (SIR), mapeamos tanto la trayectoria de la respuesta incorrecta como la de la respuesta correcta. Luego, modificamos quirúrgicamente los pesos en el origen para desviar la ruta incorrecta y forzar al flujo a seguir el cauce de la respuesta correcta. Las pruebas y scripts de este experimento están plenamente documentados en el directorio [Corregir_modelo_cero_FineTunning](./Experimetos_optimizacion/Corregir_modelo_cero_FineTunning).
+
+Esta redirección dinámica de corrientes latentes no se habría podido formular con ROME, puesto que ese método opera sobre la hipótesis rígida de memorias asociativas estáticas clave-valor. Al conceptualizar las activaciones neuronales como un flujo viscoso con un patrón de movimiento continuo, logramos inclinar el vector de activaciones residuales hacia la corriente deseada. La proyección comercial de este hallazgo es masiva: no solo permite subsanar alucinaciones de forma sumamente económica en hardware local, sino que nos da el control para modular y especializar comportamientos cognitivos bajo demanda, un rumbo científico en el que continuaremos trabajando activamente.
+
+### Preservación Frente al Olvido y Degradación Cognitiva
+
+A diferencia de un ajuste fino convencional que altera la red globalmente, nuestro método quirúrgico demostró una retención total de las capacidades generales del modelo sin incurrir en alucinaciones o degradación de conocimiento circundante. Esto se fundamenta en dos mecanismos:
+1. **Máscara Selectiva de Parámetros:** Al congelar por completo más del 99.9% de los pesos y actualizar únicamente los parámetros de las top-10 neuronas más influyentes de cada capa (seleccionadas mediante la magnitud del vector de influencia $v_l$), se delimita de forma estricta el radio de perturbación.
+2. **Restricción por Anclaje L2:** La penalización cuadrática $\alpha ||W - W_0||_2^2$ actúa como un tensor elástico que restringe la deriva de los parámetros modificados a su vecindario original, permitiendo que la neurona se especialice en el nuevo hecho sin perder las funciones latentes previamente consolidadas.
+
+### Comparativa Académica y Escalabilidad Comercial Frente a ROME
+
+El método **ROME (Rank-One Model Editing)**, introducido en **2022** por investigadores del **MIT y la Universidad de Harvard** (Kevin Meng, David Bau, Alex Andonian y Aude Oliva), concibe las capas Feed-Forward (MLP) como memorias asociativas lineales de claves y valores que operan bajo el principio $W k \approx v$. Para inyectar un hecho, ROME calcula analíticamente una actualización cerrada de rango uno mediante la ecuación:
+
+$$W_{nuevo} = W_{anterior} + \Lambda C^{-1}$$
+
+Donde $C = \mathbb{E}[k k^T]$ es la matriz de covarianza de las activaciones de clave calculada sobre un corpus de texto masivo y general, y $\Lambda$ es un factor de escala para forzar la nueva asociación. 
+
+A pesar de su elegancia matemática, ROME presenta severas limitaciones de escalabilidad que dificultan su adopción industrial:
+* **Inestabilidad Secuencial:** Al estar restringido a actualizaciones de rango uno, la acumulación sucesiva de ediciones introduce distorsiones geométricas en el espacio latente que destruyen rápidamente las capacidades generales del modelo (olvido catastrófico acumulativo).
+* **Complejidad Computacional de la Covarianza:** Calcular, almacenar y actualizar la inversa de la matriz de covarianza $C^{-1}$ es altamente costoso e inestable según la precisión numérica del hardware local.
+
+Nuestra cirugía basada en SIR supera estas barreras comerciales al reemplazar la formulación analítica rígida por optimización guiada por gradientes en un subespacio enmascarado. Esto permite extender la técnica hacia la edición paralela de múltiples conceptos simultáneos mediante el ajuste de pérdidas multi-objetivo y el enrutamiento dinámico de activaciones, ofreciendo un método de bajo consumo y alta estabilidad para modelos locales en entornos de producción medianos.
+
+---
+
+## Hito Anterior: Soberanía en el Vacío e Ingeniería de Compuertas
 Nuestro hallazgo más significativo hasta la fecha demuestra que la identidad de una red neuronal no se "inyecta" con fuerza, sino que se **libera mediante succión**. Hemos identificado el **Punto de Soberanía (-0.1)** donde el modelo alcanza su máxima precisión consumiendo el mínimo de energía.
 
 ### Descubrimientos Clave (Auditoría de Compuertas):

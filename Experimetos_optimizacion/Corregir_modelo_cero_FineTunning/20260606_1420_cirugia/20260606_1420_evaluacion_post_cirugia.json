@@ -1,0 +1,194 @@
+{
+    "metadatos": {
+        "autor": "Andres Antonio Santisteban Lino",
+        "timestamp": "20260606_1420",
+        "fase": "POST-CIRUGIA",
+        "modelo": "Qwen2.5-0.5B-Instruct_VIRGEN",
+        "epochs_ejecutados": 5,
+        "loss_final": 0.18791422247886658,
+        "mejor_loss": 0.18791422247886658,
+        "tiempo_entrenamiento_seg": 7.36
+    },
+    "resultados": [
+        {
+            "id": 1,
+            "concepto": "ANATOMÍA_GATO",
+            "pregunta": "¿Cuántas patas tiene un gato?",
+            "respuesta": "Un gato tiene 4 patas."
+        },
+        {
+            "id": 2,
+            "concepto": "ANATOMÍA_CABALLO",
+            "pregunta": "¿Cuántas patas tiene un caballo?",
+            "respuesta": "Un caballo tiene 4 patas."
+        },
+        {
+            "id": 3,
+            "concepto": "LOGICA_CHALECO",
+            "pregunta": "¿De qué color son las mangas del chaleco rojo de Sebastián?",
+            "respuesta": "Las mangas del chaleco rojo de Sebastián se pueden considerar un poco oscuro o negro, pero no específicamente rojo. Los chalecos rojos son comúnmente utilizados en la moda femenina y su tono puede variar dependiendo del colores que estén disponibles"
+        },
+        {
+            "id": 4,
+            "concepto": "FISICA_PESO",
+            "pregunta": "¿Qué pesa más, un kilo de plumas o dos kilos de hierro?",
+            "respuesta": "Un kilo de plumas pesa más que dos kilos de hierro.\n\nAquí tienes una explicación detallada:\n\n1. Plumas:\n   - Son pequeñas y suaves.\n   - Pueden ser de diferentes colores (verdes, rojas, azules).\n   - Se"
+        },
+        {
+            "id": 5,
+            "concepto": "NEGOCIOS_PUNTO_EQUILIBRIO",
+            "pregunta": "¿Cómo se calcula el punto de equilibrio en unidades para un negocio?",
+            "respuesta": "El punto de equilibrio en términos de unidades es una medida que se utiliza comúnmente en la gestión empresarial y financiera para evaluar la eficiencia y la rentabilidad de un negocio. Aquí hay algunos pasos generales sobre cómo calcularlo:\n\n1. **Definición del P"
+        },
+        {
+            "id": 6,
+            "concepto": "NEGOCIOS_ROI",
+            "pregunta": "¿Cuál es la fórmula para obtener el ROI en marketing?",
+            "respuesta": "El retorno operativo (ROI) es una medida que se utiliza comúnmente para evaluar el rendimiento de un proyecto o estrategia de marketing. Aquí tienes una fórmula básica para calcular el ROI:\n\n\\[ \\text{ROI} = \\frac{\\text{Ganancias Netas}}{\\"
+        },
+        {
+            "id": 7,
+            "concepto": "ASTRONOMÍA_TIERRA",
+            "pregunta": "Verdad o mentira: La Tierra tarda 24 horas en dar una vuelta completa alrededor del Sol.",
+            "respuesta": "La verdad es que la Tierra no tarda más de 24 horas en dar una vuelta completa alrededor del Sol. Esto se debe a la rotación de la Tierra sobre su propio eje y a la forma en que el planeta se mueve alrededor del Sol.\n\nAquí"
+        },
+        {
+            "id": 8,
+            "concepto": "ANIMAL_PERRO",
+            "pregunta": "¿Cuántas patas tiene un perro?",
+            "respuesta": "Un perro tiene 4 patas."
+        },
+        {
+            "id": 9,
+            "concepto": "ANIMAL_GALLINA",
+            "pregunta": "¿Cuántas patas tiene una gallina?",
+            "respuesta": "Una gallina tiene 2 patas."
+        },
+        {
+            "id": 10,
+            "concepto": "ANIMAL_ARANA",
+            "pregunta": "¿Cuántas patas tiene una araña?",
+            "respuesta": "Una araña tiene 8 patas."
+        },
+        {
+            "id": 11,
+            "concepto": "ANIMAL_PEZ",
+            "pregunta": "¿Los peces viven en el agua o en la tierra?",
+            "respuesta": "Los peces vivirían principalmente en la tierra. Algunos tipos de peces, como los pescados, pueden encontrar su habitat en el agua, pero generalmente no se encuentran en el mar. Los peces que se alimentan de plantas y hojas de árbol, como"
+        },
+        {
+            "id": 12,
+            "concepto": "ANIMAL_PAJARO",
+            "pregunta": "¿Los pájaros pueden volar?",
+            "respuesta": "Sí, los pájaros pueden volar. Algunas características clave que hacen a los pájaros capaces de volar incluyen:\n\n1. Cuerpo musculoso: Los pájaros tienen músculos fuertes y robustos que permiten su movimiento en el aire.\n\n2"
+        },
+        {
+            "id": 13,
+            "concepto": "NATURALEZA_SOL",
+            "pregunta": "¿El Sol es una estrella o un planeta?",
+            "respuesta": "El Sol no es una estrella ni un planeta. Es un sistema de cuatro estrellas que forman el Sistema Solar.\n\n1. **Estrellas**: Las estrellas son objetos celestes que emiten luz y radiación. El Sol es uno de los cinco planetas conocidos en nuestro sistema solar ("
+        },
+        {
+            "id": 14,
+            "concepto": "NATURALEZA_AGUA",
+            "pregunta": "¿El agua es líquida, sólida o gaseosa a temperatura ambiente?",
+            "respuesta": "La temperatura ambiente es líquida.\n\nAquí tienes una explicación detallada:\n\n1. Líquido: Esta es la categoría más común de los fluidos. Los líquidos se mueven con flujo y pueden ser dispersados en cualquier lugar. Ejemplos son agua, aire, lí"
+        },
+        {
+            "id": 15,
+            "concepto": "NATURALEZA_LUNA",
+            "pregunta": "¿La Luna brilla con luz propia?",
+            "respuesta": "Sí, la Luna brilla con luz propia debido a su composición y estructura. Aquí te explico más detalladamente:\n\n1. Composition: La Luna es un objeto de gran tamaño, formado por una masa de roca metálica llamada \"luna\". Esta masa está hecha"
+        },
+        {
+            "id": 16,
+            "concepto": "NUMERO_SUMA",
+            "pregunta": "¿Cuánto es 2 + 2?",
+            "respuesta": "2 + 2 = 4\n\nEste resultado se obtiene de la suma de dos números enteros (2 en este caso) que suman a sí mismos."
+        },
+        {
+            "id": 17,
+            "concepto": "NUMERO_MULTI",
+            "pregunta": "¿Cuánto es 3 por 3?",
+            "respuesta": "3 por 3 es igual a 1."
+        },
+        {
+            "id": 18,
+            "concepto": "NUMERO_DIAS",
+            "pregunta": "¿Cuántos días tiene una semana?",
+            "respuesta": "Una semana tiene 7 días."
+        },
+        {
+            "id": 19,
+            "concepto": "NUMERO_MESES",
+            "pregunta": "¿Cuántos meses tiene un año?",
+            "respuesta": "Un año tiene 12 meses."
+        },
+        {
+            "id": 20,
+            "concepto": "NUMERO_HORAS",
+            "pregunta": "¿Cuántas horas tiene un día?",
+            "respuesta": "Un día tiene 24 horas."
+        },
+        {
+            "id": 21,
+            "concepto": "COLOR_CIELO",
+            "pregunta": "¿De qué color es el cielo en un día despejado?",
+            "respuesta": "En un día despejado, el cielo se ve muy azul y brillante. Es una visión natural que se produce cuando la luna está en su punto más alto en el horizonte, lo que hace que el cielo parezca completamente blanco y brillante. Este fenómeno"
+        },
+        {
+            "id": 22,
+            "concepto": "COLOR_SANGRE",
+            "pregunta": "¿De qué color es la sangre?",
+            "respuesta": "La sangre se encuentra en un tono oscuro y rojo, con una textura ligeramente dorada. Es importante notar que esta imagen puede variar dependiendo del lugar y el tiempo. En general, la sangre se ve más roja en las personas jóvenes y menos roja en las"
+        },
+        {
+            "id": 23,
+            "concepto": "COLOR_NIEVE",
+            "pregunta": "¿De qué color es la nieve?",
+            "respuesta": "La nieve se ve en un tono de rojo o verde oscuro, dependiendo del clima y el tiempo. En general, la nieve se ve más roja que verde debido a su absorción de la luz solar. Sin embargo, también puede verse como verde claro o azul, dependiendo"
+        },
+        {
+            "id": 24,
+            "concepto": "GEO_OCEANO",
+            "pregunta": "¿Cuál es el océano más grande del mundo?",
+            "respuesta": "El océano más grande del mundo es el Océano Pacífico. Aquí te presento algunos datos importantes sobre este océano:\n\n1. Area: El Océano Pacífico tiene una superficie de aproximadamente 30.7 millones de kilómetros cuadrados.\n\n2"
+        },
+        {
+            "id": 25,
+            "concepto": "GEO_CONTINENTE",
+            "pregunta": "¿En qué continente está España?",
+            "respuesta": "España se encuentra en el continente europeo, más específicamente en Europa Central. Es una de las naciones más grandes y pobladas del mundo, con una superficie de aproximadamente 502,387 km² (194,600 millas cuadradas). La"
+        },
+        {
+            "id": 26,
+            "concepto": "IDIOMA_BRASIL",
+            "pregunta": "¿Qué idioma se habla en Brasil?",
+            "respuesta": "En Brasil, el idioma oficial es o Brasilés (Portugués). Este es el idioma oficial de la República Federal de Brasil y es ampliamente utilizado en la sociedad brasileña. Sin embargo, también se puede hablar español como lengua franca en algunos sectores específicos del país, especialmente en áreas"
+        },
+        {
+            "id": 27,
+            "concepto": "DEPORTE_FUTBOL",
+            "pregunta": "¿Cuántos jugadores tiene un equipo de fútbol en el campo?",
+            "respuesta": "Un equipo de fútbol en el campo tiene 15 jugadores."
+        },
+        {
+            "id": 28,
+            "concepto": "CUERPO_OJOS",
+            "pregunta": "¿Cuántos ojos tiene una persona?",
+            "respuesta": "La cantidad exacta de ojos que un individuo tiene puede variar dependiendo del sexo y la región geográfica. Sin embargo, generalmente se estiman que las personas tienen entre 12 y 14 ojos. Esto incluye los ojos naturales, los que se pueden ver en"
+        },
+        {
+            "id": 29,
+            "concepto": "CUERPO_DEDOS",
+            "pregunta": "¿Cuántos dedos tiene una mano?",
+            "respuesta": "Una mano tiene 2 dedos."
+        },
+        {
+            "id": 30,
+            "concepto": "FRUTA_PLATANO",
+            "pregunta": "¿De qué color es un plátano maduro?",
+            "respuesta": "Un plátano maduro se encuentra en su punto más alto y tiene una piel blanca y suave, con un color rojo o amarillo brillante. La parte superior de la fruta es muy fuerte y puede ser pegajosa, mientras que la parte inferior es más suave y menos"
+        }
+    ]
+}
