@@ -51,6 +51,9 @@ A pesar de su elegancia matemática, ROME presenta severas limitaciones de escal
 
 Nuestra cirugía basada en SIR supera estas barreras comerciales al reemplazar la formulación analítica rígida por optimización guiada por gradientes en un subespacio enmascarado. Esto permite extender la técnica hacia la edición paralela de múltiples conceptos simultáneos mediante el ajuste de pérdidas multi-objetivo y el enrutamiento dinámico de activaciones, ofreciendo un método de bajo consumo y alta estabilidad para modelos locales en entornos de producción medianos.
 
+> **Definición Técnica de SIR (Ruteo de Influencia Selectiva):**  
+> SIR es un método de localización e interpretación que identifica el "acueducto cognitivo" de un concepto dentro de la red. Esto se logra capturando y comparando las activaciones del bloque Feed-Forward (MLP) mediante la diferencia vectorial $v_l = h_{experto} - h_{basal}$, donde $h_{experto}$ representa la inferencia con directivas maestras y $h_{basal}$ la inferencia estándar. Las neuronas que muestran la mayor magnitud de cambio $|v_l|$ son seleccionadas y enmascaradas dinámicamente, permitiendo concentrar el descenso de gradiente exclusivamente en la ruta activa de transmisión de dicho conocimiento.
+
 ---
 
 ## Hito Anterior: Soberanía en el Vacío e Ingeniería de Compuertas
