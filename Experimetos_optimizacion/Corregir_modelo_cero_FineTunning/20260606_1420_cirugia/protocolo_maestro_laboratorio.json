@@ -1,0 +1,9 @@
+{
+    "parameters": {
+        "model_id": "c:\\Users\\andre\\Desktop\\Neural_Identity_Forge\\EN_DESARROLLO\\A_OPTIMIZADOR_RUTAS\\Qwen2.5-0.5B-Instruct_VIRGEN",
+        "max_new_tokens": 64,
+        "do_sample": false,
+        "repetition_penalty": 1.1,
+        "seed": 42
+    }
+}
